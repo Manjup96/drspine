@@ -185,6 +185,8 @@ include 'links.php';
 
         #doctors .col-md-12 {
             font-size: 20px;
+            text-align: center;
+            flex-direction: column; /* Change to column layout */
         }
 
         #doctors .custom-btn {
@@ -204,6 +206,7 @@ include 'links.php';
 
         #doctors .col-md-12 {
             font-size: 22px;
+            text-align: center;
         }
 
         #doctors .custom-btn {
@@ -219,7 +222,7 @@ include 'links.php';
         <div class="col-md-12">
             <div class="d-flex justify-content-center">
                 <div class="mr-3">
-                    <img src="img/doctor_1.png" alt="">
+                    <img src="img/doctor_1.png" alt="" >
                     <p>Dr. John Clark</p>
                 </div>
                 <div class="ml-3">
@@ -367,8 +370,7 @@ include 'links.php';
                     <div class="testimonial-content">
                         <h4 class="testimonial-heading">95% SUCCESS RATE</h4>
                         <p class="testimonial-paragraph">At our Bangalore spine clinic, we have treated 1000s of patients with a very high success rate.</p>
-                        <br>
-                        <a href= "about.php" class="read-more-btn">Read More> </a>
+                        <a href= "services.php" class="read-more-btn" >Read More> </a>
                     </div>
                 </div>
                 <div class="testimonial-card">
@@ -376,8 +378,7 @@ include 'links.php';
                     <div class="testimonial-content">
                         <h4 class="testimonial-heading">CONDITIONS TREATED</h4>
                         <p class="testimonial-paragraph">We treat a wide range of spine-related issues. Back pain, neck pain, disc degeneration, etc.</p>
-                        <br>
-                        <a href= "about.php" class="read-more-btn">Read More> </a>
+                        <a href= "pain_relief_chiropractor.php" class="read-more-btn">Read More> </a>
                     </div>
                 </div>
                 <div class="testimonial-card">
@@ -385,7 +386,7 @@ include 'links.php';
                     <div class="testimonial-content">
                         <h4 class="testimonial-heading">WHAT'S CHIROPRACTIC?</h4>
                         <p class="testimonial-paragraph">Chiropractic is natural health care that involves treating patients without the use of medicines.</p>
-                        <a href= "about.php" class="read-more-btn">Read More> </a>
+                        <a href= "what_is_chiropractic.php" class="read-more-btn">Read More> </a>
                     </div>
                 </div>
             </div>
@@ -438,7 +439,7 @@ include 'links.php';
         }
 
         #para2 h4 {
-            font-size: 20px; /* Adjusted font size */
+            font-size: 17px; /* Adjusted font size */
             margin-top: 10px; /* Adjusted margin */
         }
 
@@ -450,13 +451,16 @@ include 'links.php';
         #para2 p {
             font-size: 16px; /* Adjusted font size */
         }
+        #para2 img:last-child {
+            display: none;
+        }
     }
 
     /* Responsive adjustments for iPad view */
     @media (min-width: 768px) and (max-width: 991.98px) {
         #para2 h4 {
-            font-size: 21px; /* Adjusted font size */
-            margin-top: 12px; /* Adjusted margin */
+            font-size: 20px; /* Adjusted font size */
+            margin-top: 80px; /* Adjusted margin */
         }
 
         #para2 h2 {
@@ -468,9 +472,15 @@ include 'links.php';
             font-size: 17px; /* Adjusted font size */
         }
         #para2 img {
-            margin-top: 250px;
+            margin-top: 40px;
             width: 100%;
             height: 50%;
+        }
+    }
+    /* Hide the image in desktop and mobile views */
+    @media (min-width: 992px) {
+        #para2 img:last-child {
+            display: none;
         }
     }
 </style>
@@ -479,6 +489,7 @@ include 'links.php';
     <div class="row">
         <div class="col-md-6">
             <img src="img/img-1.png" alt="">
+            <img src="img/gallery15.png" alt="" style= "width: 350px; height:350px; margin-top: 5px;">
         </div>
         <div class="col-md-6">
             <h4>Get Relief from Pain Without Surgery</h4>
@@ -647,7 +658,7 @@ include 'links.php';
         }
         #para4 h4 {
             margin-top: -20px;
-            font-size: 24px;
+            font-size: 17px;
         }
         #para4 p {
             font-size: 16px;
@@ -670,7 +681,7 @@ include 'links.php';
         }
         #para4 h4 {
             margin-top: -20px;
-            font-size: 26px;
+            font-size: 20px;
         }
     }
 </style>
@@ -744,6 +755,12 @@ include 'links.php';
         #para5 p {
             font-size: 16px; /* Adjust font size for better readability */
         }
+        #para5 h4 {
+            font-size: 17px;
+        }
+        #para5 img:last-child {
+            display: none;
+        }
     }
 
     /* Responsive adjustments for iPad view */
@@ -758,15 +775,26 @@ include 'links.php';
             font-size: 17px; /* Adjust font size for better readability */
         }
         #para5 img{
-            margin-top: 150px;
+            
+        }
+        #para5 h4 {
+            font-size: 20px;
         }
     }
+        /* Hide the image in desktop and mobile views */
+        @media (min-width: 992px) {
+        #para5 img:last-child {
+            display: none;
+        }
+    }
+
 </style>
 
 <div class="container-fluid" id="para5">
     <div class="row">
         <div class="col-md-6">
             <img src="img/img-4.png" alt="">
+            <img src="img/gallery6.png" alt="" style= "width: 350px; margin-top: 5px;">
         </div>
         <div class="col-md-6">
             <h4>Top Chiropractic Clinic In Bengaluru</h4>
@@ -902,7 +930,7 @@ include 'links.php';
     }
 
     #para6 img {
-        max-width: 30%;
+        max-width: 50%;
         height: auto;
         border-radius: 5px;
     }
@@ -933,8 +961,8 @@ include 'links.php';
             padding: 10px 20px; /* Adjusted padding */
             display: block; /* Make the button an inline-block element */
             margin-top: 0; /* Remove top margin */
-            margin-left: 120px;
-            max-width: 300px; /* Remove max width */
+            margin-left: 205px;
+            max-width: 120px; /* Remove max width */
         }
      /* Responsive adjustments for mobile view */
      @media (max-width: 767.98px) {
@@ -945,7 +973,7 @@ include 'links.php';
         }
 
         #para6 h4 {
-            font-size: 20px; /* Adjusted font size */
+            font-size: 17px; /* Adjusted font size */
         }
 
         #para6 h2 {
@@ -980,14 +1008,14 @@ include 'links.php';
             padding: 7px 14px; /* Adjusted padding */
             display: block; /* Make the button a block element */
             margin: 0 auto; /* Center the button */
-            max-width: 200px; /* Set max width to limit button width */
+            max-width: 110px; /* Set max width to limit button width */
         }
     }
 
     /* Responsive adjustments for iPad view */
     @media (min-width: 768px) and (max-width: 991.98px) {
         #para6 h4 {
-            font-size: 21px; /* Adjusted font size */
+            font-size: 20px; /* Adjusted font size */
             margin-top: -80px;
         }
 
@@ -1021,7 +1049,7 @@ include 'links.php';
             padding: 8px 16px; /* Adjusted padding */
             display: block; /* Make the button a block element */
             margin: 0 auto; /* Center the button */
-            max-width: 200px; /* Set max width to limit button width */
+            max-width: 110px; /* Set max width to limit button width */
         }
     }
 
@@ -1040,6 +1068,7 @@ include 'links.php';
             }
             #para6 .col-md-12 .d-flex  .ml-3 {
                 margin-top: 30px;
+                margin-right: 33px;
             }
         }
     </style>
@@ -1206,7 +1235,7 @@ include 'links.php';
         /* Adjust styles for iPad view and larger */
        
         #para7 h4 {
-            font-size: 28px; /* Revert to original font size for larger screens */
+            font-size: 20px; /* Revert to original font size for larger screens */
             margin-top: 50px; /* Revert to original margin for larger screens */
         }
 
@@ -1478,6 +1507,10 @@ include 'links.php';
         #reviews {
             margin-top: -5px;
         }
+        #reviews h4 {
+            font-size: 17px;
+        }
+        }
         .carousel-img {
             max-width: 40px; /* Adjust image size */
         }
@@ -1504,6 +1537,9 @@ include 'links.php';
         .carousel-card {
             max-width: 80%; /* Adjust card width for better fit */
             padding: 20px; /* Adjust padding for spacing */
+        }
+        #reviews h4 {
+            font-size: 20px;
         }
     }
 </style>
@@ -1590,6 +1626,72 @@ include 'links.php';
 
 
 <!-- Review Section Ends-->
+
+
+<!-- Form Section Starts -->
+<div class="container mt-5 mb-5 ">
+        <div class="row justify-content-center">
+            <div class="card" style="border-radius: 15px; border: 5px solid #55b6c7;">
+                <div class="card-body">
+                    <div class="row mb-5">
+                        <div class="col-md-6 pt-5">
+                            <form action=" " method="POST">
+                                <div class="row">
+                                    <h2 class="text-center pb-5" style="color:#55b6c7; padding-top: 10px; font-size: 35px;">Book an Appointment</h2>
+                                    <div class="col-md-6 mb-3">
+
+                                        <label for="firstName" class="form-label">First Name<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="mobile" class="form-label">Mobile Number<span class="text-danger">*</span></label>
+                                        <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email address<span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="chooseOption" class="form-label">Choose your nearest clinic (3 clinics in Bangalore)</label>
+                                    <select class="form-select" id="chooseOption">
+                                        <option selected>none</option>
+                                        <option value="option1">Indiranagar clinic</option>
+                                        <option value="option2">Whitefield clinic</option>
+                                        <option value="option3">New BEL Road clinic</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="textarea" class="form-label">Write your message below</label>
+                                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn fs-4" style="background-color: #55b6c7; color: white; width:80%;">Book Appointment</button>
+
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
+                            <div>
+                                <div class="card-body">
+                                    <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Form Section Starts -->
 
 
 

@@ -59,7 +59,7 @@ include 'links.php';
         <div class="carousel-item active">
             <img src="img/banner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-flex align-items-center justify-content-center">
-                <h2>Spinal Decompression Treatment</h2>
+                <h2>Pain Relief by Chiropractor Treatment</h2>
             </div>
 
         </div>
@@ -80,10 +80,14 @@ include 'links.php';
         background-clip: text;
         -webkit-background-clip: text; /* For compatibility with some browsers */
         text-align: center;
-        font-size: 45px;
+        font-size: 60px;
         color: transparent; /* Set the text color to transparent to make the background visible */
         margin-bottom: 50px;
         margin-top: 50px;
+        }
+        #texts h4{
+            font-size: 35px;
+            color: grey;
         }
 
         #texts p {
@@ -124,19 +128,18 @@ include 'links.php';
 <div class="container-fluid" id="texts">
     <div class="row">
         <div class="col-md-12">
-            <h2>Spinal Decompression Therapy</h2>
-            <p>No matter how severe your low back disc problem may appear, we can often bring relief using a specific de-compression chiropractic adjustment on a Cox table.  This table was especially designed for chiropractors to use on patients with moderate-to-severe disc-related problems.</p>
-            <p>The doctor can apply manual traction to the low back or thoracic disc areas without danger of more injury to the spine, and to decrease pain and discomfort.  This special adjustment is usually done in conjunction with other pain reduction modalities such as electrical TNS units (trans-cutaneous nerve stimulation), ice or ultrasound.</p>
-            
-            <img src="img/spinal_decompression_img.jpg" alt="Spinal Decompression Image">
-
-            <p>The effects can often be dramatic.  Such treatments have often helped patients avoid expensive and intrusive low back surgery that otherwise would have been their only option.</p>
-            <p>There are also gentle chiropractic manual adjustments that are done without needing the special Cox table.  These “side posture” movements are designed to decompress the pelvis and spine in patients whose cases are deemed less chronic or severe.  Manual adjustments are quick, easy, mostly painless, and can correct most problems not associated with advanced disc problems, age or degeneration, such as constant sciatic pain. </p>
+            <h2>Pain Relief by Chiropractor Treatment</h2>
+            <h4>Are you in Pain</h4>
+            <p>Back and neck pain, migraines, and headaches, disc bulge, sciatica are best treated by chiropractors.</p>
+            <p>Additionally, scoliosis, spinal conditions, fibromyalgia and many more conditions are treated by chiropractors. While it’s often perceived that the chiropractor is only able to treat back and neck pain, this is just</p>
+            <h4>Chiropractic And The Slipped Disc</h4>
+            <p>A disc herniation commonly referred to as a slipped or bulged disc is a condition of the spine that can cause a tremendous amount of pain. Patients often complain of severe back pain that can radiate down the arms or legs. Many times people with this condition are referred to undergo costly and risky surgery to relieve the symptoms. Chiropractic care is a medical profession developed over 100 years ago in the United States that offers a safe and effective cure for conditions of the spine such as a slipped disc.</p>
+            <p>Chiropractic care is unique in its approach to treating conditions of the spine. It is safer and much cheaper alternative to the surgical approach. It works by making simple adjustments to the spine and allowing the body to heal itself. It is safe and effective only when done by a trained Dr. of Chiropractic.</p>
+            <p>Dr. Spine Chiropractic clinic employs a licensed Dr. of Chiropractic who has successfully treated many slipped discs. A slipped disc is best treated using a combination of light manual adjustments to the vertebrae with the addition of a technique known as flexion and distraction. The manual adjustments are very specific to the misaligned vertebrae that are commonly found in spines that have slipped discs. After the vertebrae are aligned to their normal positions the patient will often undergo flexion and distraction. This painless technique helps to decompress the spine and allows the slipped disc to return to its normal alignment. Once this has been done the pressure on the surrounding nerves is relieved and the pain disappears.</p>
+            <p>During the treatment plan, a patient with a slipped disc will also be given a series of small exercises to help strengthen the back or neck in order to avoid a reoccurrence in the future. This is done in conjunction with postural and nutritional advice all aimed at treating the body as a whole. Each of these pieces together helps to facilitate the speed and effectiveness of the treatment and allows for faster healing time and pain-free patients.</p>
         </div>
     </div>
 </div>
-
-
 <!-- Paragraph Section Ends -->
 
 <!-- Form Section Starts -->

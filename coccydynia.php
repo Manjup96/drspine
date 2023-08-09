@@ -237,6 +237,72 @@ include 'links.php';
 
 
 <!-- Paragraphs Section Ends -->
+
+
+<!-- Form Section Starts -->
+<div class="container mt-5 mb-5 ">
+        <div class="row justify-content-center">
+            <div class="card" style="border-radius: 15px;">
+                <div class="card-body">
+                    <div class="row mb-5">
+                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
+                            <div>
+                                <div class="card-body">
+                                    <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-5">
+                            <form action=" " method="POST">
+                                <div class="row">
+                                    <h2 class="text-center pb-2" style="color:gray">Request a Callback</h2>
+                                    <div class="col-md-6 mb-3">
+
+                                        <label for="firstName" class="form-label">First Name<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="mobile" class="form-label">Mobile Number<span class="text-danger">*</span></label>
+                                        <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email address<span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="chooseOption" class="form-label">Choose your nearest clinic (3 clinics in Bangalore)</label>
+                                    <select class="form-select" id="chooseOption">
+                                        <option selected>none</option>
+                                        <option value="option1">Indiranagar clinic</option>
+                                        <option value="option2">Whitefield clinic</option>
+                                        <option value="option3">New BEL Road clinic</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="textarea" class="form-label">Write your message below</label>
+                                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn fs-4" style="background-color: #55b6c7; color: white; width:80%;">Request a callback</button>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Form Section Starts -->
   
 
 <!-- Banner Starts-->
@@ -266,6 +332,7 @@ include 'links.php';
             margin-bottom: 20px;
             /* Slightly reduced margin */
             margin-left: 5px;
+            text-align: center;
         }
 
         #banner button {

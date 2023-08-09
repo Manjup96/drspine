@@ -76,11 +76,11 @@ include 'links.php';
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-12 col-sm-12">
-        <span style="font-size: 20px; text-align: justify; padding:3px; border-radius: 10px; background-color: gray; display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        <span  style="font-size: 20px; text-align: justify; padding:3px; border-radius: 10px; background-color: gray; display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
         Dr Spine Chiropractic Clinic In Bangalore
     </span>
 
-             <h2 class="mt-3" style="font-size:45px;font-weight:bold">Treating Kyphosis the Dr. Spine Way!                </h2>
+             <h2 class="mt-3 " style="font-size:35px;font-weight:bold">Treating Kyphosis the Dr. Spine Way!                </h2>
                 <p style="font-size: 20px;text-align:justify">Spinal Kyphosis is a condition that affects primarily the mid to upper back areas of the spine. This “stooping” or rounding of the back and shoulders – and the resulting pain and discomfort – can be attributed to a number of causes such as poor posture, poor self-esteem, childhood abuse, and accidents. It can also arise in patients who spend most of their time hunched over a desk or computer all day every day.
 
                 </p>

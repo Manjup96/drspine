@@ -41,6 +41,8 @@ include 'links.php';
 
         }
 
+
+
   </style>
 
 
@@ -60,15 +62,15 @@ include 'links.php';
             }
         }
 
-        #toggleButton {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 15px 25px;
-            font-size: 16px;
-            cursor: pointer;
-
-        }
+        #Button1 {
+        background-color: #55b6c7; /* Button background color */
+        color: white; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add padding */
+        font-size: 25px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
 
         button {
             border: none;
@@ -205,7 +207,7 @@ include 'links.php';
                                         <p style="font-size:20px;"><span style="background-color: gray">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
                                         <h1>Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h1><br>
                                         <center>
-                                            <button id="toggleButton">QIB Certificate</button><br><br>
+                                        <button id="Button1"><i class="fas fa-certificate"></i> QIB Certificate</button><br><br>
                                         </center>
                                         <img id="image" src="img/about5.jpg" alt="Your Image" style="display: none;">
                                         
@@ -231,7 +233,7 @@ include 'links.php';
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const toggleButton = document.getElementById("toggleButton");
+            const toggleButton = document.getElementById("Button1");
 
             toggleButton.addEventListener("click", function() {
                 // Redirect to the new page with the image
@@ -272,7 +274,7 @@ include 'links.php';
             <div class="col-md-4 " style="text-align:center;">
                 <div class="card m-3" >
                     <img src="img/doctor_3.png" alt="John" style="width:100%">
-                    <h2>Dr. Troy <br> Scheible</h2>
+                    <h2>Dr.Troy <br> Scheible</h2>
                     <a href="troy_scheible.php" class="a_card"><button>View More</button></a>
                 </div>
             </div>

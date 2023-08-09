@@ -45,7 +45,7 @@ include 'links.php';
 /* Banner style end*/
 
             #others{
-             font-size: 18px;   
+             font-size: 20px;   
              text-align:justify;
             }
             .ipad-image-class {
@@ -59,7 +59,13 @@ include 'links.php';
                 margin-right: auto;
             }
         }
-  
+        ul,
+       li {
+    margin : 0;
+    padding : 0;
+    list-style:  disc;
+
+       }
         </style>
 <body>
     <?php
@@ -80,9 +86,9 @@ include 'links.php';
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
       <div class="row">
         <div class="col-md-6">
-            <p style="text-align:center;"><span style="background-color: gray ">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p>  
+            <p style="font-size:20px;"><span style="background-color: gray ">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p>  
         <div id="others">
-       <p>The sacroiliac joint is the joint between the sacrum and the ilium bones of the pelvis connected by strong ligaments. They carry the entire weight of your upper body when you sit, stand. When affected, a dull sharp pain is felt in your buttocks, thigh, upper back or groin. The pain is triggered by standing and is more during the morning hours but subsides during the day. This chronic condition is more common than you could possibly imagine. Let us see what exactly causes it.</p>
+       <p style="font-size: 20px;text-align:justify" >The sacroiliac joint is the joint between the sacrum and the ilium bones of the pelvis connected by strong ligaments. They carry the entire weight of your upper body when you sit, stand. When affected, a dull sharp pain is felt in your buttocks, thigh, upper back or groin. The pain is triggered by standing and is more during the morning hours but subsides during the day. This chronic condition is more common than you could possibly imagine. Let us see what exactly causes it.</p>
     </div>
        <h1>Causes of Sacroiliac Joint Dysfunction</h1>
 <div id="others">
@@ -92,6 +98,7 @@ include 'links.php';
         <div style="text-align:center" class="col-md-6">
             <img src="img/dysfncn2.jpg" alt="">
             <img src="img/img-2.png" alt="" style =" margin-top: 10px;" class="img-fluid ipad-image-class">
+            <img src="img/img-4.png" alt="" style =" margin-top: 10px;" class="img-fluid ipad-image-class">
         </div>
       </div>  
     
@@ -107,7 +114,7 @@ include 'links.php';
 <h1>Stress</h1>
 <p>Mechanical stress may not be quite common but it can cause massive pain and changes in your sacroiliac joint over time. Some individuals tend to have severe stiffness. For example, a surgical spinal fusion may increase pressure on the sacroiliac joints making it dysfunction due to the pressure exerted on it.</p>
 <h1>Symptoms of Sacroiliac Joint Dysfunction</h1>
-<ul style="font-size: 18px;" >
+<ul style="font-size:20px;" >
     <li>General weakness in your arms and legs- it causes a sensation of the lower extremity. You may experience dizziness, tingling, numbness and mostly a sharp pain even by walking or standing.</li>
 <li>The lower back is the most affected part. The lifting of even the lightest weight triggers a sharp pain from the SI joint
     redness- the joints turn reddish due to the swollen muscles.</li>

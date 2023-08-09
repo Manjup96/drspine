@@ -414,6 +414,8 @@ include 'links.php';
         font-size: 23px;
         margin-bottom: 10px;
         margin-top: 20px;
+        background-color: #bdc3c7;
+        text-align:center;
     }
 
     #para2 h2 {
@@ -597,6 +599,8 @@ include 'links.php';
         font-size: 23px;
         margin-bottom: 10px;
         margin-top: 20px;
+        text-align:center;
+        background-color: #bdc3c7;
     }
 
     #para4 h2 {
@@ -711,6 +715,8 @@ include 'links.php';
         font-size: 23px;
         margin-bottom: 10px;
         margin-top: 20px;
+        text-align:center;
+        background-color: #bdc3c7;
     }
 
     #para5 h2 {
@@ -877,6 +883,8 @@ include 'links.php';
         font-size: 23px;
         margin-bottom: 10px;
         color: #333; /* Text color */
+        text-align:center;
+        background-color: #bdc3c7;
     }
 
     #para6 h2 {
@@ -1380,6 +1388,8 @@ include 'links.php';
         font-size: 23px;
         margin-bottom: 10px;
         color: #333; /* Text color */
+        text-align:center;
+        background-color: #bdc3c7;
     }
 
     #reviews h2 {

@@ -80,7 +80,7 @@ include 'links.php';
         background-clip: text;
         -webkit-background-clip: text; /* For compatibility with some browsers */
         text-align: center;
-        font-size: 60px;
+        font-size: 45px;
         color: transparent; /* Set the text color to transparent to make the background visible */
         margin-bottom: 50px;
         margin-top: 50px;
@@ -89,7 +89,6 @@ include 'links.php';
         #texts p {
             font-size: 20px;
             line-height: 1.6;
-            color: #666;
             margin-bottom: 20px;
             text-align: justify;
         }
@@ -117,7 +116,7 @@ include 'links.php';
             
             #texts img {
                 max-width: 100%;
-                margin: 20px auto;
+                margin: 30px auto;
             }
         }
     </style>

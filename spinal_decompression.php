@@ -107,7 +107,7 @@ include 'links.php';
 
         @media (max-width: 768px) {
             #texts h2 {
-                font-size: 24px;
+                font-size: 26px;
             }
             
             #texts p {
@@ -118,7 +118,16 @@ include 'links.php';
                 max-width: 100%;
                 margin: 30px auto;
             }
+            @media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    #texts h2 {
+        font-size: 30px;
+    }
+    #texts p {
+        font-size: 17px;
+    }
         }
+    }
     </style>
 
 <div class="container-fluid" id="texts">

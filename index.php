@@ -1673,7 +1673,6 @@ include 'links.php';
                                 </div>
                                 <div class="text-center">
                                     <button type="submit" class="btn fs-4" style="background-color: #55b6c7; color: white; width:80%;">Book Appointment</button>
-
                                 </div>
                             </form>
                         </div>

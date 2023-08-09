@@ -82,10 +82,15 @@ include 'links.php';
             
         }
 
-       /*  .card h5 {
-            font-size: 18px;
-            margin-bottom: 40px;
-        } */
+
+        .card h4 {
+        
+        font-size: 23px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        background-color: #bdc3c7;
+        text-align:center;
+    }
 
         .card h2 {
             font-size: 35px;
@@ -125,6 +130,33 @@ include 'links.php';
             margin-top: 50px;
             border-radius: 20px;
         }
+        @media (max-width: 767px) {
+    /* Your mobile styles here */
+    .card-body h4 {
+       font-size: 17px;
+    }
+    .card-body h2 {
+        font-size: 26px;
+    }
+    .card-body p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    .card-body h4 {
+       font-size: 20px;
+    }
+    .card-body h2 {
+        font-size: 30px;
+    }
+    .card-body p {
+        font-size: 17px;
+    }
+}
+
     </style>
 
 
@@ -132,8 +164,7 @@ include 'links.php';
     <div class="row no-gutters">
         <div class="col-md-8">
             <div class="card-body">
-                <!-- <h5>Treating Coccydynia Pain Condition</h5> -->
-                <h4 style="text-align:center;"><span style="background-color: #bdc3c7; margin-right: 300px; ">Treating Coccydynia Pain Condition</span></h4>
+                <h4>Treating Coccydynia Pain Condition</h4>
                 <h2>Coccydynia Pain Condition</h2>
                 <p class="card-text">Coccydynia is referred to as the inflammation of the tailbone or the coccyx, the bony area located between the buttocks right over the anus. It entails tenderness and aches at the tip of the tailbone, leading to difficulties in sitting or walking. <br>
                 Coccydynia is associated with a deep injury or trauma that manifests later through a fracture of the tailbone. Despite its unassuming size, the coccyx has several vital functions. It serves as the "tripod" offering weight-bearing support to a person in a seated position. Accounts of Coccydynia in individuals can be traced back to the 16th century; it's an extremely hard issue to diagnose and treat correctly. <br>
@@ -189,6 +220,33 @@ include 'links.php';
             margin-top: 20px;
             margin-bottom: 20px;
         }
+        @media (max-width: 767px) {
+    /* Your mobile styles here */
+    #texts h4 {
+       font-size: 17px;
+    }
+    #texts h2 {
+        font-size: 26px;
+    }
+    #texts p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    #texts h4 {
+       font-size: 20px;
+    }
+    #texts h2 {
+        font-size: 30px;
+    }
+    #texts p {
+        font-size: 17px;
+    }
+}
+
 
 </style>
 

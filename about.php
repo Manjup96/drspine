@@ -119,51 +119,113 @@ include 'links.php';
     </div>
 
     <div style="text-align: center;" class="container pt-4">
-        <p><span style="background-color: gray">&nbsp;&nbsp;Best Chiropractic Clinic In Bangalore&nbsp;&nbsp;</span></p>
+        <p style="font-size:20px;"><span style="background-color: gray ">&nbsp;&nbsp;Best Chiropractic Clinic In Bangalore&nbsp;&nbsp;</span></p>
         <h1>About Us</h1>
-        <p style="font-size: 18px;">Dr. Spine Clinic is India’s first Chiropractic Chain of a Clinic</p>
+        <p style="font-size:20px;text-align: center;">Dr. Spine Clinic is India’s first Chiropractic Chain of a Clinic</p>
     </div>
 
-    <div class="container pt-5">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <p><span style="background-color: gray;">&nbsp;&nbsp;Dr. Spine Clinic&nbsp;&nbsp;</span></p>
-                <h1>Top Rated Chiropractic Clinic Heal Your Back Pain Without Surgery</h1>
-                <p style="text-align: justify; font-size: 18px;">Dr. Spine Clinic is India’s first Chiropractic chain of a clinic that brings a revolutionary technology for treating back pain, neck, and a wide range of ailments through chiropractic spinal adjustment and alternative methods to treat spine-related issues.</p>
+            <div class="col-md-12">
+                <div class="container mt-5 mb-5">
+                    <div class="row justify-content-center">
+                        <div class="card" style="border-radius: 15px;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 pt-5" style="font-family:Open Sans, sans-serif;">
+                                        <p style="font-size:20px;"><span style="background-color: gray;">&nbsp;&nbsp;Dr. Spine Clinic&nbsp;&nbsp;</span></p>
+                                        <h1>Top Rated Chiropractic Clinic Heal Your Back Pain Without Surgery</h1>
+                                        <p style="font-size:20px;text-align: justify;">Dr. Spine Clinic is India’s first Chiropractic chain of a clinic that brings a revolutionary technology for treating back pain, neck, and a wide range of ailments through chiropractic spinal adjustment and alternative methods to treat spine-related issues.</p>
+                                        
+                                    </div>
+                                    <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
+                                        <div>
+                                            <div class="card-body">
+                                                <img src="img/aboutm.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-md-6">
-                <img src="img/about2.png" alt="" class="img-fluid desktop-image-class">
-                <img src="img/about-ipad1.png" alt="" style=" margin-top: 10px;" class="img-fluid ipad-image-class">
-            </div>
+
         </div>
     </div>
 
-    <div style="text-align: justify;" class="container pt-5">
+
+
+
+    
+  
+
+    <div class="container">
         <div class="row">
-            <div class="col-md-6 order-md-0">
-                <img src="img/about3.png" alt="" class="img-fluid">
-                <img src="img/about-ipad2.png" alt="" style="margin-top: 10px;" class="img-fluid ipad-image-class">
+            <div class="col-md-12">
+                <div class="container mt-5 mb-5">
+                    <div class="row justify-content-center">
+                        <div class="card" style="border-radius: 15px;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
+                                        <img src="img/about3.png" alt="" class="img-fluid">
+                                        <img src="img/about-ipad1.jpg" alt="" style="margin-top: 10px;" class="img-fluid ipad-image-class">
+                                        <img src="img/about-ipad2.jpg" alt="" style="margin-top: 10px;" class="img-fluid ipad-image-class">
+                                    </div>
+                                    <div class="col-md-6 " style="font-family:Open Sans, sans-serif;">
+                                        <h1>Treated over 25000 happy patients</h1>
+                                        
+                                        <p style="font-size:20px;text-align: justify;">During the past 11 years, Dr.Spine has become a trusted and preferred clinic for patients suffering from spine-related issues. Conditions that Dr.Spine can treat with non-invasive methods are A back pain, Headache / Migraines Neck Pain, Disc Bulge, Slip Disc Disc Herniation, Sciatica, leg pain, Scoliosis, Spondylitis, Postural Deformities Ear infection, Colic High Blood Pressure, PMS, and related issues. You can reach us at our Indira Nagar Clinic or Whitefield Clinic located in Bangalore, India.</p>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-md-6 order-md-1">
-                <h1 style="text-align: justify;">Treated over 25000<br>happy patients</h1>
-                <p style="text-align: justify; font-size: 18px;">During the past 11 years, Dr.Spine has become a trusted and preferred clinic for patients suffering from spine-related issues. Conditions that Dr.Spine can treat with non-invasive methods are A back pain, Headache / Migraines Neck Pain, Disc Bulge, Slip Disc Disc Herniation, Sciatica, leg pain, Scoliosis, Spondylitis, Postural Deformities Ear infection, Colic High Blood Pressure, PMS, and related issues. You can reach us at our Indira Nagar Clinic or Whitefield Clinic located in Bangalore, India.</p>
-            </div>
+
         </div>
     </div>
 
-    <div class="container pt-5">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <p><span style="background-color: gray">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
-                <h1>Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h1><br>
-                <center>
-                    <button id="toggleButton">QIB Certificate</button>
-                </center>
-                <img id="image" src="img/about5.jpg" alt="Your Image" style="display: none;">
+            <div class="col-md-12">
+                <div class="container mt-3 mb-5">
+                    <div class="row justify-content-center">
+                        <div class="card" style="border-radius: 15px;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 pt-5" style="font-family:Open Sans, sans-serif;">
+                                        <p style="font-size:20px;"><span style="background-color: gray">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
+                                        <h1>Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h1><br>
+                                        <center>
+                                            <button id="toggleButton">QIB Certificate</button><br><br>
+                                        </center>
+                                        <img id="image" src="img/about5.jpg" alt="Your Image" style="display: none;">
+                                        
+                                    </div>
+
+                                    <div class="col-md-6 pt-8 border border-dark" style="border-radius:10px;">
+                                        <div>
+                                            <div class="card-body">
+                                                <img src="img/about4.png" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-md-6">
-                <img src="img/about4.png" alt="" class="img-fluid">
-            </div>
+
         </div>
     </div>
 
@@ -184,18 +246,18 @@ include 'links.php';
 
                 <div class="card m-3">
                     <img src="img/doctor_5.png" alt="John" style="width:100%">
-                    <h1>DocMike</h1>
+                    <h2 class="fs-3">DocMike</h2>
                     <p>Manila’s Wellness Guru and Chiropractor in Makati, Philippines.</p>
 
                     <a href="docmike.php" class="a_card"><button>View More</button></a>
 
                 </div>
             </div>
-            <div style="text-align:center;" class="col-md-4 ">
+            <div style="text-align:center;" class="col-md-4">
                 <div class="card m-3">
                     <img src="img/doctor_1.png" alt="John" style="width:100%">
-                    <h1>Dr.John Clark</h1>
-                    <p>A highly specialized chiropractor from canada with 28 years experience</p>
+                    <h2 class="fs-3">Dr.John Clark</h2>
+                    <p>A highly specialized chiropractor with 28 years experience</p>
 
                     <a href="john_clark.php" class="a_card"><button>View More</button></a>
                 </div>
@@ -207,17 +269,17 @@ include 'links.php';
     <div style="text-align:center;" class="container pt-5">
         <div class="row">
 
-            <div class="col-md-4" style="text-align:center;">
-                <div class="card m-3">
+            <div class="col-md-4 " style="text-align:center;">
+                <div class="card m-3" >
                     <img src="img/doctor_3.png" alt="John" style="width:100%">
-                    <h1>Dr. Troy <br>Scheible</h1>
+                    <h2>Dr. Troy <br> Scheible</h2>
                     <a href="troy_scheible.php" class="a_card"><button>View More</button></a>
                 </div>
             </div>
-            <div class="col-md-4" style="text-align:center;">
-                <div class="card m-3">
+            <div class="col-md-4  " style="text-align:center;">
+                <div class="card m-3" >
                     <img src="img/doctor_2.png" alt="John" style="width:100%">
-                    <h1>Dr. Michael Wohlgemuth</h1>
+                    <h2>Dr. Michael Wohlgemuth</h2>
                     <a href="michael_wohlgemuth.php" class="a_card"><button>View More</button></a>
                 </div>
             </div>
@@ -225,7 +287,7 @@ include 'links.php';
 
                 <div class="card m-3">
                     <img src="img/doctor_4.png" alt="John" style="width:100%">
-                    <h1>Dr. Chetan <br> Upadhyaya</h1>
+                    <h2>Dr. Chetan <br> Upadhyaya</h2>
                     <a href="chetan_upadhyaya.php" class="a_card"><button>View More</button></a>
                 </div>
 

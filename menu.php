@@ -123,8 +123,8 @@
                                                 <a href="piriformis_syndrome.php" class="dropdown-item">Piriformis Syndrome</a>
                                                 <a href="fibromyalgia.php" class="dropdown-item">Fibromyalgia</a>
                                                 <a href="kyphosis.php" class="dropdown-item">Kyphosis</a>
-                                                <a href="pelvic_gridle_pain.php" class="dropdown-item">Pelvic Girdle Pain</a>
-                                                <a href="sacrolic_joint_dyfunction.php" class="dropdown-item">Sacroiliac Joint Dysfunction</a>
+                                                <a href="pelvic_girdle_pain.php" class="dropdown-item">Pelvic Girdle Pain</a>
+                                                <a href="sacrolic_joint_dysfunction.php" class="dropdown-item">Sacroiliac Joint Dysfunction</a>
                                             </div>
                                         </div>
                                     </div>

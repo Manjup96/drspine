@@ -83,16 +83,16 @@ include 'links.php';
             </div>
             <div class="col-md-6">
                 <img src="img/gridle2.jpg" alt="" style =" margin-top: 15px;" class="img-fluid"> 
-                <img src="img/img-2.png" alt="" style =" margin-top: 25px;" class="img-fluid ipad-image-class">
+                <img src="img/img-2.png" alt="" style =" margin-top: 50px;" class="img-fluid ipad-image-class">
             </div>
         </div>
     </div>
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
-        <h1>What Causes Pelvic Girdle Pain?</h1><br>
+        <h2>What Causes Pelvic Girdle Pain?</h2><br>
         <p style="font-size: 20px; text-align:justify">Pregnancy is a beautiful feminine experience, a pride for women. The pelvic girdle pain has no exact causes but pregnancy is one of the most common explanations related to the pain. Due to contradictory information on its causes, the most used explanations appear to come from a history of similar conditions in the past. Findings from a trusted source show that during the early days of pregnancy, women experience poor muscle function on the pelvic girdle. This cause is associated with other severe back pains during pregnancy, labor or a few weeks after delivery. Ankylosing spondylitis an inflammatory chronic deficiency that cause stiffening of the spinal joints. Research has proven that the condition involves uneasy or total difficulty in using your pelvic bones during movement. Many people diagnosed with this conditions experience pains in the sacroiliac region or low back. The problem lacks an exact cause but is known to develop from vigorous or pressure, the involvement of the sacroiliac joints.</p><br>
         <p style="font-size: 20px; text-align:justify">Fracture is a traumatic injury on a bony part of the body. Though not frequent, the pelvic girdle can fracture in different locations. A severe muscle strain can actually cause much pain when the muscle is separated from the bone and it affects a piece of the pelvis. Those mostly affects are teens mostly during sporting and elderly people due to aging-related illnesses. With surgical care, a broken pelvis will heal no matter how swollen and bruised it is.</p><br>
     <p style="font-size: 20px;text-align:justify">Cancer- there is two severe pelvis bone related bone cancers. The primary bone cancer which develops in the bone though it is quite rare. Other types spread from other organs to the pelvic girdle causing intense pain.</p><br>
-    <h1>Symptoms of Pelvic Girdle Pain</h1><br>
+    <h2>Symptoms of Pelvic Girdle Pain</h2><br>
     <p style="font-size: 20px;text-align:justify">There are several ways you can tell if y the pains you experience are caused by the pelvic girdle. Some of this include, sharp pain that radiates down your buttocks and legs</p>
     
     <ol style="font-size: 20px;">
@@ -104,7 +104,7 @@ include 'links.php';
         <li>Vaginal bleeding for women and pain during intercourse for men.</li>
     </ol>
     
-    <h1>Pelvic Girdle Pain Treatment</h1><br>
+    <h2>Pelvic Girdle Pain Treatment</h2><br>
     
      <div id="others">
         <p>We actually cannot control pelvic girdle pains sometimes but we definitely have ways to treat them. The agonizing back pains cause total discomfort.</p>

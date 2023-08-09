@@ -108,78 +108,67 @@ include 'links.php';
             </div>
         </div>
     </div>
-
-
     <style>
-     /* Custom CSS for banner section */
-          /* Custom CSS for banner section */
-          #banner {
-            background-image: radial-gradient(at center center, #DFFAFF 50%, #55B6C7 100%);
-            /* Background gradient */
-            padding: 40px 0;
-            /* Adjusted padding */
-            text-align: center;
-        }
+    /* Custom CSS for banner section */
+    #banner {
+        background-image: radial-gradient(at center center, #DFFAFF 50%, #55B6C7 100%);
+        padding: 40px 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-        #banner h1 {
-            font-size: 36px;
-            /* Slightly reduced font size */
-            margin-bottom: 15px;
-            color: #495057;
-            margin-left: 15px;
-        }
+    #banner h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+        color: #495057;
+        margin-left: 15px;
+    }
 
-        #banner p {
-            font-size: 18px;
-            /* Slightly reduced font size */
-            color: #495057;
-            margin-bottom: 20px;
-            /* Slightly reduced margin */
-            margin-left: 2px;
+    #banner p {
+        font-size: 18px;
+        color: #495057;
+        margin-bottom: 20px;
+        margin-left: 2px;
+    }
+
+    #banner button {
+        background-color: #55b6c7;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 20px; /* Adjusted margin from 'margin-right' to 'margin-top' */
+        width: fit-content; /* Ensure button's width is based on content */
+    }
+
+    @media (max-width: 768px) {
+        #banner {
+            padding: 20px 0;
         }
 
         #banner button {
-            background-color: #55b6c7;
-            color: white;
-            border: none;
-            border-radius: 20px;
-            /* Slightly reduced border radius */
-            padding: 20px 20px;
-            /* Adjusted padding */
-            font-size: 20px;
-            /* Slightly reduced font size */
-            font-weight: bold;
-            cursor: pointer;
-            margin-right: 20px;
-            
-            /* Reduced margin */
+            padding: 10px 15px;
+            margin-left: 0;
         }
-
-        @media (max-width: 768px) {
-            #banner {
-                padding: 20px 0;
-                /* Adjusted padding for smaller screens */
-            }
-
-            #banner button {
-                padding: 10px 15px;
-                /* Further reduced padding for smaller screens */
-                margin-left: 0;
-                /* Remove margin for centering */
-            }
-        }
-    </style>    
+    }
+</style>    
 <div class="container-fluid mb-5 mt-5" id="banner">
     <div class="row">
         <div class="col-md-8">
             <h1>CONSULT DR. JOHN CLARK</h1>
             <p>Dr. John Clark is a Doctor of Chiropractic at Dr.Spine Indira Nagar Clinic</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
             <button data-bs-toggle="modal" data-bs-target="#bookingModal">&nbsp; Book NOW!&nbsp;</button>
         </div>
     </div>
 </div>
+
 
 
  <!-- Modal -->

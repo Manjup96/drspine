@@ -181,7 +181,7 @@ include 'links.php';
             <h1>CONSULT DR TROY SCHEIBLE</h1>
             <p>Dr. Troy Scheible is a Doctor of Chiropractic at Dr.Spine Indira Nagar Clinic</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
             <button data-bs-toggle="modal" data-bs-target="#bookingModal">&nbsp; Book NOW!&nbsp;</button>
         </div>
     </div>

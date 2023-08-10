@@ -8,6 +8,13 @@
 include 'links.php';
 ?>
   <style>
+    ul {
+    list-style-type: none;
+  }
+  ul li {
+    list-style-type: disc;
+   
+  }
  @media only screen and (max-width: 767px) {
             .carousel-inner .carousel-item img {
                 height: 200px;
@@ -95,14 +102,14 @@ include 'links.php';
     <h2>Symptoms of Pelvic Girdle Pain</h2><br>
     <p style="font-size: 20px;text-align:justify">There are several ways you can tell if y the pains you experience are caused by the pelvic girdle. Some of this include, sharp pain that radiates down your buttocks and legs</p>
     
-    <ol style="font-size: 20px;">
+    <ul style="padding:30px; font-size:18px;">
         <li>Pain in your hips.</li>
         <li>The symphysis pubis joint is achy.</li>
         <li>Difficulty in performing particular movements like sitting or any form, of weight-bearing activity.</li>
         <li>Strenuous work out cause it to flare up.</li>
         <li>In several cases, one may experience pain in the groin and while urinating.</li>
         <li>Vaginal bleeding for women and pain during intercourse for men.</li>
-    </ol>
+    </ul>
     
     <h2>Pelvic Girdle Pain Treatment</h2><br>
     

@@ -183,16 +183,18 @@ include 'links.php';
             margin: 0 10px 20px;
         }
 
-        #doctors .col-md-12 {
-            font-size: 20px;
-            text-align: center;
-            flex-direction: column; /* Change to column layout */
+        #doctors .d-flex.justify-content-center {
+                flex-direction: column;
+                align-items: center;
         }
 
         #doctors .custom-btn {
             width: 100%;
             font-size: 18px;
             margin-top: 20px;
+        }
+        #doctors .ml-3 {
+            margin-right: 25px;
         }
     }
 
@@ -877,8 +879,9 @@ include 'links.php';
             #banner button {
                 padding: 10px 15px;
                 /* Further reduced padding for smaller screens */
-                margin-left: 0;
+                margin-left: 20px;
                 /* Remove margin for centering */
+                
             }
         }
     </style>
@@ -1502,6 +1505,7 @@ include 'links.php';
             transform: translateY(100%);
             opacity: 0;
         }
+    
     @media (max-width: 767px) {
         /* Adjust styles for mobile view */
         #reviews {
@@ -1510,7 +1514,7 @@ include 'links.php';
         #reviews h4 {
             font-size: 17px;
         }
-        }
+        
         .carousel-img {
             max-width: 40px; /* Adjust image size */
         }
@@ -1526,8 +1530,8 @@ include 'links.php';
         .carousel-source {
             font-size: 12px; /* Adjust font size for better readability */
         }
+    
     }
-
     @media (min-width: 768px) and (max-width: 991px) {
         /* Adjust styles for iPad view */
         #reviews {

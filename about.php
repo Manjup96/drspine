@@ -51,7 +51,7 @@ include 'links.php';
 
 <style>
 #image1 {
-  margin-top: 35px;
+  margin-bottom: 15px;
 }
 
 /* Styles for smaller screens */
@@ -131,8 +131,8 @@ include 'links.php';
         text-align: center;
         font-size: 45px;
         color: transparent; /* Set the text color to transparent to make the background visible */
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         }
     </style>
   
@@ -140,7 +140,6 @@ include 'links.php';
 
 <body>
     <?php
-    $page = 'about';
     include 'menu.php';
     ?>
 
@@ -228,18 +227,6 @@ include 'links.php';
 
     <div class="container">
         <div class="row">
-<<<<<<< HEAD
-            <div class="col-md-6">
-                <p><span style="background-color: gray">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
-                <h1>Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h1><br>
-                <center>
-                    <button id="toggleButton_certificate">QIB Certificate</button>
-                </center>
-                <img id="image" src="img/about5.jpg" alt="Your Image" style="display: none;">
-            </div>
-            <div class="col-md-6">
-                <img src="img/about4.png" alt="" class="img-fluid">
-=======
             <div class="col-md-12">
                 <div class="container mt-3 mb-5">
                     <div class="row justify-content-center">
@@ -269,7 +256,6 @@ include 'links.php';
                     </div>
                 </div>
 
->>>>>>> 3f3cc1af7a630bb6cfe7420e03c6fafcd2fd3b34
             </div>
 
         </div>
@@ -325,7 +311,7 @@ include 'links.php';
             <div class="col-md-4  " style="text-align:center;">
                 <div class="card m-3" >
                     <img src="img/doctor_2.png" alt="John" style="width:100%">
-                    <h2>Dr. Michael<br>Wohlgemuth</h2>
+                    <h2>Dr. Michael <br>Wohlgemuth</h2>
                     <a href="michael_wohlgemuth.php" class="a_card"><button>View More</button></a>
                 </div>
             </div>

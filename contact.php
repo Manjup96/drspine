@@ -281,6 +281,7 @@ include 'links.php';
 
 <body>
     <?php
+    $page = 'contact';
     include 'menu.php';
     ?>
 
@@ -316,7 +317,7 @@ include 'links.php';
                     <div class="row g-3">
                         <div class="col-md-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control border border-dark" id="name" name="full_name" placeholder="Name" onkeyup="validateNameForm()">
+                                <input type="text" class="form-control border border-dark" id="name" name="full_name" placeholder="" onkeyup="validateNameForm()">
                                 <label for="form-floating-1">Full Name <span class="mandatory-symbol">*</span></label>
                                 <div id="name_error" class="error hidden">Please enter a valid name</div>
                             </div>
@@ -324,14 +325,14 @@ include 'links.php';
 
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control border border-dark" id="email" name="email" placeholder="Email" onkeyup="validateEmailForm()">
+                                <input type="email" class="form-control border border-dark" id="email" name="email" placeholder="" onkeyup="validateEmailForm()">
                                 <label for="form-floating-2">Email Address <span class="mandatory-symbol">*</span></label>
                                 <div id="email_error" class="error hidden">Please enter a valid Email</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="tel" class="form-control border border-dark" id="mobile" name="mobile" placeholder="Mobile Number" onkeyup="validateMobileForm()">
+                                <input type="tel" class="form-control border border-dark" id="mobile" name="mobile" placeholder="" onkeyup="validateMobileForm()">
                                 <label for="form-floating-3">Mobile Number <span class="mandatory-symbol">*</span></label>
                                 <div id="mobile_error" class="error hidden">Please enter a 10 digit mobile number</div>
                             </div>
@@ -339,7 +340,7 @@ include 'links.php';
                         <!-- <div class="col-md-12"> -->
                         <div class="col-md-12">
                             <div class="form-floating">
-                                <textarea class="form-control border border-dark" name="message" placeholder="Message" id="my-text" style="height: 150px"></textarea>
+                                <textarea class="form-control border border-dark" name="message" placeholder="" id="my-text" style="height: 150px"></textarea>
                                 <label for="message">Message (Max 250 characters)</label>
                                 <p id="text_result" style="padding-right: 100px;"></p>
                                 <p id="error_message" style="color: #ff2851; display: none;">Character limit exceeded!</p>
@@ -436,7 +437,7 @@ include 'links.php';
     <style>
         .map-card {
             border: 1px solid #000;
-            height: 600px;
+            height: 300px;
             /* Set the desired height for the map card */
             border-radius: 5px;
             box-shadow: 0 0 5px 0 #55b6c7;
@@ -446,7 +447,7 @@ include 'links.php';
             border: 1px solid #000;
             padding: 10px;
             border-radius: 5px;
-            height: 600px;
+            height: 300px;
             box-shadow: 0 0 5px 0 #55b6c7;
         }
 
@@ -479,8 +480,8 @@ include 'links.php';
             <div class="row g-0" style="justify-content: center;">
                 <div class="col-lg-10 col-md-10 col-12 ">
                     <div class="position-relative h-100">
-                        <div class="card h-100 border border-dark rounded p-3" style="box-shadow: 0 0 10px 0 #55b6c7; border-radius:10px; ">
-                            <h2 class="text-center" style="font-size:30px;font-weight:bold;">Location Address</h2><br>
+                        <div class="card h-70 border border-dark rounded p-3" style="box-shadow: 0 0 10px 0 #55b6c7; border-radius:10px; ">
+                            <h2 class="text-center" style="font-size:30px;font-weight:bold;">Location Address (Indiranagar clinic)</h2><br>
                             <div class="row">
                                 <div class="col-lg-8 col-md-12 pt-2">
                                     <div class="map-card">
@@ -489,22 +490,108 @@ include 'links.php';
 
                                     </div>
                                 </div>
+                                <div class="col-lg-4 col-md-12 col-12 pt-2 ">
+                                    <div class="address-card ">
+                                        <ul>
+                                            <li style="font-size: 20px; color: black;" class="pt-4">
+                                                <i class="fas fa-map-marker-alt"></i> 
+                                                <span style="margin-left: 24px;"> 
+                                               DR SPINE  </br> <span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;">Indiranagar Clinic - Bangalore 
+                                                 
+                                                    
+                                            </li>
+                                         
+                                            <br>
+                                            <li style="font-size: 20px;padding-top:10px;">
+
+                                                <i class="fa fa-phone" style="transform: rotate(90deg);padding-top:10px;"></i> <a href="tel:(+91)-7550705070 ">(+91)-7550705070 </a></br>
+                                                <i class="fa fa-phone" style="transform: rotate(90deg);padding-top:10px;"></i> <a href="tel:(+91)-9353316370 ">(+91)-9353316370</a></br>
+                                                <i class="fa fa-phone" style="transform: rotate(90deg);padding-top:10px;"></i> <a href="tel:(+91)-9901087597">(+91)-9901087597</a></br>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="responsive_view_map;">
+        <div class="container-fluid bg-white pb-3 pt-5">
+            <div class="row g-0" style="justify-content: center;">
+                <div class="col-lg-10 col-md-10 col-12 ">
+                    <div class="position-relative h-100">
+                        <div class="card h-70 border border-dark rounded p-3" style="box-shadow: 0 0 10px 0 #55b6c7; border-radius:10px; ">
+                            <h2 class="text-center" style="font-size:30px;font-weight:bold;">Location Address (Whitefield clinic)</h2><br>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-12 pt-2">
+                                    <div class="map-card">
+                                        <!-- <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3502.9424023490756!2d77.18340307434593!3d28.6015046756817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA9%2C%201st%20floor%2C%20Malcha%20Marg%2C%20Chanakyapuri%2C%20New%20Delhi-%20110021!5e0!3m2!1sen!2sin!4v1686239309371!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe> -->
+                                        <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4657.290380649026!2d77.74510526446508!3d12.963924969940608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0d3e4de7b8b5%3A0x61881ab04659679f!2sDr%20Spine%20Chiropractic%20Clinic&#39;s%20-%20Whitefield%20-%20Bangalore!5e0!3m2!1sen!2sin!4v1691564409042!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe> 
+                                           
+                                    </div>
+                                </div>
                                 <div class="col-lg-4 col-md-12 pt-2 ">
                                     <div class="address-card ">
                                         <ul>
                                             <li style="font-size: 20px; color: black;" class="pt-4">
-                                                <i class="fas fa-map-marker-alt"></i>
-                                                Indiranagar Bangalore, <span style="display: inline-block; margin-left: 24px;">Whitefield Bangalore,</br>
-                                                    HSR Layout Bangalore, Koramanagala </br></br>
+                                                <i class="fas fa-map-marker-alt"></i> <span style="margin-left: 24px;"> 
+                                               DR SPINE  </br><span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;">Whitefield - Bangalore
+                                                 
+                                                    
+                                            </li>
+                                         
+                                            <br>
+                                            <li style="font-size: 20px;padding-top:10px;">
+
+                                                <i class="fa fa-phone" style="transform: rotate(90deg);padding-top:10px;"></i> <a href="tel:(+91)-7550705070 ">(+91)-7550705070 </a></br>
+                                                <i class="fa fa-phone" style="transform: rotate(90deg);padding-top:10px;"></i> <a href="tel:(+91)-9353316370 ">(+91)-9353316370</a></br>
+                                                <i class="fa fa-phone" style="transform: rotate(90deg);padding-top:10px;"></i> <a href="tel:(+91)-9901087597">(+91)-9901087597</a></br>
+                                            </li>
 
 
-                                                    Bangalore, J P Nagar Bangalore, Rajaji Nagar Bangalore,</br>
-                                                    Vijayanagar Bangalore, Yeshwantpur Bangalore, </br>
-                                                    Tumkur, Mysore, Chitradurga, Davanagere, Shimoga</br></br>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="responsive_view_map;">
+        <div class="container-fluid bg-white pb-3 pt-5">
+            <div class="row g-0" style="justify-content: center;">
+                <div class="col-lg-10 col-md-10 col-12 ">
+                    <div class="position-relative h-100">
+                        <div class="card h-70 border border-dark rounded p-3" style="box-shadow: 0 0 10px 0 #55b6c7; border-radius:10px; ">
+                            <h2 class="text-center" style="font-size:30px;font-weight:bold;">Location Address (New BEL Road clinic)</h2><br>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-12 pt-2">
+                                    <div class="map-card">
+                                        <!-- <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3502.9424023490756!2d77.18340307434593!3d28.6015046756817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA9%2C%201st%20floor%2C%20Malcha%20Marg%2C%20Chanakyapuri%2C%20New%20Delhi-%20110021!5e0!3m2!1sen!2sin!4v1686239309371!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe> -->
+                                        <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.124428068562!2d77.57339017484601!3d13.027747413645272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170f8c4572f5%3A0x13a1fddc8063cdce!2sDr%20Spine%20Chiropractic%20Clinic%20-%20New%20BEL%20Road%20Centre%20-%20Bangalore!5e0!3m2!1sen!2sin!4v1691564747355!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe>
+                                            
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-12 pt-2 ">
+                                    <div class="address-card ">
+                                        <ul>
+                                            <li style="font-size: 20px; color: black;" class="pt-4">
+                                                <i class="fas fa-map-marker-alt"></i> <span style="margin-left: 24px;"> 
+                                               DR SPINE  </br><span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;"> New BEL Road Centre - Bangalore
+                                                 
+                                                    
                                             </li>
-                                            <li style="font-size: 20px">
-                                                <i class="fa fa-envelope"></i> <a href="mailto:info@oneworldhrin.com">info@oneworldhrin.com</a>
-                                            </li>
+                                         
                                             <br>
                                             <li style="font-size: 20px;padding-top:10px;">
 

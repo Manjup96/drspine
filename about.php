@@ -100,6 +100,7 @@ include 'links.php';
 
 <body>
     <?php
+    $page = 'about';
     include 'menu.php';
     ?>
 
@@ -157,7 +158,7 @@ include 'links.php';
                 <p><span style="background-color: gray">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
                 <h1>Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h1><br>
                 <center>
-                    <button id="toggleButton">QIB Certificate</button>
+                    <button id="toggleButton_certificate">QIB Certificate</button>
                 </center>
                 <img id="image" src="img/about5.jpg" alt="Your Image" style="display: none;">
             </div>

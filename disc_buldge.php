@@ -37,7 +37,7 @@ include 'links.php';
         }
 
         .carousel-caption h2 {
-            font-size: 18px;
+            font-size: 16px;
             padding-top: 20%;
 
         }
@@ -97,7 +97,8 @@ include 'links.php';
                                     <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
                                         <div>
                                             <div class="card-body">
-                                                <img src="img/disc_buldge.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
+                                                <!-- <img src="img/disc_buldge.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;"> -->
+                                                <img src="img/Disc-Bulge.png" alt="Image" class="img-fluid pt-5" style="height: 450px; width: 400px;">
                                             </div>
                                         </div>
                                     </div>

@@ -10,6 +10,7 @@ include 'links.php';
         margin: 0;
         padding: 0;
         list-style: disc;
+
     }
 
     /* Your existing styles */
@@ -42,24 +43,24 @@ include 'links.php';
     /* inner banner ends */
 
     /* CSS for desktop view */
-     #hide_img {
-        display:none;
-    } 
+    #hide_img {
+        display: none;
+    }
 
     /* CSS for mobile view */
     @media only screen and (max-width: 767px) {
         #hide_img {
             display: none;
         }
-    } 
-  
+    }
+
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #hide_img {
-    display: block;
-  }
-}
-    
-@media only screen and (max-width: 767px) {
+        #hide_img {
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
         .carousel-inner .carousel-item img {
             height: 200px;
 
@@ -73,6 +74,12 @@ include 'links.php';
             padding-top: 20%;
 
         }
+    }
+
+    .list-container {
+        font-size: 17px;
+        text-align: justify;
+        padding-left: 20px;
     }
 </style>
 
@@ -150,7 +157,7 @@ include 'links.php';
                             </div>
 
                             <h2 style="font-size:35px;color:gray" class="pt-3 pl-5">Symptoms of Piriformis Syndrome</h2>
-                            <div style="font-size:17px;text-align:justify;padding-left:20px;" class="pt-3">
+                          <div style="font-size:17px;text-align:justify;padding-left:20px;" class="pt-3">
                                 <ul>
                                     <li>Severe pains in the buttocks even in the slightest strenuous activity e.g running or climbing a staircase. The pain is especially felt on one side any type of activity that requires the use of your thigh and buttock muscles becomes hard to do.</li>
                                     <li>Presence of a sharp pain that is felt from the lower back and radiates down below the knee. Tingling, general numbness when you relax your muscles during rest or even during activities. Mostly, the numbness is felt after sitting for prolonged hours.</li>
@@ -162,7 +169,8 @@ include 'links.php';
                                     <li>The pain may extend as far as the foot, down the length of the sciatic nerve.</li>
                                     <li>Severe buttock pain that makes it impossible to work or even exercise</li>
                                 </ul>
-                            </div>
+                            </div> 
+                          
 
                         </div>
                     </div>

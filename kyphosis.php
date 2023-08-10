@@ -78,8 +78,8 @@ include 'links.php';
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-12 col-sm-12">
-        <span  style="font-size: 20px; text-align: justify; padding:3px; border-radius: 10px; background-color: gray; display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-        Dr Spine Chiropractic Clinic In Bangalore
+        <span  style="font-size: 20px; background-color: gray;">
+       &nbsp; Dr Spine Chiropractic Clinic In Bangalore &nbsp;
     </span>
 
              <h2 class="mt-3 " style="font-size:35px;font-weight:bold">Treating Kyphosis the Dr. Spine Way!                </h2>

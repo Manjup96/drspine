@@ -6,6 +6,7 @@ include 'links.php';
 
 <body>
     <?php
+     $page = 'index';
     include 'menu.php';
     ?>
     

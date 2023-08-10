@@ -39,13 +39,10 @@
         }
     }
 
-    /* Reset CSS */
-    ul,
-    li {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
+    /* ul li {
+        list-style-type: none;
+    } */
+
 
     /* Your existing styles */
     .pt-3 {
@@ -126,6 +123,14 @@
             width: 700px;
         }
     }
+    
+    /* ul {
+    list-style-type: none;
+  }
+  ul li {
+    list-style-type: disc;
+   
+  } */
 </style>
 
 <!--<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-light">-->
@@ -153,7 +158,7 @@
         <div class="collapse navbar-collapse " id="navbarNav" style=" transition: all 0s ease;" style="padding-right:100px;">
             <ul class="navbar-nav" style="font-size:20px; margin-right: 70px;">
 
-              
+
                 <li class="nav-item" style="margin-left: 15px;">
                     <a class="nav-link text-center <?php echo ($page == 'index') ? 'active' : ''; ?>" style="<?php echo ($page == 'index') ? 'background-color:#34B6DE;olor:white' : ''; ?>" href="index.php">Home</a>
                 </li>
@@ -221,8 +226,8 @@
                     </a>
                 </li>  -->
                 <div class="col-sm-2 col-lg-1  appoint" style="font-size:23px;">
-                        <a class="btn btn-success" href="book_appointment.php">Book an Appointment</a>
-                    </div>
+                    <a class="btn btn-success" href="book_appointment.php">Book an Appointment</a>
+                </div>
 
             </ul>
         </div>

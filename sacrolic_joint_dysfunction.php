@@ -5,6 +5,22 @@
 include 'links.php';
 ?>
  <style>
+     ul {
+    list-style-type: block;
+  }
+  ul li {
+    list-style-type: disc;
+   
+  }
+
+  ul,
+       li {
+    margin : 0;
+    padding : 0;
+    list-style:  disc;
+
+       }
+
    /* Banner style start*/
 @media only screen and (max-width: 767px) {
             .carousel-inner .carousel-item img {
@@ -59,13 +75,7 @@ include 'links.php';
                 margin-right: auto;
             }
         }
-        ul,
-       li {
-    margin : 0;
-    padding : 0;
-    list-style:  disc;
-
-       }
+     
         </style>
 <body>
     <?php
@@ -86,7 +96,7 @@ include 'links.php';
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
       <div class="row">
         <div class="col-md-6">
-            <p style="font-size:20px;"><span style="background-color: gray ">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p>  
+            <p style="font-size:20px;"><span style="background-color: #bdc3c7;">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p>  
         <div id="others">
        <p style="font-size: 20px;text-align:justify" >The sacroiliac joint is the joint between the sacrum and the ilium bones of the pelvis connected by strong ligaments. They carry the entire weight of your upper body when you sit, stand. When affected, a dull sharp pain is felt in your buttocks, thigh, upper back or groin. The pain is triggered by standing and is more during the morning hours but subsides during the day. This chronic condition is more common than you could possibly imagine. Let us see what exactly causes it.</p>
     </div>
@@ -114,7 +124,7 @@ include 'links.php';
 <h2>Stress</h2>
 <p>Mechanical stress may not be quite common but it can cause massive pain and changes in your sacroiliac joint over time. Some individuals tend to have severe stiffness. For example, a surgical spinal fusion may increase pressure on the sacroiliac joints making it dysfunction due to the pressure exerted on it.</p>
 <h2 >Symptoms of Sacroiliac Joint Dysfunction</h2>
-<ul style="font-size:20px;" >
+<ul style="padding:40px; font-size:18px;" >
     <li>General weakness in your arms and legs- it causes a sensation of the lower extremity. You may experience dizziness, tingling, numbness and mostly a sharp pain even by walking or standing.</li>
 <li>The lower back is the most affected part. The lifting of even the lightest weight triggers a sharp pain from the SI joint
     redness- the joints turn reddish due to the swollen muscles.</li>

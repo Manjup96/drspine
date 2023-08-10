@@ -23,6 +23,7 @@
                   /* Align items at the start in desktop view */
               }
           }
+        }
   </style>
 
 

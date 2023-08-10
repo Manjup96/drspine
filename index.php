@@ -1635,12 +1635,13 @@ include 'links.php';
 <!-- Form Section Starts -->
 <div class="container mt-5 mb-5">
             <div class="row justify-content-center">
-                <div class="card" style="border-radius: 15px;">
+                <div class="card" style="border-radius: 15px; border: 5px solid #55b6c7">
                     <div class="card-body">
-                    <h2 class="text-center pb-5" style="color:#55b6c7; padding-top: 10px; font-size: 35px;">Book an Appointment</h2>
+                    
                         <div class="row">
                             <div class="col-md-6 pt-5">
                                 <form action="" method="POST">
+                                <h2 class="text-center pb-5" style="color:#55b6c7; font-size: 35px;">Book an Appointment</h2>
                                     <div class="row">
                                         <div class="col-md-6 mb-3">
                                             <label for="first_name" class="form-label">First Name<span class="text-danger">*</span></label>

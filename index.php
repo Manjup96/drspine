@@ -1455,8 +1455,7 @@ include 'links.php';
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         position: relative;
         overflow: hidden;
-        transition: transform 0.5s, opacity 0.5s;
-        transform-origin: bottom;
+        transition: transform 0.5s, opacity 0.5s;  
         
     }
 
@@ -1489,7 +1488,7 @@ include 'links.php';
     /* Custom CSS for carousel controls */
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-        background-color: #000; /* Black color for next and previous icons */
+        background-color: #000 ; /* Black color for next and previous icons */
     }
 
     .carousel-control-prev,
@@ -1547,6 +1546,7 @@ include 'links.php';
             font-size: 20px;
         }
     }
+    
 </style>
 
 <div class="container-fluid" id="reviews">
@@ -1577,33 +1577,44 @@ include 'links.php';
                     <div class="carousel-item">
                         <div class="carousel-card">
                         <img src="img/google-logo.png" class="carousel-img" alt="Google">
-                            <p>I was asked to go for surgery by a top neuro which my family was against and me too. I had a bike accident two years back and my lower back L5 S1 had issues. I didnt know what to do as I was sure that my sport career was over. I was referred to Dr Craig by my neighbor and I was skeptical. Also some negative reviews scared me but I wanted to give it a try and see if it works. The staff was very helpful and made me comfortable and Dr Craig was just so warm and caring. He got the root cause and advised me 18 sessions. I believed him and his treatment as he was so honest that my pain will come and no surgery will be required if my body responds well to his treatment. First three sessions I only felt 10 percent and he told me that's a great percentage improvement. I completed 14 sessions and I felt as if nothing had happened. Finally I completed all my sessions and I did my scans today again and there is no need of any surgery. He is a magician and filled with warmth and passionate caring for patients like us. God bless him. I strongly believe in Dr Craig and strongly recommend Dr Craig to everyone.</p>
+                            <p>Dr Michael Craig is good with what he does. He is really professional. Pain on my shoulders used to return back again and again. After few sessions he recommended me to go for liver supplement, looking at my situation. His suggestion worked and suited me well.</p>
                             <div class="carousel-rating">
-                                <span class="carousel-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> <!-- Five stars -->
+                                <span class="carousel-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <!-- Five stars -->
                             </div>
-                            <div class="carousel-name">YASMIN MAKATI</div>
+                            <div class="carousel-name">ABHINAY LAKRA</div>
                             <div class="carousel-source">via Google.com</div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-card">
                         <img src="img/google-logo.png" class="carousel-img" alt="Google">
-                            <p>I was asked to go for surgery by a top neuro which my family was against and me too. I had a bike accident two years back and my lower back L5 S1 had issues. I didnt know what to do as I was sure that my sport career was over. I was referred to Dr Craig by my neighbor and I was skeptical. Also some negative reviews scared me but I wanted to give it a try and see if it works. The staff was very helpful and made me comfortable and Dr Craig was just so warm and caring. He got the root cause and advised me 18 sessions. I believed him and his treatment as he was so honest that my pain will come and no surgery will be required if my body responds well to his treatment. First three sessions I only felt 10 percent and he told me that's a great percentage improvement. I completed 14 sessions and I felt as if nothing had happened. Finally I completed all my sessions and I did my scans today again and there is no need of any surgery. He is a magician and filled with warmth and passionate caring for patients like us. God bless him. I strongly believe in Dr Craig and strongly recommend Dr Craig to everyone.</p>
+                            <p>Having had no prior experience with Chiropractic treatment, I visited Dr Spine only having exhausted all treatment options before surgery. I was suffering from extreme pain in my lower back and neck which prevented me from standing, walking, sitting for a long time or even sleeping at night. Dr Michael Craig has helped me get back on my feet (literally) within 6 sessions. He has been patient with my questions, understanding of my pain and, precise and efficient in his treatment. The staff have been also very supportive and courteous. The fee may be steep for some, but it is an investment towards your health. Dr Spine is highly recommended by me for everyone who understands what Chiropractic treatment can do for you.</p>
                             <div class="carousel-rating">
-                                <span class="carousel-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> <!-- Five stars -->
+                                <span class="carousel-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <!-- Five stars -->
                             </div>
-                            <div class="carousel-name">YASMIN MAKATI</div>
+                            <div class="carousel-name">YONUS MOHAMED</div>
                             <div class="carousel-source">via Google.com</div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-card">
                         <img src="img/google-logo.png" class="carousel-img" alt="Google">
-                            <p>I was asked to go for surgery by a top neuro which my family was against and me too. I had a bike accident two years back and my lower back L5 S1 had issues. I didnt know what to do as I was sure that my sport career was over. I was referred to Dr Craig by my neighbor and I was skeptical. Also some negative reviews scared me but I wanted to give it a try and see if it works. The staff was very helpful and made me comfortable and Dr Craig was just so warm and caring. He got the root cause and advised me 18 sessions. I believed him and his treatment as he was so honest that my pain will come and no surgery will be required if my body responds well to his treatment. First three sessions I only felt 10 percent and he told me that's a great percentage improvement. I completed 14 sessions and I felt as if nothing had happened. Finally I completed all my sessions and I did my scans today again and there is no need of any surgery. He is a magician and filled with warmth and passionate caring for patients like us. God bless him. I strongly believe in Dr Craig and strongly recommend Dr Craig to everyone.</p>
+                            <p>I had severe neck pain for several months. but the doctors here were very talented enough and solved my problem withing 3-4 visits. I highly recommend this clinic to you all.</p>
                             <div class="carousel-rating">
                                 <span class="carousel-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> <!-- Five stars -->
                             </div>
-                            <div class="carousel-name">YASMIN MAKATI</div>
+                            <div class="carousel-name">SHOMIT BHATTACHARYA</div>
+                            <div class="carousel-source">via Google.com</div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-card">
+                        <img src="img/google-logo.png" class="carousel-img" alt="Google">
+                            <p>I am into gaming so I was suffering neck pain back pain and sciatica but with the help of doctor Mike treatment I am able to play again for hours without any pain.</p>
+                            <div class="carousel-rating">
+                                <span class="carousel-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <!-- Five stars -->
+                            </div>
+                            <div class="carousel-name">GOD GAMING</div>
                             <div class="carousel-source">via Google.com</div>
                         </div>
                     </div>

@@ -50,6 +50,18 @@ include 'links.php';
 
 
 <style>
+#image1 {
+  margin-top: 35px;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  #image1 {
+    margin-top: 0px; /* Adjust the value for smaller screens */
+  }
+}
+
+
         /* Extra image in ipad view start*/
 
         .ipad-image-class {
@@ -195,11 +207,11 @@ include 'links.php';
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6 pt-4" style="border-radius:10px;">
-                                    <img src="img/about3.png" alt="" class="img-fluid" >
-                                    <img src="img/about-ipad1.jpg" alt="" style="margin-top: 10px;" class="img-fluid ipad-image-class">
-                                    <img src="img/about-ipad2.jpg" alt="" style="margin-top: 10px;" class="img-fluid ipad-image-class">
+                                    <img src="img/about3.png" alt="" class="img-fluid" id="image1" >
+                                    <img src="img/about-ipad1.jpg" alt="" style="margin-top: 25px;" class="img-fluid ipad-image-class">
+                                    <img src="img/about-ipad2.jpg" alt="" style="margin-top: 25px;" class="img-fluid ipad-image-class">
                                 </div>
-                                <div class="col-md-6" style="font-family:Open Sans, sans-serif;">
+                                <div class="col-md-6 mt-2" style="font-family:Open Sans, sans-serif;">
                                     <h1>Treated over 25000 happy patients</h1>
                                     <p style="font-size:20px;text-align: justify;">During the past 11 years, Dr.Spine has become a trusted and preferred clinic for patients suffering from spine-related issues. Conditions that Dr.Spine can treat with non-invasive methods are A back pain, Headache / Migraines Neck Pain, Disc Bulge, Slip Disc Disc Herniation, Sciatica, leg pain, Scoliosis, Spondylitis, Postural Deformities Ear infection, Colic High Blood Pressure, PMS, and related issues. You can reach us at our Indira Nagar Clinic or Whitefield Clinic located in Bangalore, India.</p>
                                 </div>
@@ -286,7 +298,7 @@ include 'links.php';
     </div>
 
 
-    <div style="text-align:center;" class="container pt-5">
+    <div style="text-align:center;" class="container pt-3">
         <div class="row">
 
             <div class="col-md-4 " style="text-align:center;">

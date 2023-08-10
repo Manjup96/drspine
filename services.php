@@ -7,8 +7,8 @@ include 'links.php';
   .card1 {
     border: none;
         border-radius: 10px;
-        padding: 20px;
-        margin: 10px;
+        padding: 10px;
+        margin: 0px;
         text-align: center;
         height: 400px;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
@@ -35,7 +35,6 @@ include 'links.php';
         @media only screen and (max-width: 767px) {
             .carousel-inner .carousel-item img {
                 height: 200px;
-    
                 max-width: 100%;
     
     
@@ -65,7 +64,6 @@ include 'links.php';
             color: white;
     
         }
-    
     </style>
 
     <div class="container-fluid p-0">
@@ -83,17 +81,17 @@ include 'links.php';
 
 <div class="container">
 
-    <h6 class="mx-auto text-center mt-5">Dr Spine Chiropractic Clinic In Bangalore</h6>
+    <h6 class="mx-auto text-center mt-5"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></h6>
     <h1 class="mx-auto text-center mt-3"><span style="color:#55b6c7;">Services and Techniques</span></h1>
     <h5 class="mx-auto text-center mt-3">Our comprehensive knowledge and skills are implemented for your wellbeing. 
         <span style="color:#55b6c7;">Eminent doctors at Drspine</span> provide the best <br>solution to overcome pain effectually.</h5>
 
         </div>
         
-        <div class="container-fluid custom-container">
+        <div class="container custom-container">
             <div class="row">
-               <div class="col-md-3 mb-4 mt-3">
-               <div class="card1 card-sm" style="width: 300px;">
+               <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-3">
+               <div class="card1" style="width: 300px;">
                      <i class="fa fa-snowflake-o fa-3x mx-auto text-center mt-3 head" aria-hidden="true"></i>
                      <div class="card-body">
                           <h2 class="mx-auto text-center head">BETTER <br>LIFESTYLE</h2>
@@ -102,7 +100,7 @@ include 'links.php';
                      </div>
                  </div>
                </div>
-               <div class="col-md-3 mb-4 mt-3">
+               <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-3">
                <div class="card1 card-sm" style="width: 300px;">
                      <i class="fa fa-snowflake-o fa-3x mx-auto text-center mt-3 head" aria-hidden="true"></i>
                      <div class="card-body">
@@ -112,7 +110,7 @@ include 'links.php';
                      </div>
                  </div>
                </div>
-               <div class="col-md-3 mb-4 mt-3">
+               <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-3">
                <div class="card1 card-sm" style="width: 300px;">
                      <i class="fa fa-snowflake-o fa-3x mx-auto text-center mt-3 head" aria-hidden="true"></i>
                      <div class="card-body">
@@ -122,7 +120,7 @@ include 'links.php';
                      </div>
                  </div>
                </div>
-               <div class="col-md-3 mb-4 mt-3">
+               <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-3">
                <div class="card1 card-sm" style="width: 300px;">
                      <i class="fa fa-snowflake-o fa-3x mx-auto text-center mt-3 head" aria-hidden="true"></i>
                      <div class="card-body">
@@ -135,9 +133,9 @@ include 'links.php';
            </div>
         </div>
 
-        <div class="container-fluid custom-container">
+        <div class="container custom-container">
             <div class="row">
-               <div class="col-md-3 mb-4 mt-3">
+               <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-3">
                <div class="card1 card-sm" style="width: 300px;">
                      <i class="fa fa-snowflake-o fa-3x mx-auto text-center mt-3 head" aria-hidden="true"></i>
                      <div class="card-body">
@@ -148,7 +146,7 @@ include 'links.php';
                  </div>
                </div>
                
-               <div class="col-md-3 mb-4 mt-3">
+               <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-3">
                <div class="card1 card-sm" style="width: 300px;">
                      <i class="fa fa-snowflake-o fa-3x mx-auto text-center mt-3 head" aria-hidden="true"></i>
                      <div class="card-body">
@@ -158,7 +156,7 @@ include 'links.php';
                      </div>
                  </div>
                </div>
-               <div class="col-md-3 mb-4 mt-3">
+               <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-3">
                <div class="card1 card-sm" style="width: 300px;">
                      <i class="fa fa-snowflake-o fa-3x mx-auto text-center mt-3 head" aria-hidden="true"></i>
                      <div class="card-body">
@@ -168,7 +166,7 @@ include 'links.php';
                      </div>
                  </div>
                </div>
-               <div class="col-md-3 mb-4 mt-3">
+               <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-3">
                <div class="card1 card-sm" style="width: 300px;">
                      <i class="fa fa-snowflake-o fa-3x mx-auto text-center mt-3 head" aria-hidden="true"></i>
                      <div class="card-body">
@@ -187,10 +185,10 @@ include 'links.php';
             <div class="card" style="border-radius: 15px;">
                 <div class="card-body">
                     <div class="row mb-5">
-                        <div class="col-md-6 pt-5" style="border-radius:10px;">
+                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
                             <div>
                                 <div class="card-body">
-                                    <img src="img/img1.jpg" alt="Image" class="img-fluid" style="height: 500px; width: 500px;">
+                                    <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
                                 </div>
                             </div>
                         </div>
@@ -245,8 +243,6 @@ include 'links.php';
     </div>
 
 
-
-    <!-- Banner Starts-->
     <style>
         /* Custom CSS for banner section */
         #banner {

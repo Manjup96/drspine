@@ -95,7 +95,7 @@ include 'links.php';
 <div class="container" id="texts">
     <div class="row">
         <div class="col-md-12">
-<p class="mx-auto text-center mt-5">Dr Spine Chiropractic Clinic In Bangalore</p>
+<p class="mx-auto text-center mt-5"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></p>
 <h2 class="mx-auto text-center">Treating Spinal Stenosis the Dr. Spine Way!</h2>
 <p class="mt-3" style="text-align: justify;">Spinal Canal stenosis is a general term that best describes the “pinched nerve” feeling some patients have when their back starts paining or aching. When spinal vertebral joints become misaligned due to accidents, improper exercises, or poor working or sleeping conditions, this can cause acute pressure on spinal nerve roots that then cause considerable pain.</p>
 <p class="mt-3" style="text-align: justify;">At Dr. Spine, our doctors have treated hundreds of patients suffering from spinal stenosis using a combination of chiropractic care and specific treatment modalities. Our spine specialists are well trained to accurately assess your condition, then use a variety of chiropractic and other non-invasive methods to bring about lasting relief.</p> 
@@ -103,15 +103,15 @@ include 'links.php';
     </div>
     </div>
 
-    <div class="container mt-3 mb-3">
+    <div class="container mt-5 mb-5 ">
         <div class="row justify-content-center">
             <div class="card" style="border-radius: 15px;">
                 <div class="card-body">
                     <div class="row mb-5">
-                        <div class="col-md-6 pt-5" style="border-radius:10px;">
+                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
                             <div>
                                 <div class="card-body">
-                                    <img src="img/img1.jpg" alt="Image" class="img-fluid" style="height: 500px; width: 500px;">
+                                    <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,6 @@ include 'links.php';
             </div>
         </div>
     </div>
-
 
 
     <style>
@@ -236,7 +235,6 @@ include 'links.php';
             </div>
         </div>
     </div>
-
 
        <!-- Footer Start -->
        <?php include("footer.php"); ?>

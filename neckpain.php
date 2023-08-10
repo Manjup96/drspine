@@ -68,6 +68,25 @@ include 'links.php';
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
         }
+
+          /* CSS for desktop view */
+    #hide_img {
+        display:none;
+    } 
+
+    /* CSS for mobile view */
+    @media only screen and (max-width: 767px) {
+        #hide_img {
+            display: none;
+        }
+    } 
+  
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #hide_img {
+    display: block;
+  }
+}
+   
 </style>
 
 
@@ -77,7 +96,7 @@ include 'links.php';
          <div class="card-body">
          <div class="row mb-5">
           <div class="col-md-6">
-                <p class="mx-auto text-center mt-5" style="font-size:20px; bg-color:#495057;">Non-Invasive Treatment For Neck Pain Sufferers</p>
+                <p class="mx-auto text-center mt-5"><span style="background-color: #bdc3c7 ">Non-Invasive Treatment For Neck Pain Sufferers</span></p>
                   <p style="font-size:20px">Dr. Spine with the primary focus of pain management in your spine provides the most effective treatment for Neck and lower back areas with right Chiropractic care. People with older ages also develop these issues that are characterized by precise gentle care and recommended solutions.</p>
             
          </div>
@@ -85,6 +104,7 @@ include 'links.php';
         <div>
           <div class="card-image">
             <img src="img/neck.png" alt="">
+            <img src="img/about3.png" alt="" style="margin-top: 10px; width: 500px; height: 350px;" id="hide_img" class="img-fluid ipad-image-class">
           </div>
         </div>
       </div>
@@ -94,16 +114,35 @@ include 'links.php';
  </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-lg-6 col-xs-12">
+            <div class="video-container pt-5">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;" class="border rounded border-dark">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/JDIWSBm4hVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ </div>
+</div>
 
-<div class="container mt-3 mb-3">
+        <div class="col-md-6 col-lg-6 col-xs-12">
+            <div class="video-container pt-5">
+                 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;" class="border rounded border-dark">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https:www.youtube.com/embed/x3yDLHdVY6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5 ">
         <div class="row justify-content-center">
             <div class="card" style="border-radius: 15px;">
                 <div class="card-body">
                     <div class="row mb-5">
-                        <div class="col-md-6 pt-5" style="border-radius:10px;">
+                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
                             <div>
                                 <div class="card-body">
-                                    <img src="img/img1.jpg" alt="Image" class="img-fluid" style="height: 500px; width: 500px;">
+                                    <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
                                 </div>
                             </div>
                         </div>
@@ -156,7 +195,6 @@ include 'links.php';
             </div>
         </div>
     </div>
-
 
 
     <style>

@@ -6,7 +6,9 @@ include 'links.php';
 
 <body>
     <?php
+    $page = 'gallery';
     include 'menu.php';
+   
     ?>
     
 

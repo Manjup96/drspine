@@ -325,7 +325,7 @@ include 'links.php';
             <div class="col-md-4  " style="text-align:center;">
                 <div class="card m-3" >
                     <img src="img/doctor_2.png" alt="John" style="width:100%">
-                    <h2>Dr. Michael Wohlgemuth</h2>
+                    <h2>Dr. Michael<br>Wohlgemuth</h2>
                     <a href="michael_wohlgemuth.php" class="a_card"><button>View More</button></a>
                 </div>
             </div>

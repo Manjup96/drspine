@@ -58,10 +58,36 @@ include 'links.php';
     }
 
     /* inner banner ends */
+    .carousel-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+    z-index: 1; /* Place overlay above the image */
+}
+
+#text h1 {
+        background-image: linear-gradient(to right, #000000, #34b6de, #000000);
+        background-clip: text;
+        -webkit-background-clip: text; /* For compatibility with some browsers */
+        text-align: center;
+        font-size: 35px;
+        color: transparent; /* Set the text color to transparent to make the background visible */
+        margin-bottom: 50px;
+        margin-top: 50px;
+        }
+
 
 </style>
   <div class="carousel-inner">
         <div class="carousel-item active">
+        <div class="overlay"></div>
             <img src="img/doctorbanner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-flex align-items-center justify-content-center">
                 <h2>DOCMIKE</h2>
@@ -72,12 +98,12 @@ include 'links.php';
     
 
     
-    <div class="container">
+    <div class="container" id="text">
         <div class="row">
             <div class="col-lg-12 mt-5">
                 <p class="text-center font-weight-bold">MANILA’S WELLNESS GURU AND CHIROPRACTOR</p>
-                <p style="font-size: 35px; font-weight:bold" class="text-center">OUR CHIROPRACTIC DIRECTOR -</p>
-                <p style="font-size: 35px; font-weight:bold" class="text-center">DOCMIKE</p>
+                <h1  class="text-center">OUR CHIROPRACTIC DIRECTOR </h1>
+                <h1  class="text-center">DOCMIKE</h1>
                 
             </div>
         </div>
@@ -143,7 +169,8 @@ include 'links.php';
     .video .video-container {
       padding: 20px;
       background-color: #f2f2f2;
-      margin-top: 30px;
+      margin-top: 10px;
+
     }
   
     .video .embed-responsive {
@@ -153,7 +180,9 @@ include 'links.php';
       padding: 0;
       overflow: hidden;
       border-radius: 10px;
-      margin-top: 80px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+
     }
   
     .video .embed-responsive::before {

@@ -57,10 +57,25 @@ include 'links.php';
     }
 
     /* inner banner ends */
+    .carousel-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+    z-index: 1; /* Place overlay above the image */
+}
+
 
 </style>
   <div class="carousel-inner">
         <div class="carousel-item active">
+        <div class="overlay"></div>
             <img src="img/doctorbanner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-flex align-items-center justify-content-center">
                 <h2>Dr. Chetan Upadhyaya</h2>
@@ -191,7 +206,7 @@ include 'links.php';
             <h1>CONSULT DR. CHETAN UPADHYAYA</h1>
             <p>Dr.Chetan Upadhyaya is a Doctor of Ayurvedic for Spine Related Issues</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 d-flex justify-content-center align-items-center">
             <button data-bs-toggle="modal" data-bs-target="#bookingModal">&nbsp; Book NOW!&nbsp;</button>
           </div>
         </div>

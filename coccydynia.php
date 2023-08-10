@@ -82,15 +82,21 @@ include 'links.php';
             
         }
 
-        .card h5 {
-            font-size: 18px;
-            margin-bottom: 40px;
-        }
+
+        .card h4 {
+        
+        font-size: 23px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        background-color: #bdc3c7;
+        text-align:center;
+    }
 
         .card h2 {
-            font-size: 26px;
+            font-size: 35px;
             color: grey;
             margin-bottom: 50px;
+            margin-top: 40px;
         }
 
         .card-title {
@@ -99,7 +105,7 @@ include 'links.php';
         }
 
         .card-text {
-            font-size: 17px;
+            font-size: 20px;
             text-align: justify;
             line-height: 1.6;
         }
@@ -124,6 +130,33 @@ include 'links.php';
             margin-top: 50px;
             border-radius: 20px;
         }
+        @media (max-width: 767px) {
+    /* Your mobile styles here */
+    .card-body h4 {
+       font-size: 17px;
+    }
+    .card-body h2 {
+        font-size: 26px;
+    }
+    .card-body p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    .card-body h4 {
+       font-size: 20px;
+    }
+    .card-body h2 {
+        font-size: 30px;
+    }
+    .card-body p {
+        font-size: 17px;
+    }
+}
+
     </style>
 
 
@@ -131,7 +164,7 @@ include 'links.php';
     <div class="row no-gutters">
         <div class="col-md-8">
             <div class="card-body">
-                <h5>Treating Coccydynia Pain Condition</h5>
+                <h4>Treating Coccydynia Pain Condition</h4>
                 <h2>Coccydynia Pain Condition</h2>
                 <p class="card-text">Coccydynia is referred to as the inflammation of the tailbone or the coccyx, the bony area located between the buttocks right over the anus. It entails tenderness and aches at the tip of the tailbone, leading to difficulties in sitting or walking. <br>
                 Coccydynia is associated with a deep injury or trauma that manifests later through a fracture of the tailbone. Despite its unassuming size, the coccyx has several vital functions. It serves as the "tripod" offering weight-bearing support to a person in a seated position. Accounts of Coccydynia in individuals can be traced back to the 16th century; it's an extremely hard issue to diagnose and treat correctly. <br>
@@ -161,13 +194,13 @@ include 'links.php';
         }
 
         h2 {
-            font-size: 26px;
+            font-size: 35px;
             color: grey;
             margin-bottom: 20px;
         }
 
         p {
-            font-size: 17px;
+            font-size: 20px;
             line-height: 1.6;
             margin-bottom: 20px;
             text-align: justify;
@@ -187,6 +220,33 @@ include 'links.php';
             margin-top: 20px;
             margin-bottom: 20px;
         }
+        @media (max-width: 767px) {
+    /* Your mobile styles here */
+    #texts h4 {
+       font-size: 17px;
+    }
+    #texts h2 {
+        font-size: 26px;
+    }
+    #texts p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles here */
+    #texts h4 {
+       font-size: 20px;
+    }
+    #texts h2 {
+        font-size: 30px;
+    }
+    #texts p {
+        font-size: 17px;
+    }
+}
+
 
 </style>
 
@@ -235,6 +295,72 @@ include 'links.php';
 
 
 <!-- Paragraphs Section Ends -->
+
+
+<!-- Form Section Starts -->
+<div class="container mt-5 mb-5 ">
+        <div class="row justify-content-center">
+            <div class="card" style="border-radius: 15px;">
+                <div class="card-body">
+                    <div class="row mb-5">
+                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
+                            <div>
+                                <div class="card-body">
+                                    <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-5">
+                            <form action=" " method="POST">
+                                <div class="row">
+                                    <h2 class="text-center pb-2" style="color:gray">Request a Callback</h2>
+                                    <div class="col-md-6 mb-3">
+
+                                        <label for="firstName" class="form-label">First Name<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="mobile" class="form-label">Mobile Number<span class="text-danger">*</span></label>
+                                        <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email address<span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="chooseOption" class="form-label">Choose your nearest clinic (3 clinics in Bangalore)</label>
+                                    <select class="form-select" id="chooseOption">
+                                        <option selected>none</option>
+                                        <option value="option1">Indiranagar clinic</option>
+                                        <option value="option2">Whitefield clinic</option>
+                                        <option value="option3">New BEL Road clinic</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="textarea" class="form-label">Write your message below</label>
+                                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn fs-4" style="background-color: #55b6c7; color: white; width:80%;">Request a callback</button>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Form Section Starts -->
   
 
 <!-- Banner Starts-->
@@ -264,6 +390,7 @@ include 'links.php';
             margin-bottom: 20px;
             /* Slightly reduced margin */
             margin-left: 5px;
+            text-align: center;
         }
 
         #banner button {

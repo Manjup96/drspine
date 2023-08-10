@@ -59,14 +59,28 @@ include 'links.php';
     }
 
     /* inner banner ends */
+    .carousel-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+    z-index: 1; /* Place overlay above the image */
+}
+
 
 </style>
   <div class="carousel-inner">
         <div class="carousel-item active">
+        <div class="overlay"></div> 
             <img src="img/doctorbanner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-flex align-items-center justify-content-center">
-                <h2>   Dr. Michael Wohlgemuth
-</h2>
+                <h2>   Dr. Michael Wohlgemuth</h2>
             </div>
 
         </div>
@@ -138,7 +152,7 @@ include 'links.php';
         </div>
        
     </div>
-
+   
     <style>
         /* Custom CSS for banner section */
           /* Custom CSS for banner section */
@@ -173,7 +187,7 @@ include 'links.php';
             border: none;
             border-radius: 20px;
             /* Slightly reduced border radius */
-            padding: 20px 20px;
+            padding: 10px 10px;
             /* Adjusted padding */
             font-size: 20px;
             /* Slightly reduced font size */
@@ -198,18 +212,17 @@ include 'links.php';
         }
     </style>
     
-<div class="container-fluid mb-5 mt-5" id="banner">
+    <div class="container-fluid mb-5 mt-5" id="banner">
     <div class="row">
         <div class="col-md-8">
             <h1>CONSULT DR. MICHAEL WOHLGEMUTH</h1>
             <p>Dr. Michael Wohlgemuth is a Doctor of Chiropractic at Dr.Spine Indira Nagar Clinic</p>
         </div>
-        <div class="col-md-4">
-            <button data-bs-toggle="modal" data-bs-target="#bookingModal">&nbsp; Book NOW!&nbsp;</button>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+            <button data-bs-toggle="modal" data-bs-target="#bookingModal">Book NOW!</button>
         </div>
     </div>
 </div>
-
 
  <!-- Modal -->
  <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

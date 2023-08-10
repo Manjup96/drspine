@@ -6,6 +6,7 @@ include 'links.php';
 
 <body>
     <?php
+     $page = 'services';
     include 'menu.php';
     ?>
     
@@ -64,10 +65,21 @@ include 'links.php';
             width: 100%;
             max-width: 1100px;
             margin: 40px auto 30px;
-            padding: 20px;
+            padding: 10px;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
         }
+        
+        #image1 {
+  margin-top: 25px;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  #image1 {
+    margin-top: 0px; /* Adjust the value for smaller screens */
+  }
+}
 
           /* CSS for desktop view */
     #hide_img {
@@ -86,13 +98,27 @@ include 'links.php';
     display: block;
   }
 }
-   
+
+#video {
+ padding-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  #video {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #video {
+        padding-bottom: 60px;
+    }
+}
 </style>
 
 
     <div class="container mt-3 mb-3">
       <div class="row">
-         <div class="card" style="padding:none">
+         <div class="card">
          <div class="card-body">
          <div class="row mb-5">
           <div class="col-md-6">
@@ -100,7 +126,7 @@ include 'links.php';
                   <p style="font-size:20px">Dr. Spine with the primary focus of pain management in your spine provides the most effective treatment for Neck and lower back areas with right Chiropractic care. People with older ages also develop these issues that are characterized by precise gentle care and recommended solutions.</p>
             
          </div>
-      <div class="col-md-6">
+      <div class="col-md-6" id="image1">
         <div>
           <div class="card-image">
             <img src="img/neck.png" alt="">
@@ -114,12 +140,12 @@ include 'links.php';
  </div>
 </div>
 
-<div class="container">
+<div class="container card" id="video">
     <div class="row">
         <div class="col-md-6 col-lg-6 col-xs-12">
             <div class="video-container pt-5">
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;" class="border rounded border-dark">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/JDIWSBm4hVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/JDIWSBm4hVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
  </div>
 </div>
@@ -127,14 +153,14 @@ include 'links.php';
         <div class="col-md-6 col-lg-6 col-xs-12">
             <div class="video-container pt-5">
                  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;" class="border rounded border-dark">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https:www.youtube.com/embed/x3yDLHdVY6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https:www.youtube.com/embed/x3yDLHdVY6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
  </div>
         </div>
     </div>
 </div>
 
-<div class="container mt-5 mb-5 ">
+<div class="container mt-5 mb-5">
         <div class="row justify-content-center">
             <div class="card" style="border-radius: 15px;">
                 <div class="card-body">

@@ -163,7 +163,8 @@
 
                 <li class="nav-item" style="margin-left: 15px;">
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle text-center <?php if ($page == 'services') echo 'active' ?>" style="<?php echo ($page == 'services') ? 'background-color:#34B6DE;color:white' : ''; ?>" data-bs-toggle="dropdown">Services</a>
+                    <a href="services.php" class="nav-link dropdown-toggle text-center <?php if ($page == 'services') echo 'active' ?>" style="<?php echo ($page == 'services') ? 'background-color:#34B6DE;color:white' : ''; ?>" data-bs-toggle="dropdown">Services</a>
+
                         <div class="dropdown-menu m-0 custom-dropdown">
                             <div class="container">
                                 <div class="row">

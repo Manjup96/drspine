@@ -6,6 +6,7 @@ include 'links.php';
 
 <body>
     <?php
+    $page = 'services';
     include 'menu.php';
     ?>
 
@@ -55,7 +56,7 @@ include 'links.php';
         </div>
     </div>
     <style>
-        .card1 {
+        .card {
             position: relative;
             width: 100%;
             max-width: 1100px;
@@ -64,6 +65,17 @@ include 'links.php';
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
         }
+
+        #image1 {
+  margin-top: 35px;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  #image1 {
+    margin-top: 0px; /* Adjust the value for smaller screens */
+  }
+}
 
           /* CSS for desktop view */
     #hide_img {
@@ -90,7 +102,7 @@ include 'links.php';
 
     <div class="container mt-3 mb-3">
         <div class="row">
-            <div class="card1" style="padding:none">
+            <div class="card" style="padding:none">
                 <div class="card-body">
                     <div class="row mb-5">
                         <div class="col-md-6">
@@ -99,7 +111,7 @@ include 'links.php';
                             <p style="font-size:20px; text-align:justify;">Dr. Spine with the primary focus of pain management in your spine provides the most effective treatment for Neck and lower back areas with right Chiropractic care. People with older ages also develop these issues that are characterized by precise gentle care and recommended solutions.</p>
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" id="image1">
                             <div>
                                 <div class="card-image">
                                     <img src="img/img-2.png" alt=""><img src="img/about3.png" alt="" style="margin-top: 10px; width: 500px; height: 350px;" id="hide_img" class="img-fluid ipad-image-class">

@@ -79,8 +79,8 @@ include 'links.php';
         text-align: center;
         font-size: 35px;
         color: transparent; /* Set the text color to transparent to make the background visible */
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         }
 
 

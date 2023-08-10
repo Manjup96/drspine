@@ -91,7 +91,7 @@ include 'links.php';
         <div class="row">
             <div class="col-md-12 mt-5  col-sm-12">
                 <p class="text-center font-weight-bold">
-                    <span style="background-color: gray " class=" p-1 rounded">&nbsp;DR SPINE CHIROPRACTIC CLINIC BANGALORE&nbsp;</span>
+                    <span style="background-color: gray " >&nbsp;DR SPINE CHIROPRACTIC CLINIC BANGALORE&nbsp;</span>
                 </p>
                 
                 <h1 style="font-size: 35px; font-weight:bold" class="text-center">Dr. John Clark</h1>

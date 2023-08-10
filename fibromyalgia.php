@@ -5,12 +5,7 @@ include 'links.php';
 ?>
 <style>
     /* Reset CSS */
-    ul,
-    li {
-        margin: 0;
-        padding: 0;
-        list-style: disc;
-    }
+ */
 
     /* Your existing styles */
     .pt-3 {
@@ -91,22 +86,22 @@ include 'links.php';
                                         <p style="font-size:20px;text-align: justify;" class="pt-3">It is commonly found in females as compared to males and is most common among the age group of 20-50 years. As a result, it is critical to recognize and identify whether or not you have Fibromyalgia by learning as much as possible about the condition and then receiving proper therapy.</p>
                                         <h2 style="text-align:left;color:#34B6DE;font-size:35px;" class="pt-5">Symptoms of Fibromyalgia</h2>
                                         <p style="font-size:20px;text-align:justify" class="pt-3"> It is necessary to conduct some self-analysis in order to diagnose any condition. One of the most important components of the process is properly recognizing the symptoms. Therefore, mentioned below are some of the most prevalent Fibromyalgia symptoms:</p>
-                                        <ul style="padding-left:20px;">
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">Widespread body pain: The body pain in the case of Fibromyalgia is often said to last for at least 2-3 months. Also, this pain must occur above and below your waist area, accompanied by pain in both sides of your body.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">Fatigue: People suffering from Fibromyalgia often feel tired even after having slept for a longer duration; in some cases, their sleep is often disrupted by pain.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">Cognitive difficulty: ‘Fibro frog’ is one of the symptoms of this disorder that impairs a person’s ability to concentrate on intellectual tasks or pay attention while undertaking activities.</li>
+                                        <ul style="padding:30px; font-size:18px;list-style-type:none;">
+                                            <li style="list-style-type: disc;" class="pt-3">Widespread body pain: The body pain in the case of Fibromyalgia is often said to last for at least 2-3 months. Also, this pain must occur above and below your waist area, accompanied by pain in both sides of your body.</li>
+                                            <li style="list-style-type: disc;" class="pt-3">Fatigue: People suffering from Fibromyalgia often feel tired even after having slept for a longer duration; in some cases, their sleep is often disrupted by pain.</li>
+                                            <li style="list-style-type: disc;" class="pt-3">Cognitive difficulty: ‘Fibro frog’ is one of the symptoms of this disorder that impairs a person’s ability to concentrate on intellectual tasks or pay attention while undertaking activities.</li>
                                         </ul>
                                         <p style="font-size:20px;text-align:justify" class="pt-3">Other than these symptoms, some other conditions that result in Fibromyalgia are:-</p>
                                         <div style="font-size:17px;text-align:justify;padding-left:20px;" class="pt-3">
-                                            <ul>
-                                                <li>The restless legs syndrome during sleep</li>
-                                                <li>Dizziness</li>
-                                                <li>Skin issues</li>
-                                                <li>Depression and anxiety</li>
-                                                <li>Nausea</li>
-                                                <li>Headaches and migraines</li>
-                                                <li>Digestive problems</li>
-                                                <li>Tingling sensation in hands and feet, etc.</li>
+                                            <ul style="padding:30px; font-size:18px;list-style-type:none;">
+                                                <li style="list-style-type: disc;">The restless legs syndrome during sleep</li>
+                                                <li style="list-style-type: disc;">Dizziness</li>
+                                                <li style="list-style-type: disc;">Skin issues</li>
+                                                <li style="list-style-type: disc;">Depression and anxiety</li>
+                                                <li style="list-style-type: disc;">Nausea</li>
+                                                <li style="list-style-type: disc;">Headaches and migraines</li>
+                                                <li style="list-style-type: disc;">Digestive problems</li>
+                                                <li style="list-style-type: disc;">Tingling sensation in hands and feet, etc.</li>
                                             </ul>
                                         </div>
 
@@ -141,15 +136,15 @@ include 'links.php';
                                         <p style="font-size:20px;text-align: justify;" class="pt-3">The exact cause of Fibromyalgia is still unclear. But a few pieces of research suggest that it amplifies a pain sensation in your central nervous system and spinal cord process resulting in painful and sometimes non-painful signals to your nerves. The abnormal changes in the level of chemicals in the brain result in painful sensations.</p>
                                         <p style="font-size:20px;text-align: justify;" class="pt-3">Some of the possible factors that may result in Fibromyalgia are:-</p>
 
-                                        <ul style="padding-left:20px;">
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">A traumatic experience in the past: Any stressful or traumatic emotional event experienced in the past, like a car accident etc., possibly results in Fibromyalgia.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">Repetitive injuries: Any repetitive injury in a specific area can cause this disorder.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">Hereditary issues: You are more likely to develop Fibromyalgia if someone in your family has had it before.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">If you are female: The female to male ratio, in this case, is 3:1. Hence women are most likely to suffer from Fibromyalgia.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">Any other disorder: If suffering from any other illness such as an infection or Arthritis, it can trigger Fibromyalgia.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">Improper diet: Taking an inadequate diet or improper diet is one of the top reasons behind any disease.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">Inadequate or improper sleep: Taking insufficient sleep or changing sleeping patterns may also result in Fibromyalgia.</li>
-                                            <li style="font-size:17px;text-align:justify" class="pt-3">No exercise: Exercising on a daily basis keeps you physically and mentally fit. Fibromyalgia can be caused by not exercising or seldom exercising.</li>
+                                        <ul style="padding:30px; font-size:18px;list-style-type:none;">
+                                            <li style="list-style-type: disc;" class="pt-3">A traumatic experience in the past: Any stressful or traumatic emotional event experienced in the past, like a car accident etc., possibly results in Fibromyalgia.</li>
+                                            <li style="list-style-type: disc;" class="pt-3">Repetitive injuries: Any repetitive injury in a specific area can cause this disorder.</li>
+                                            <li style="list-style-type: disc;" class="pt-3">Hereditary issues: You are more likely to develop Fibromyalgia if someone in your family has had it before.</li>
+                                            <li style="list-style-type: disc;" class="pt-3">If you are female: The female to male ratio, in this case, is 3:1. Hence women are most likely to suffer from Fibromyalgia.</li>
+                                            <li style="list-style-type: disc;"  class="pt-3">Any other disorder: If suffering from any other illness such as an infection or Arthritis, it can trigger Fibromyalgia.</li>
+                                            <li style="list-style-type: disc;" class="pt-3">Improper diet: Taking an inadequate diet or improper diet is one of the top reasons behind any disease.</li>
+                                            <li style="list-style-type: disc;" class="pt-3">Inadequate or improper sleep: Taking insufficient sleep or changing sleeping patterns may also result in Fibromyalgia.</li>
+                                            <li style="list-style-type: disc;" class="pt-3">No exercise: Exercising on a daily basis keeps you physically and mentally fit. Fibromyalgia can be caused by not exercising or seldom exercising.</li>
                                         </ul>
                                         <h2 style="text-align:left;color:#34B6DE;font-size:35px;" class="pt-4">Diagnosis of Fibromyalgia</h2>
                                         <p style="font-size:20px;text-align:justify" class="pt-3">There is no particular test that can diagnose Fibromyalgia. Its clinical diagnosis is based on your physical examination and symptoms. Its assessment is heavily influenced by your symptoms, as well as your medical and family histories.</p>
@@ -159,14 +154,14 @@ include 'links.php';
                                         <div style="font-size:17px;text-align:justify" class="pt-3">
                                             </p>
 
-                                            <ul style="padding-left:20px;">
-                                                <li>Visiting a Chiropractor could be beneficial along with other treatments.</li>
-                                                <li>Taking <a href="https://www.medicalnewstoday.com/articles/248320" target="_blank">antidepressants</a> as per prescription.</li>
-                                                <li>Taking proper rest and adequate sleep.</li>
-                                                <li>Following stress management techniques.</li>
-                                                <li>Doing exercise to increase your strength.</li>
-                                                <li>Intaking prescribed pain relievers.</li>
-                                                <li>Availing chiropractic services, mitigating the need for surgery.</li>
+                                            <ul style="padding:30px; font-size:18px;list-style-type:none;">
+                                                <li style="list-style-type: disc;">Visiting a Chiropractor could be beneficial along with other treatments.</li>
+                                                <li style="list-style-type: disc;">Taking <a href="https://www.medicalnewstoday.com/articles/248320" target="_blank">antidepressants</a> as per prescription.</li>
+                                                <li style="list-style-type: disc;">Taking proper rest and adequate sleep.</li>
+                                                <li style="list-style-type: disc;">Following stress management techniques.</li>
+                                                <li style="list-style-type: disc;">Doing exercise to increase your strength.</li>
+                                                <li style="list-style-type: disc;">Intaking prescribed pain relievers.</li>
+                                                <li style="list-style-type: disc;">Availing chiropractic services, mitigating the need for surgery.</li>
                                             </ul>
                                             <p style="font-size:20px;text-align:justify" class="pt-3">The fatigue, pain, and improper sleep relating to Fibromyalgia can interfere with your ability to carry out even the simplest daily tasks at home to complex work activities. The irritation of not being able to accomplish your work can result in other health conditions as well.</p>
                                             <p style="font-size:20px;text-align:justify" class="pt-3">As a result, making certain lifestyle modifications or seeking chiropractic care can often help people cope with Fibromyalgia.</p>

@@ -5,13 +5,6 @@ include 'links.php';
 ?>
 <style>
     /* Reset CSS */
-    ul,
-    li {
-        margin: 0;
-        padding: 0;
-        list-style: disc;
-
-    }
 
     /* Your existing styles */
     .pt-3 {
@@ -157,20 +150,20 @@ include 'links.php';
                             </div>
 
                             <h2 style="font-size:35px;color:gray" class="pt-3 pl-5">Symptoms of Piriformis Syndrome</h2>
-                          <div style="font-size:17px;text-align:justify;padding-left:20px;" class="pt-3">
-                                <ul>
-                                    <li>Severe pains in the buttocks even in the slightest strenuous activity e.g running or climbing a staircase. The pain is especially felt on one side any type of activity that requires the use of your thigh and buttock muscles becomes hard to do.</li>
-                                    <li>Presence of a sharp pain that is felt from the lower back and radiates down below the knee. Tingling, general numbness when you relax your muscles during rest or even during activities. Mostly, the numbness is felt after sitting for prolonged hours.</li>
-                                    <li>Inability to stand upright since the pain is triggered by standing and neutralized by sitting down. Sometime, the pain may shoot down the armstring and cause a muscle spasm to the thigh.</li>
-                                    <li>Instances where an individuals buttock muscles waste away due to other factors. That individual is likely to acquire piriformis syndrome..</li>
-                                    <li>Pain radiates from the back to the front making it hard to walk.</li>
-                                    <li>Intermittent pain</li>
-                                    <li>Sharp pains in the lower back and very tender spots on the hip or buttocks.</li>
-                                    <li>The pain may extend as far as the foot, down the length of the sciatic nerve.</li>
-                                    <li>Severe buttock pain that makes it impossible to work or even exercise</li>
-                                </ul>
-                            </div> 
-                          
+                            <div style="font-size:18px;text-align:justify;padding-left:20px;" class="pt-2"> 
+                            <ul style="padding:30px; font-size:18px; list-style-type:none;">
+                                <li style="list-style-type: disc;">Severe pains in the buttocks even in the slightest strenuous activity e.g running or climbing a staircase. The pain is especially felt on one side any type of activity that requires the use of your thigh and buttock muscles becomes hard to do.</li>
+                                <li style="list-style-type: disc;">Presence of a sharp pain that is felt from the lower back and radiates down below the knee. Tingling, general numbness when you relax your muscles during rest or even during activities. Mostly, the numbness is felt after sitting for prolonged hours.</li>
+                                <li style="list-style-type: disc;">Inability to stand upright since the pain is triggered by standing and neutralized by sitting down. Sometime, the pain may shoot down the armstring and cause a muscle spasm to the thigh.</li>
+                                <li style="list-style-type: disc;">Instances where an individuals buttock muscles waste away due to other factors. That individual is likely to acquire piriformis syndrome..</li>
+                                <li style="list-style-type: disc;">Pain radiates from the back to the front making it hard to walk.</li>
+                                <li style="list-style-type: disc;">Intermittent pain</li>
+                                <li style="list-style-type: disc;">Sharp pains in the lower back and very tender spots on the hip or buttocks.</li>
+                                <li style="list-style-type: disc;">The pain may extend as far as the foot, down the length of the sciatic nerve.</li>
+                                <li style="list-style-type: disc;">Severe buttock pain that makes it impossible to work or even exercise</li>
+                            </ul>
+                             </div> 
+                           
 
                         </div>
                     </div>
@@ -188,19 +181,19 @@ include 'links.php';
                         <div class="card-body">
 
                             <h2 style="font-size:35px;color:gray" class="pt-3 pl-5">Treatment for Piriformis Syndrome</h2>
-                            <div style="font-size:17px;text-align:justify;padding-left:20px;" class="pt-3">
-                                <ul>
-                                    <li>Stretching and simple gentle exercises help ease the pain of the syndrome. More challenging exercises can be done after the condition improves.</li>
-                                    <li>Use of non-steroidal anti-inflammatory drugs to manage pain so that it becomes easier to exercise gently. The drugs help control pain.</li>
-                                    <li>Rest is very helpful especially in the first days after the injury. This will ensure that you avoid activities that worsen the pain and give time for your muscles to heal.</li>
-                                    <li>After enough resting, practice some strengthening activities to support the buttock muscles and hips, moving the hips against resistance is actually very effective and speeds up healing.</li>
-                                    <li>Gently massaging of the surrounding muscles could help. Some people will prefer a massage session with ice or heat packs.</li>
-                                    <li>Heat is used for some time then is alternated with a cold for a few days. This helps relax the muscle and reduce pain.
-                                        In rare circumstances, a surgical method is used where they relieve the tightness of the muscle and the compression of the static nerve to minimize pain.</li>
-                                    <li>Clinical injections may be of help, it is accompanied by physical therapy to regain the use of the piriformis and prevent any harm to the surrounding muscles.</li>
-                                    <li>Back pains prove to be very disturbing whenever you are either working or working out and especially when you feel the radiating pain in your back. You may not be sure of what exactly the problem is but Piriformis syndrome is more felt close to your hip and is hard to confuse with normal exhaustion pain after work. Piriformis syndrome lacks any simple diagnostic test so it causes much irritation on the sciatic nerve. Mostly, individuals describe it as a pain in the buttocks, thigh, and foot but if not treated, piriformis syndrome symptoms can get worse with time. We now have a solution right?</li>
-                                </ul>
-                            </div>
+                            <div style="font-size:18px;text-align:justify;padding-left:20px;" class="pt-2"> 
+                            <ul style="padding:30px; font-size:18px;list-style-type:none;">
+                                <li style="list-style-type: disc;">Stretching and simple gentle exercises help ease the pain of the syndrome. More challenging exercises can be done after the condition improves.</li>
+                                <li style="list-style-type: disc;">Use of non-steroidal anti-inflammatory drugs to manage pain so that it becomes easier to exercise gently. The drugs help control pain.</li>
+                                <li style="list-style-type: disc;">Rest is very helpful especially in the first days after the injury. This will ensure that you avoid activities that worsen the pain and give time for your muscles to heal.</li>
+                                <li style="list-style-type: disc;">After enough resting, practice some strengthening activities to support the buttock muscles and hips, moving the hips against resistance is actually very effective and speeds up healing.</li>
+                                <li style="list-style-type: disc;">Gently massaging of the surrounding muscles could help. Some people will prefer a massage session with ice or heat packs.</li>
+                                <li style="list-style-type: disc;">Heat is used for some time then is alternated with a cold for a few days. This helps relax the muscle and reduce pain.
+                                    In rare circumstances, a surgical method is used where they relieve the tightness of the muscle and the compression of the static nerve to minimize pain.</li>
+                                <li style="list-style-type: disc;">Clinical injections may be of help, it is accompanied by physical therapy to regain the use of the piriformis and prevent any harm to the surrounding muscles.</li>
+                                <li style="list-style-type: disc;">Back pains prove to be very disturbing whenever you are either working or working out and especially when you feel the radiating pain in your back. You may not be sure of what exactly the problem is but Piriformis syndrome is more felt close to your hip and is hard to confuse with normal exhaustion pain after work. Piriformis syndrome lacks any simple diagnostic test so it causes much irritation on the sciatic nerve. Mostly, individuals describe it as a pain in the buttocks, thigh, and foot but if not treated, piriformis syndrome symptoms can get worse with time. We now have a solution right?</li>
+                            </ul>
+                            </div> 
                         </div>
                     </div>
                 </div>

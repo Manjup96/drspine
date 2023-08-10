@@ -11,6 +11,7 @@ include 'links.php';
     ul {
     list-style-type: none;
   }
+  
   ul li {
     list-style-type: disc;
    

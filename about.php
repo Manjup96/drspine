@@ -228,7 +228,7 @@ include 'links.php';
 
     <div class="container">
         <div class="row">
-<<<<<<< HEAD
+
             <div class="col-md-6">
                 <p><span style="background-color: gray">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
                 <h1>Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h1><br>
@@ -239,7 +239,7 @@ include 'links.php';
             </div>
             <div class="col-md-6">
                 <img src="img/about4.png" alt="" class="img-fluid">
-=======
+
             <div class="col-md-12">
                 <div class="container mt-3 mb-5">
                     <div class="row justify-content-center">
@@ -269,7 +269,7 @@ include 'links.php';
                     </div>
                 </div>
 
->>>>>>> 3f3cc1af7a630bb6cfe7420e03c6fafcd2fd3b34
+
             </div>
 
         </div>

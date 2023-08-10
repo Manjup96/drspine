@@ -87,14 +87,14 @@ include 'links.php';
     </div>
 
 
-    <div class="container">
+    <div class="container" id="text">
         <div class="row">
             <div class="col-md-12 mt-5  col-sm-12">
                 <p class="text-center font-weight-bold">
                     <span style="background-color: gray " class=" p-1 rounded">&nbsp;DR SPINE CHIROPRACTIC CLINIC BANGALORE&nbsp;</span>
                 </p>
                 
-                <p style="font-size: 35px; font-weight:bold" class="text-center">Dr. John Clark</p>
+                <h1 style="font-size: 35px; font-weight:bold" class="text-center">Dr. John Clark</h1>
 
             </div>
             
@@ -171,6 +171,17 @@ include 'links.php';
             margin-left: 0;
         }
     }
+
+    #text h1 {
+        background-image: linear-gradient(to right, #000000, #34b6de, #000000);
+        background-clip: text;
+        -webkit-background-clip: text; /* For compatibility with some browsers */
+        text-align: center;
+        font-size: 35px;
+        color: transparent; /* Set the text color to transparent to make the background visible */
+        margin-bottom: 10px;
+        margin-top: 10px;
+        }
 </style>    
 <div class="container-fluid mb-5 mt-5" id="banner">
     <div class="row">

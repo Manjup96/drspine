@@ -6,38 +6,59 @@ include 'links.php';
 
 <body>
     <?php
-    $page = 'gallery';
     include 'menu.php';
     ?>
     
 
 
-<style>
- @media only screen and (max-width: 767px) {
-        .carousel-inner .carousel-item img {
-            height: 200px;
-
-            max-width: 100%;
-
-
+    <style>
+        @media only screen and (max-width: 767px) {
+            .carousel-inner .carousel-item img {
+                height: 200px;
+    
+                max-width: 100%;
+    
+    
+            }
+    
+            .carousel-caption h2 {
+                font-size: 18px;
+                padding-top: 20%;
+    
+            }
         }
-
+        .carousel-caption {
+            display: grid;
+            place-items: center;
+            height: 100%;
+            text-align: center;
+    
+        }
+    
         .carousel-caption h2 {
-            font-size: 18px;
-            padding-top: 20%;
-
+            max-width: 80%;
+    
+            margin: 0;
+    
+            padding-top: 35px;
+    
+            color: white;
+    
         }
-    }
+    
     </style>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/banner.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-flex align-items-center justify-content-center">
-                <h2 style="font-size: 50px; bold">Gallery</h2>
+   <div class="container-fluid p-0">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <h2>Gallery Section </h2>
+                </div>
+    
             </div>
-
         </div>
     </div>
+    
     
   <style>
   .gallery {
@@ -49,7 +70,7 @@ include 'links.php';
 
   .gallery-item {
     flex: 1;
-    margin: 10px; /* Optional margin between images */
+    margin: 2px; /* Optional margin between images */
   }
 
   .gallery-item img {
@@ -112,6 +133,7 @@ include 'links.php';
 </div>
 </div>
 </center>
+<br><br>
 
 <div class="gallery" style="padding-top: 0px;" data-aos="zoom-in-right">
     <div class="gallery-item">

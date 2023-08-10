@@ -78,7 +78,7 @@ include 'links.php';
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
         <div class="row">
             <div class="col-md-6">
-                <p style="font-size:20px;text-align: justify;"><span style="background-color: gray;">&nbsp;&nbsp;Dr. Spine Clinic&nbsp;&nbsp;</span></p>
+                <p style="font-size:20px;text-align: justify;"><span style="background-color: #bdc3c7;">&nbsp;&nbsp;Dr. Spine Clinic&nbsp;&nbsp;</span></p>
                 <p style="font-size: 20px; text-align:justify">Our bodies are designed in a way that some parts, unfortunately, carry more weights compared to others. This could be due to extra exerted pressure on specific parts. The pelvic girdle, which is a ring-like structure made up of complex bones that connects the trunk and the legs help ensure balance and since it is connected to the spine, it becomes very sensitive to weights exerted. This kind of pain is more common in women than in men. The bony pelvis is made to withstand weight exerted on our body such that we maintain stability. We all have experienced pelvis pains sometime, right? Buckle up and Let me take you through some of the causes, the common symptoms, and even most importantly, how to treat the pains.</p>
             </div>
             <div class="col-md-6">

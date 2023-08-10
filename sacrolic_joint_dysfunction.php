@@ -86,7 +86,7 @@ include 'links.php';
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
       <div class="row">
         <div class="col-md-6">
-            <p style="font-size:20px;"><span style="background-color: gray ">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p>  
+            <p style="font-size:20px;"><span style="background-color: #bdc3c7;">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p>  
         <div id="others">
        <p style="font-size: 20px;text-align:justify" >The sacroiliac joint is the joint between the sacrum and the ilium bones of the pelvis connected by strong ligaments. They carry the entire weight of your upper body when you sit, stand. When affected, a dull sharp pain is felt in your buttocks, thigh, upper back or groin. The pain is triggered by standing and is more during the morning hours but subsides during the day. This chronic condition is more common than you could possibly imagine. Let us see what exactly causes it.</p>
     </div>

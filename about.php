@@ -159,7 +159,7 @@ include 'links.php';
     </div>
 
     <div style="text-align: center;" class="container pt-4" id="text">
-        <p style="font-size:20px;"><span style="background-color: gray ">&nbsp;&nbsp;Best Chiropractic Clinic In Bangalore&nbsp;&nbsp;</span></p>
+        <p style="font-size:20px;"><span style="background-color: #bdc3c7; ">&nbsp;&nbsp;Best Chiropractic Clinic In Bangalore&nbsp;&nbsp;</span></p>
         <h1>About Us</h1>
         <p style="font-size:20px;text-align: center;">Dr. Spine Clinic is India’s first Chiropractic Chain of a Clinic</p>
     </div>
@@ -173,7 +173,7 @@ include 'links.php';
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-6 pt-5" style="font-family:Open Sans, sans-serif;">
-                                        <p style="font-size:20px;"><span style="background-color: gray;">&nbsp;&nbsp;Dr. Spine Clinic&nbsp;&nbsp;</span></p>
+                                        <p style="font-size:20px;"><span style="background-color: #bdc3c7;">&nbsp;&nbsp;Dr. Spine Clinic&nbsp;&nbsp;</span></p>
                                         <h1>Top Rated Chiropractic Clinic Heal Your Back Pain Without Surgery</h1>
                                         <p style="font-size:20px;text-align: justify;">Dr. Spine Clinic is India’s first Chiropractic chain of a clinic that brings a revolutionary technology for treating back pain, neck, and a wide range of ailments through chiropractic spinal adjustment and alternative methods to treat spine-related issues.</p>
                                         
@@ -234,7 +234,7 @@ include 'links.php';
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-6 pt-4" style="font-family:Open Sans, sans-serif;">
-                                        <p style="font-size:20px;"><span style="background-color: gray">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
+                                        <p style="font-size:20px;"><span style="background-color: #bdc3c7; ">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
                                         <h1>Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h1><br>
                                         <center>
                                         <button id="Button1"><i class="fas fa-certificate"></i> QIB Certificate</button><br><br>

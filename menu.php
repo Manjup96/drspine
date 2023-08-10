@@ -136,7 +136,7 @@
 
     <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
         <a class="navbar-brand" href="#">
-            <img src="img/logo.png" alt="logo" width="70%" style="max-width: 400px; background-color: transparent;">
+            <img src="img/logo.png" alt="logo" width="70%" style="max-width: 600px; background-color: transparent;">
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

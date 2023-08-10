@@ -123,6 +123,14 @@
             width: 700px;
         }
     }
+    
+    ul {
+    list-style-type: none;
+  }
+  ul li {
+    list-style-type: disc;
+   
+  }
 </style>
 
 <!--<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-light">-->

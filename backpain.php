@@ -6,6 +6,7 @@ include 'links.php';
 
 <body>
     <?php
+    $page = 'services';
     include 'menu.php';
     ?>
 
@@ -14,16 +15,12 @@ include 'links.php';
         @media only screen and (max-width: 767px) {
             .carousel-inner .carousel-item img {
                 height: 200px;
-    
                 max-width: 100%;
-    
-    
             }
     
             .carousel-caption h2 {
                 font-size: 18px;
                 padding-top: 20%;
-    
             }
         }
         .carousel-caption {
@@ -64,10 +61,40 @@ include 'links.php';
             width: 100%;
             max-width: 1100px;
             margin: 40px auto 30px;
-            padding: 20px;
+            /* padding: 10px; */
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
         }
+
+        #image1 {
+  margin-top: 35px;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  #image1 {
+    margin-top: 0px; /* Adjust the value for smaller screens */
+  }
+}
+
+          /* CSS for desktop view */
+    #hide_img {
+        display:none;
+    } 
+
+    /* CSS for mobile view */
+    @media only screen and (max-width: 767px) {
+        #hide_img {
+            display: none;
+        }
+    } 
+  
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #hide_img {
+    display: block;
+  }
+}
+   
     </style>
 
 
@@ -79,15 +106,15 @@ include 'links.php';
                 <div class="card-body">
                     <div class="row mb-5">
                         <div class="col-md-6">
-                            <p class="mx-auto text-center mt-5" style="font-size:20px">Non-Invasive Treatment For Back Pain Sufferers</p>
+                            <p class="mx-auto text-center mt-5" style="font-size:20px"><span style="background-color: #bdc3c7 ">Non-Invasive Treatment For Back Pain Sufferers</span></p>
                             <h2 style="font-size:35px">At Dr. Spine, we offer a non-surgical method for back pain treatment in Bangalore.</h2>
-                            <p style="font-size:20px">Dr. Spine with the primary focus of pain management in your spine provides the most effective treatment for Neck and lower back areas with right Chiropractic care. People with older ages also develop these issues that are characterized by precise gentle care and recommended solutions.</p>
+                            <p style="font-size:20px; text-align:justify;">Dr. Spine with the primary focus of pain management in your spine provides the most effective treatment for Neck and lower back areas with right Chiropractic care. People with older ages also develop these issues that are characterized by precise gentle care and recommended solutions.</p>
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" id="image1">
                             <div>
                                 <div class="card-image">
-                                    <img src="img/img-2.png" alt="">
+                                    <img src="img/img-2.png" alt=""><img src="img/about3.png" alt="" style="margin-top: 10px; width: 500px; height: 350px;" id="hide_img" class="img-fluid ipad-image-class">
                                 </div>
                             </div>
                         </div>
@@ -98,15 +125,15 @@ include 'links.php';
     </div>
 
 
-    <div class="container mt-3 mb-3 ">
+    <div class="container mt-5 mb-5 ">
         <div class="row justify-content-center">
             <div class="card" style="border-radius: 15px;">
                 <div class="card-body">
                     <div class="row mb-5">
-                        <div class="col-md-6 pt-5" style="border-radius:10px;">
+                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
                             <div>
                                 <div class="card-body">
-                                    <img src="img/img1.jpg" alt="Image" class="img-fluid" style="height: 500px; width: 500px;">
+                                    <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
                                 </div>
                             </div>
                         </div>
@@ -159,7 +186,6 @@ include 'links.php';
             </div>
         </div>
     </div>
-
 
 
     <style>

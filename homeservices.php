@@ -169,23 +169,21 @@ include 'links.php';
 
 
 
-<p class="mt-3  text-center" style="font-size:16px;">Dr Spine Chiropractic Clinic In Bangalore</p>
+<p class="mt-3  text-center" style="font-size:16px;"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></p>
 
-<h2 class="mt-3  text-center" style="font-size:35px; color:#55b6c7;">Physical Therapy at Home</h2>
+<h2 class="mt-3  text-center" id="text" style="font-size:35px; color:#55b6c7;">Physical Therapy at Home</h2>
 <div class="container" id="para4">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="mt-3 mx-auto text-center" style="font-size:35px;">Physical Therapy at Home By Dr. Spine</h2>
+                <h2 class="mt-3" style="font-size:35px;">Physical Therapy at Home By Dr. Spine</h2>
                <p >Now you can have a Physical Therapist visit your home for personal treatment of your aching joints, muscles and ligaments!</p>
             <p >For many of us these days, the ability to move around or visit a medical centre can be severely restricted due to many reasons. Maybe you live in a neighbourhood that is locked down. Or perhaps you have a chronic health issue that prevents you from sitting or traveling.</p>
             <p>Regardless of the issue, we are ready to help you get back to good health and reduce pain. Our expert physical therapists will provide hands-on treatment when your circumstances make leaving home difficult. Dr Spine is now ready to take your appointment for at home Physical Therapy services.</p>    
         </div>
             <div class="col-md-6">
-                <img src="img/homeservices.jpg" alt="" style="width: 500px;; height: 500px;" >
-                <img src="img/about3.png" alt="" style="margin-top: 10px; width: 500px;; height: 350px;" id="hide_img" class="img-fluid ipad-image-class">
+                <img src="img/homeservices.jpg" alt="" style="width: 500px; height: 550px;" >
+                <img src="img/about3.png" alt="" style="margin-top: 10px; width: 500px; height: 350px;" id="hide_img" class="img-fluid ipad-image-class">
             </div>
-            
-        
         </div>
 
 
@@ -263,7 +261,7 @@ include 'links.php';
             <div class="card" style="border-radius: 15px;">
                 <div class="card-body">
                     <div class="row mb-5">
-                        <div class="col-md-6 pt-5" style="border-radius:10px;">
+                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
                             <div>
                                 <div class="card-body">
                                     <img src="img/img1.jpg" alt="Image" class="img-fluid" style="height: 500px; width: 500px;">

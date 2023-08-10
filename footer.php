@@ -8,7 +8,21 @@
               margin-top: 10px;
               /* Add some vertical spacing between the text and the link */
           }
-      }
+
+          /* ipad style for quicklinks */
+          #ipad_links {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              /* Center items in mobile view */
+          }
+
+          @media (min-width: 992px) {
+              #ipad_links {
+                  align-items: flex-start;
+                  /* Align items at the start in desktop view */
+              }
+          }
   </style>
 
 
@@ -29,7 +43,7 @@
 
   <div class="container-fluid bg-dark text-secondary p-5">
       <div class="row g-5">
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6" id="ipad_links">
               <h3 class="text-white mb-4">Quick Links</h3>
               <div class="d-flex flex-column justify-content-start">
                   <a class="text-white mb-2" style="text-decoration: none;" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
@@ -38,9 +52,9 @@
                   <!-- <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog Post</a> -->
                   <a class="text-white mb-2" style="text-decoration: none;" href="contact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                   <a class="text-white" style="text-decoration: none;" href="photo.php"><i class="bi bi-arrow-right text-primary me-2"></i>Gallery</a>
-
               </div>
           </div>
+
 
           <div class="col-lg-4 col-md-6 text-center ">
               <h3 class="text-white mb-4 ">Areas We Serve</h3>

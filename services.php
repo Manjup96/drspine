@@ -26,6 +26,7 @@ include 'links.php';
 
 <body>
     <?php
+    $page = 'services';
     include 'menu.php';
     ?>
     

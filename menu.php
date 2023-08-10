@@ -1,167 +1,229 @@
-<!DOCTYPE html>
-<html lang="en">
+<style>
+    /* Styles for desktop view */
+    @media (min-width: 1025px) {
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Your Website Title</title>
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Include FontAwesome (for icons) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        /* Add your desktop-specific styles here */
+        #navbarNav {
+            margin-left: 300px;
+        }
+    }
 
-    <style>
-        /* Reset CSS */
-        ul,
-        li {
-            margin: 0;
-            padding: 0;
-            list-style: none;
+    /* Styles for ipad view */
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .navbar-toggler {
+            margin-left: 280px;
+            font-size: 20px;
         }
 
-        /* Your existing styles */
-        .pt-3 {
-            font-size: 17px;
-            text-align: justify;
+    }
+
+    /* Styles for mobile view */
+    @media (max-width: 767px) {
+        .navbar-toggler {
+            margin-left: 60px;
+            margin-bottom: 10px;
         }
+    }
 
-        .dropdown {
-            position: relative;
+    /* Styles for iPad View */
+    @media (max-width: 1024px) {
+        #padding {
+            padding-top: 20px;
         }
+    }
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 200px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            border-radius: 5px;
-            z-index: 1;
+    /* Styles for Mobile View */
+    @media (max-width: 767px) {
+        #padding {
+            padding-top: 20px;
         }
+    }
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+    /* Reset CSS */
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
 
-        .dropdown-content a {
-            color: #333;
-            padding: 10px 15px;
-            text-decoration: none;
-            display: block;
-        }
+    /* Your existing styles */
+    .pt-3 {
+        font-size: 17px;
+        text-align: justify;
+    }
 
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
+    .dropdown {
+        position: relative;
+    }
 
-        body,
-        html {
-            overflow-x: hidden;
-        }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 500px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        color: #333;
+        padding: 10px 15px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
 
 
-        #content {
-            font-size: 18px;
-            min-width: 800px;
+    #content {
+        font-size: 18px;
+        min-width: 800px;
+        /* Adjust the width as needed */
+    }
+
+    #content .col-md-4 {
+        display: inline-block;
+        width: 30%;
+        /* This will make each column take one-third of the width */
+        padding: 5px;
+        vertical-align: top;
+    }
+
+
+    /* Default style for the logo image */
+    .logo_image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Media query for mobile screens (adjust the breakpoint as needed) */
+    @media (max-width: 767px) {
+        .logo_image {
+            max-width: 60%;
             /* Adjust the width as needed */
         }
+    }
 
-        #content .col-4 {
-            display: inline-block;
-            width: 28%;
-            /* This will make each column take one-third of the width */
-            padding: 5px;
-            vertical-align: top;
+    @media (min-width: 992px) {
+
+        /* Apply the style only for desktop view */
+        .custom-dropdown {
+            left: 50%;
+            transform: translateX(-50%);
+            width: 700px;
         }
-    </style>
+    }
+</style>
 
-</head>
-
-<body>
-
-    <header id="menu-jk">
-        <div id="nav-head" class="header-nav">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-2 col-md-2 col-sm-12" style="margin-top: 2% !important;">
-                        <a href="index.php" style="margin-right: -20px;"> <!-- Add negative margin-right here -->
-                            <img src="img/logo.png" alt="Logo" >
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                            <i class="fas d-block d-md-none small-menu fa-bars"></i>
-                        </button>
-                    </div>
-
-                    <div id="menu" class="col-lg-9 col-md-9 d-none d-md-block nav-item collapse" style="padding-right:40px;">
-                        <ul>
-                            <li style="font-size:18px;"><a href="index.php">Home</a></li>
-                            <li style="font-size:18px;"><a href="about.php">About Us</a></li>
+<!--<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-light">-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow" style="box-shadow: 10px 10px 10px 10px #007bff;">
 
 
 
 
-                            <li class="dropdown" style="font-size:18px;">
-                                <a href="services.php">Services</a>
-                                <div class="dropdown-content" id="content">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <a href="backpain.php" class="dropdown-item">Back Pain</a>
-                                                <a href="neckpain.php" class="dropdown-item">Neck Pain</a>
-                                                <a href="sciatica.php" class="dropdown-item">Sciatica</a>
-                                                <a href="physiotherapy.php" class="dropdown-item">Physiotherapy</a>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <a href="migraine.php" class="dropdown-item">Migraine</a>
-                                                <a href="coccydynia.php" class="dropdown-item">Coccydynia</a>
-                                                <a href="spinal_decompression.php" class="dropdown-item">Spinal Decompression</a>
-                                                <a href="spinalcanel.php" class="dropdown-item">Spinal Canal Stenosis</a>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <a href="disc_buldge.php" class="dropdown-item">Disc Bulge and Slipped Disc</a>
-                                                <a href="piriformis_syndrome.php" class="dropdown-item">Piriformis Syndrome</a>
-                                                <a href="fibromyalgia.php" class="dropdown-item">Fibromyalgia</a>
-                                                <a href="kyphosis.php" class="dropdown-item">Kyphosis</a>
-                                                <a href="pelvic_girdle_pain.php" class="dropdown-item">Pelvic Girdle Pain</a>
-                                                <a href="sacrolic_joint_dysfunction.php" class="dropdown-item">Sacroiliac Joint Dysfunction</a>
-                                            </div>
-                                        </div>
+    <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="logo" width="70%" style="max-width: 400px; background-color: transparent;">
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </a>
+
+
+
+
+
+
+        <div class="collapse navbar-collapse " id="navbarNav" style=" transition: all 0s ease;" style="padding-right:100px;">
+            <ul class="navbar-nav" style="font-size:20px; margin-right: 70px;">
+
+              
+                <li class="nav-item" style="margin-left: 15px;">
+                    <a class="nav-link text-center <?php echo ($page == 'index') ? 'active' : ''; ?>" style="<?php echo ($page == 'index') ? 'background-color:#34B6DE;olor:white' : ''; ?>" href="index.php">Home</a>
+                </li>
+                <li class="nav-item" style="margin-left: 15px;">
+                    <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" style="<?php echo ($page == 'about') ? 'background-color:#34B6DE;color:white' : ''; ?>" href="about.php">About</a>
+                </li>
+
+                <li class="nav-item" style="margin-left: 15px;">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle text-center <?php if ($page == 'services') echo 'active' ?>" style="<?php echo ($page == 'services') ? 'background-color:#34B6DE;color:white' : ''; ?>" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-0 custom-dropdown">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="backpain.php" class="dropdown-item">Back Pain</a>
+                                        <a href="neckpain.php" class="dropdown-item">Neck Pain</a>
+                                        <a href="sciatica.php" class="dropdown-item">Sciatica</a>
+                                        <a href="physiotherapy.php" class="dropdown-item">Physiotherapy</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="migraine.php" class="dropdown-item">Migraine</a>
+                                        <a href="coccydynia.php" class="dropdown-item">Coccydynia</a>
+                                        <a href="spinal_decompression.php" class="dropdown-item">Spinal Decompression</a>
+                                        <a href="spinalcanel.php" class="dropdown-item">Spinal Canal Stenosis</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="disc_buldge.php" class="dropdown-item">Disc Bulge and Slipped Disc</a>
+                                        <a href="piriformis_syndrome.php" class="dropdown-item">Piriformis Syndrome</a>
+                                        <a href="fibromyalgia.php" class="dropdown-item">Fibromyalgia</a>
+                                        <a href="kyphosis.php" class="dropdown-item">Kyphosis</a>
+                                        <a href="pelvic_girdle_pain.php" class="dropdown-item">Pelvic Girdle Pain</a>
+                                        <a href="sacrolic_joint_dysfunction.php" class="dropdown-item">Sacroiliac Joint Dysfunction</a>
                                     </div>
                                 </div>
-                            </li>
+                            </div>
+                        </div>
 
-
-                            <li style="font-size:18px;"><a href="homeservices.php">Home Services</a></li>
-                            <!-- 
-                        <li style="font-size:23px;"><a href="about.php">About Us</a></li> -->
-                            <li class="dropdown" style="font-size:18px;">
-                                <a href="">Gallery</a>
-                                <div class="dropdown-content" style="font-size:18px;">
-                                    <a href="photo.php">Photo Gallery</a>
-                                    <a href="video.php">Video Gallery</a>
-
-                                </div>
-                            </li>
-                            <li style="font-size:18px;"><a href="contact.php">Contact Us</a></li>
-
-
-                        </ul>
                     </div>
-                    <div class="col-sm-2 col-lg-1  d-none d-lg-block appoint" style="font-size:23px;">
+                </li>
+                <li class="nav-item" style="margin-left: 15px;">
+                    <a class="nav-link text-center <?php echo ($page == 'homeservices') ? 'active' : ''; ?>" style="<?php echo ($page == 'homeservices') ? 'background-color:#34B6DE;color:white' : ''; ?>" href="homeservices.php">Home Services</a>
+
+                </li>
+
+
+                <li class="nav-item" style="margin-left: 15px;">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle text-center <?php if ($page == 'gallery') echo 'active' ?>" style="<?php echo ($page == 'gallery') ? 'background-color:#34B6DE;color:white' : ''; ?>" data-bs-toggle="dropdown">Gallery</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="photo.php" class="dropdown-item">Photo Gallery</a>
+                            <a href="video.php" class="dropdown-item">Video Gallery</a>
+                        </div>
+                    </div>
+                </li>
+
+
+
+                <li class="nav-item" style="margin-left: 15px;">
+                    <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" style="<?php echo ($page == 'contact') ? 'background-color:#34B6DE;color:white' : ''; ?>" href="contact.php">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item" style="margin-right: 10px;" id="padding">
+                    <a href="book_appointment.php" class="text-center btn btn-primary px-md-4 rounded-pill pt-2" style="height: 48px; width: 150px; font-size: 18px; display: block; margin:  0px;">
+                        Book an Appointment
+                    </a>
+                </li>  -->
+                <div class="col-sm-2 col-lg-1  appoint" style="font-size:23px;">
                         <a class="btn btn-success" href="book_appointment.php">Book an Appointment</a>
                     </div>
 
-                </div>
-            </div>
+            </ul>
         </div>
-    </header>
-
-    <!-- Include Bootstrap JS (jQuery is required by Bootstrap) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+    </div>
+</nav>

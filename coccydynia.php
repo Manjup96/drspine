@@ -193,20 +193,20 @@ include 'links.php';
             
         }
 
-        h2 {
+        #texts h2 {
             font-size: 35px;
             color: grey;
             margin-bottom: 20px;
         }
 
-        p {
+        #texts p {
             font-size: 20px;
             line-height: 1.6;
             margin-bottom: 20px;
             text-align: justify;
         }
 
-        .row {
+        #texts .row {
             margin-left: 0;
             margin-right: 0;
         }

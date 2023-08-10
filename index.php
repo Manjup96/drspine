@@ -1632,68 +1632,93 @@ include 'links.php';
 
 <!-- Review Section Ends-->
 
-
 <!-- Form Section Starts -->
-<div class="container mt-5 mb-5 ">
-        <div class="row justify-content-center">
-            <div class="card" style="border-radius: 15px; border: 5px solid #55b6c7;">
-                <div class="card-body">
-                    <div class="row mb-5">
-                        <div class="col-md-6 pt-5">
-                            <form action=" " method="POST">
-                                <div class="row">
-                                    <h2 class="text-center pb-5" style="color:#55b6c7; padding-top: 10px; font-size: 35px;">Book an Appointment</h2>
-                                    <div class="col-md-6 mb-3">
-
-                                        <label for="firstName" class="form-label">First Name<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+<div class="container mt-5 mb-5">
+            <div class="row justify-content-center">
+                <div class="card" style="border-radius: 15px;">
+                    <div class="card-body">
+                    <h2 class="text-center pb-5" style="color:#55b6c7; padding-top: 10px; font-size: 35px;">Book an Appointment</h2>
+                        <div class="row">
+                            <div class="col-md-6 pt-5">
+                                <form action="" method="POST">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="first_name" class="form-label">First Name<span class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter your first name" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="last_name" class="form-label">Last Name<span class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter your last name" required>
+                                        </div>
                                     </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="lastName" class="form-label">Last Name<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="mobile" class="form-label" >Mobile Number<span class="text-danger">*</span></label>
+                                            <input type="tel" class="form-control" id="mobile"  name="mobile" placeholder="Enter your mobile number" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="email" class="form-label" >Email address<span class="text-danger">*</span></label>
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="mobile" class="form-label">Mobile Number<span class="text-danger">*</span></label>
-                                        <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number" required>
+                                    <div class="mb-3">
+                                        <label  class="form-label">Choose your nearest clinic (3 clinics in Bangalore)</label>
+                                        <select class="form-select" id="location" name="location">
+                                           
+                                            <option  selected value="Indiranagar clinic">Indiranagar clinic</option>
+                                            <option value="Whitefield clinic">Whitefield clinic</option>
+                                            <option value="New BEL Road clinic">New BEL Road clinic</option>
+                                        </select>
                                     </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="email" class="form-label">Email address<span class="text-danger">*</span></label>
-                                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Write your message below</label>
+                                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                                     </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="chooseOption" class="form-label">Choose your nearest clinic (3 clinics in Bangalore)</label>
-                                    <select class="form-select" id="chooseOption">
-                                        <option selected>none</option>
-                                        <option value="option1">Indiranagar clinic</option>
-                                        <option value="option2">Whitefield clinic</option>
-                                        <option value="option3">New BEL Road clinic</option>
-                                    </select>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="textarea" class="form-label">Write your message below</label>
-                                    <textarea class="form-control" id="textarea" rows="3"></textarea>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit" class="btn fs-4" style="background-color: #55b6c7; color: white; width:80%;">Book Appointment</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
-                            <div>
-                                <div class="card-body">
-                                    <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary">Book Appointment</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-6 pt-5">
+                                <div>
+                                    <div class="card-body">
+                                        <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
+        <script>
+            <?php
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                require_once "config.php"; // Include the database connection file
+
+                $first_name = $_POST["first_name"];
+                $last_name = $_POST["last_name"];
+                $mobile = $_POST["mobile"];
+                $email = $_POST["email"];
+                $location = $_POST["location"];
+                $message = $_POST["message"];
+                $entry_time = date("Y-m-d H:i:s"); // Current date and time
+
+                $sql = "INSERT INTO booking_data (first_name, last_name, mobile, email, location, message, entry_time)
+            VALUES ('$first_name', '$last_name', '$mobile', '$email', '$location', '$message', '$entry_time')";
+
+                if ($conn->query($sql) === TRUE) {
+                    echo "Booking data stored successfully.";
+                } else {
+                    echo "Error: " . $sql . "<br>" . $conn->error;
+                }
+
+                $conn->close();
+            }
+            ?>
+        </script>
 
 <!-- Form Section Starts -->
 

@@ -239,6 +239,8 @@ include 'links.php';
             </div>
             <div class="col-md-6">
                 <img src="img/about4.png" alt="" class="img-fluid">
+            </div>
+            
 
             <div class="col-md-12">
                 <div class="container mt-3 mb-5">

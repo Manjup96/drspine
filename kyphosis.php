@@ -83,8 +83,8 @@ include 'links.php';
 <div class="container mt-5" id="text">
     <div class="row">
         <div class="col-md-12 col-sm-12">
-        <h6>
-           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;">  Dr Spine Chiropractic Clinic In Bangalore</span>
+        <h6 class="text-center">
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px; ">  Dr Spine Chiropractic Clinic In Bangalore</span>
             </h6>
      
 

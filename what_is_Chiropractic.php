@@ -80,7 +80,7 @@ include 'links.php';
         background-clip: text;
         -webkit-background-clip: text; /* For compatibility with some browsers */
         text-align: center;
-        font-size: 60px;
+        font-size: 45px;
         color: transparent; /* Set the text color to transparent to make the background visible */
         margin-bottom: 50px;
         margin-top: 50px;
@@ -305,7 +305,11 @@ include 'links.php';
                 <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
             </div>
             <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
-                <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
             </div>
         </div>
     </div>

@@ -262,7 +262,7 @@ include 'links.php';
 <div class="container-fluid" id="doctors">
     <div class="row">
         <div class="col-md-12 text-center">
-            <a href="contact.php" class="custom-btn">
+            <a href="book_appointment.php" class="custom-btn">
                 <i class="fas fa-phone-alt me-2"></i> <!-- Phone icon from Font Awesome -->
                 Book an Appointment
             </a>
@@ -413,14 +413,14 @@ include 'links.php';
         border-radius: 5px;
     }
 
-    #para2 h4 {
+    /* #para2 h4 {
         
         font-size: 23px;
         margin-bottom: 10px;
         margin-top: 20px;
         background-color: #bdc3c7;
         text-align:center;
-    }
+    } */
 
     #para2 h2 {
         color: #55b6c7;
@@ -441,10 +441,7 @@ include 'links.php';
             padding: 20px; /* Adjusted padding for spacing */
         }
 
-        #para2 h4 {
-            font-size: 17px; /* Adjusted font size */
-            margin-top: 10px; /* Adjusted margin */
-        }
+       
 
         #para2 h2 {
             font-size: 26px; /* Adjusted font size */
@@ -461,10 +458,7 @@ include 'links.php';
 
     /* Responsive adjustments for iPad view */
     @media (min-width: 768px) and (max-width: 991.98px) {
-        #para2 h4 {
-            font-size: 20px; /* Adjusted font size */
-            margin-top: 80px; /* Adjusted margin */
-        }
+       
 
         #para2 h2 {
             font-size: 30px; /* Adjusted font size */
@@ -495,7 +489,10 @@ include 'links.php';
             <img src="img/gallery15.png" alt="" style= "width: 350px; height:350px; margin-top: 5px;">
         </div>
         <div class="col-md-6">
-            <h4>Get Relief from Pain Without Surgery</h4>
+            <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Get Relief from Pain Without Surgery </span>
+            </h6>
+            
             <h2>We are Specialists As Chiropractors</h2>
             <p>Our team of experienced chiropractors in Bangalore, India are spine specialists in treating musculoskeletal and connected neurological conditions using the latest chiropractic techniques available for the first time in Bangalore and India.</p>
             <p>The advantage of our Bangalore Chiropractors is that they treat the cause of the lower & upper back pain or ailment and not just the symptom. Unlike drugs that mask the pain and surgery, which can be avoided in 95% of the cases through experienced and advanced chiropractic treatment.</p>
@@ -609,13 +606,13 @@ include 'links.php';
         border-radius: 5px;
     }
 
-    #para4 h4 {
+  /*   #para4 h4 {
         font-size: 23px;
         margin-bottom: 10px;
         margin-top: 20px;
         text-align:center;
         background-color: #bdc3c7;
-    }
+    } */
 
     #para4 h2 {
         color: #55b6c7;
@@ -659,10 +656,10 @@ include 'links.php';
             margin-bottom: 20px;
             text-align: center; /* Center align button text */
         }
-        #para4 h4 {
+        /* #para4 h4 {
             margin-top: -20px;
             font-size: 17px;
-        }
+        } */
         #para4 p {
             font-size: 16px;
         }
@@ -682,17 +679,20 @@ include 'links.php';
         #para4 p{
             font-size: 17px;
         }
-        #para4 h4 {
+        /* #para4 h4 {
             margin-top: -20px;
             font-size: 20px;
-        }
+        } */
     }
 </style>
 
 <div class="container-fluid" id="para4">
     <div class="row">
         <div class="col-md-6">
-            <h4>Expect the Best Chiropractic Care</h4>
+        <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Expect the Best Chiropractic Care </span>
+            </h6>
+            
             <h2>Let us Heal you today!</h2>
             <p>You can expect the best chiropractic care, which includes spinal adjustments, neck manipulation, and various other techniques for your health.</p>
             <a class="custom-btn" href= "backpain.php">
@@ -724,14 +724,14 @@ include 'links.php';
         border-radius: 5px;
     }
 
-    #para5 h4 {
+    /* #para5 h4 {
         
         font-size: 23px;
         margin-bottom: 10px;
         margin-top: 20px;
         text-align:center;
         background-color: #bdc3c7;
-    }
+    } */
 
     #para5 h2 {
         color: #55b6c7;
@@ -758,9 +758,9 @@ include 'links.php';
         #para5 p {
             font-size: 16px; /* Adjust font size for better readability */
         }
-        #para5 h4 {
+       /*  #para5 h4 {
             font-size: 17px;
-        }
+        } */
         #para5 img:last-child {
             display: none;
         }
@@ -780,9 +780,9 @@ include 'links.php';
         #para5 img{
             
         }
-        #para5 h4 {
+        /* #para5 h4 {
             font-size: 20px;
-        }
+        } */
     }
         /* Hide the image in desktop and mobile views */
         @media (min-width: 992px) {
@@ -800,7 +800,10 @@ include 'links.php';
             <img src="img/gallery6.png" alt="" style= "width: 350px; margin-top: 5px;">
         </div>
         <div class="col-md-6">
-            <h4>Top Chiropractic Clinic In Bengaluru</h4>
+            <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Top Chiropractic Clinic In Bengaluru</span>
+            </h6>
+            
             <h2>Conditions that benefit from Chiropractic</h2>
             <p>We have successfully treated patients with our gentle, natural chiropractic care. They got relief from issues like,</p>
             <p><i class="fas fa-check" style="color: green;"></i> Back & Neck Pain</p>
@@ -894,8 +897,13 @@ include 'links.php';
                 <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
             </div>
             <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
-                <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
             </div>
+
         </div>
     </div>
 
@@ -911,14 +919,14 @@ include 'links.php';
         text-align: center; /* Center align text */
     }
 
-    #para6 h4 {
+    /* #para6 h4 {
         font-size: 23px;
         margin-bottom: 10px;
-        color: #333; /* Text color */
+        color: #333; 
         text-align:center;
         background-color: #bdc3c7;
     }
-
+ */
     #para6 h2 {
         font-size: 42px;
         margin-top: 20px;
@@ -976,9 +984,9 @@ include 'links.php';
             justify-self: center;
         }
 
-        #para6 h4 {
-            font-size: 17px; /* Adjusted font size */
-        }
+        /* #para6 h4 {
+            font-size: 17px; 
+        } */
 
         #para6 h2 {
             font-size: 24px; /* Adjusted font size */
@@ -1018,10 +1026,10 @@ include 'links.php';
 
     /* Responsive adjustments for iPad view */
     @media (min-width: 768px) and (max-width: 991.98px) {
-        #para6 h4 {
-            font-size: 20px; /* Adjusted font size */
+        /* #para6 h4 {
+            font-size: 20px; 
             margin-top: -80px;
-        }
+        } */
 
         #para6 h2 {
             font-size: 26px; /* Adjusted font size */
@@ -1081,7 +1089,10 @@ include 'links.php';
 <div class="container-fluid" id="para6">
     <div class="row">
         <div class="col-md-12">
-            <h4>Internationally Trained Experts</h4>
+        <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Internationally Trained Experts</span>
+            </h6>
+            
             <h2>Meet Our Expert Chiropractors</h2>
             <p>Meet our expert team at Dr. Spine Chiropractic Treatment in Bangalore. <br><br> Our team is internationally trained and has deep knowledge in Chiropractic and <br> alternate therapy-based treatments.</p>
         </div>
@@ -1186,12 +1197,12 @@ include 'links.php';
         margin-bottom: 20px; /* Add margin to separate image from text */
     }
 
-    #para7 h4 {
+    /* #para7 h4 {
         font-size: 28px;
         margin-bottom: 10px;
-        color: #333; /* Text color */
+        color: #333;
         margin-top: 50px;
-    }
+    } */
 
     #para7 h2 {
         font-size: 42px;
@@ -1238,10 +1249,10 @@ include 'links.php';
     @media (min-width: 768px) {
         /* Adjust styles for iPad view and larger */
        
-        #para7 h4 {
-            font-size: 20px; /* Revert to original font size for larger screens */
-            margin-top: 50px; /* Revert to original margin for larger screens */
-        }
+       /*  #para7 h4 {
+            font-size: 20px; 
+            margin-top: 50px; 
+        } */
 
         #para7 h2 {
             font-size: 42px; /* Revert to original font size for larger screens */
@@ -1262,7 +1273,10 @@ include 'links.php';
             <button id="toggleButton"><i class="fas fa-certificate"></i> QIB Certificate</button>
         </div>
         <div class="col-md-6">
-            <h4>Dr. Spine - Chiropractic In Bangalore</h4>
+        <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Dr. Spine - Chiropractic In Bangalore</span>
+            </h6>
+            
             <h2>Has been Assessed to meet the <span class="underline">Quality In Business</span>
                 standard set by the <span class="underline">International Trade Council</span></h2>
         </div>
@@ -1417,14 +1431,14 @@ include 'links.php';
         margin-top: 40px;
     }
 
-    #reviews h4 {
+    /* #reviews h4 {
         font-size: 23px;
         margin-bottom: 10px;
-        color: #333; /* Text color */
+        color: #333; 
         text-align:center;
         background-color: #bdc3c7;
     }
-
+ */
     #reviews h2 {
         font-size: 42px;
         color: #55b6c7; /* Text color */
@@ -1438,14 +1452,14 @@ include 'links.php';
     }
 
 
-    .carousel-item {
+    #reviews .carousel-item {
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .carousel-card {
+    #reviews .carousel-card {
         max-width: 550px;
         margin: 0 auto;
         padding: 20px;
@@ -1459,77 +1473,134 @@ include 'links.php';
         
     }
 
-    .carousel-img {
+    #reviews .carousel-img {
         max-width: 80px;
         height: auto;
         margin: 0 auto 10px;
     }
 
-    .carousel-rating {
+    #reviews .carousel-rating {
         font-size: 24px;
         color: #55b6c7;
         margin-bottom: 5px;
     }
 
-    .carousel-stars {
+    #reviews .carousel-stars {
         color: #f2b01e; /* Star color */
     }
 
-    .carousel-name {
+    #reviews .carousel-name {
         font-size: 20px;
         margin-bottom: 5px;
     }
 
-    .carousel-source {
+    #reviews .carousel-source {
         font-size: 16px;
         color: #999;
     }
 
     /* Custom CSS for carousel controls */
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
+    #reviews .carousel-control-prev-icon,
+    #reviews .carousel-control-next-icon {
         background-color: #000 ; /* Black color for next and previous icons */
     }
 
-    .carousel-control-prev,
-    .carousel-control-next {
+    #reviews .carousel-control-prev,
+    #reviews .carousel-control-next {
         width: auto;
         padding: 10px;
     }
-    .carousel-item.active .carousel-card {
+    #reviews .carousel-item.active .carousel-card {
             transform: translateY(0);
             opacity: 1;
         }
 
-        .carousel-item:not(.active) .carousel-card {
+        #reviews .carousel-item:not(.active) .carousel-card {
             transform: translateY(100%);
             opacity: 0;
         }
+        /* dots */
+        #reviews .carousel-indicators {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#reviews .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reviews .carousel-indicators li.active {
+    background-color: #55b6c7;
+}
+
+/* Add the rotating circle effect */
+@keyframes rotateDots {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#reviews .carousel-indicators.rotating {
+    animation: rotateDots 2s linear infinite;
+}
+/* dots */
     
     @media (max-width: 767px) {
         /* Adjust styles for mobile view */
         #reviews {
             margin-top: -5px;
         }
-        #reviews h4 {
+       /*  #reviews h4 {
             font-size: 17px;
-        }
+        } */
         
-        .carousel-img {
+        
+        #reviews .carousel-img {
             max-width: 40px; /* Adjust image size */
         }
 
-        .carousel-rating {
+        #reviews .carousel-rating {
             font-size: 18px; /* Adjust font size for better readability */
         }
 
-        .carousel-name {
+        #reviews .carousel-name {
             font-size: 16px; /* Adjust font size for better readability */
         }
 
-        .carousel-source {
+        #reviews .carousel-source {
             font-size: 12px; /* Adjust font size for better readability */
         }
+        #reviews .carousel-control-prev{
+            margin-left: -80px;
+        }
+        #reviews .carousel-control-next {
+           margin-right: -80px;
+           margin-top: 5px;
+        }
+        #reviews  .carousel-item {
+               width: 230px;
+               height: 100%;
+               
+        }
+        #reviews .carousel-indicators {
+            margin-top: -60px;
+        }
+       
     
     }
     @media (min-width: 768px) and (max-width: 991px) {
@@ -1538,13 +1609,13 @@ include 'links.php';
             padding: 30px; /* Adjust padding for spacing */
         }
 
-        .carousel-card {
+        #reviews .carousel-card {
             max-width: 80%; /* Adjust card width for better fit */
             padding: 20px; /* Adjust padding for spacing */
         }
-        #reviews h4 {
+       /*  #reviews h4 {
             font-size: 20px;
-        }
+        } */
     }
     
 </style>
@@ -1552,7 +1623,9 @@ include 'links.php';
 <div class="container-fluid" id="reviews">
     <div class="row">
         <div class="col-md-12">
-            <h4>Top Reviewed Chiropractic Clinic in Bangalore</h4>
+        <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Top Reviewed Chiropractic Clinic in Bangalore</span>
+            </h6>
             <h2>Patient Reviews</h2>
             <h5>4.8/5 Average Ratings</h5>
         </div>
@@ -1575,7 +1648,7 @@ include 'links.php';
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-card">
+                        <div class="carousel-card" style= "margin-top: 150px;">
                         <img src="img/google-logo.png" class="carousel-img" alt="Google">
                             <p>Dr Michael Craig is good with what he does. He is really professional. Pain on my shoulders used to return back again and again. After few sessions he recommended me to go for liver supplement, looking at my situation. His suggestion worked and suited me well.</p>
                             <div class="carousel-rating">
@@ -1586,7 +1659,7 @@ include 'links.php';
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-card">
+                        <div class="carousel-card"  style= "margin-top: 60px;">
                         <img src="img/google-logo.png" class="carousel-img" alt="Google">
                             <p>Having had no prior experience with Chiropractic treatment, I visited Dr Spine only having exhausted all treatment options before surgery. I was suffering from extreme pain in my lower back and neck which prevented me from standing, walking, sitting for a long time or even sleeping at night. Dr Michael Craig has helped me get back on my feet (literally) within 6 sessions. He has been patient with my questions, understanding of my pain and, precise and efficient in his treatment. The staff have been also very supportive and courteous. The fee may be steep for some, but it is an investment towards your health. Dr Spine is highly recommended by me for everyone who understands what Chiropractic treatment can do for you.</p>
                             <div class="carousel-rating">
@@ -1597,7 +1670,7 @@ include 'links.php';
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-card">
+                        <div class="carousel-card"  style= "margin-top: 160px;">
                         <img src="img/google-logo.png" class="carousel-img" alt="Google">
                             <p>I had severe neck pain for several months. but the doctors here were very talented enough and solved my problem withing 3-4 visits. I highly recommend this clinic to you all.</p>
                             <div class="carousel-rating">
@@ -1608,7 +1681,7 @@ include 'links.php';
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-card">
+                        <div class="carousel-card"  style= "margin-top: 160px;">
                         <img src="img/google-logo.png" class="carousel-img" alt="Google">
                             <p>I am into gaming so I was suffering neck pain back pain and sciatica but with the help of doctor Mike treatment I am able to play again for hours without any pain.</p>
                             <div class="carousel-rating">
@@ -1619,7 +1692,21 @@ include 'links.php';
                         </div>
                     </div>
                     <!-- Add more carousel items here -->
+                     <!-- Dots -->
+                 <ol class="carousel-indicators">
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active"></li>
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="1"></li>
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="2"></li>
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="3"></li>
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="4"></li>
+                      <!-- Add more dots as needed for additional slides -->
+                    </ol>
+                    <!-- Dots -->
+
+                   
+
                 </div>
+                <!-- Previous and Next Controls -->
                 <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -1628,6 +1715,16 @@ include 'links.php';
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </a>
+                 <!-- Dots -->
+                 <ol class="carousel-indicators">
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active"></li>
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="1"></li>
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="2"></li>
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="3"></li>
+                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="4"></li>
+                      <!-- Add more dots as needed for additional slides -->
+                    </ol>
+                    <!-- Dots -->
             </div>
         </div>
     </div>
@@ -1639,110 +1736,25 @@ include 'links.php';
         $('#reviewCarousel').carousel();
     });
 </script>
+<script>
+    $(document).ready(function() {
+        const $carousel = $('.carousel');
+
+        $carousel.on('slide.bs.carousel', function() {
+            const $indicators = $('.carousel-indicators');
+            $indicators.addClass('rotating');
+        });
+
+        $carousel.on('slid.bs.carousel', function() {
+            const $indicators = $('.carousel-indicators');
+            $indicators.removeClass('rotating');
+        });
+    });
+</script>
+
 
 
 <!-- Review Section Ends-->
-
-<!-- Form Section Starts -->
-<div class="container mt-5 mb-5">
-            <div class="row justify-content-center">
-                <div class="card" style="border-radius: 15px; border: 5px solid #55b6c7">
-                    <div class="card-body">
-                    
-                        <div class="row">
-                            <div class="col-md-6 pt-5">
-                                <form action="" method="POST">
-                                <h2 class="text-center pb-5" style="color:#55b6c7; font-size: 35px;">Book an Appointment</h2>
-                                    <div class="row">
-                                        <div class="col-md-6 mb-3">
-                                            <label for="first_name" class="form-label">First Name<span class="text-danger">*</span></label>
-                                            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter your first name" required>
-                                        </div>
-                                        <div class="col-md-6 mb-3">
-                                            <label for="last_name" class="form-label">Last Name<span class="text-danger">*</span></label>
-                                            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter your last name" required>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 mb-3">
-                                            <label for="mobile" class="form-label" >Mobile Number<span class="text-danger">*</span></label>
-                                            <input type="tel" class="form-control" id="mobile"  name="mobile" placeholder="Enter your mobile number" required>
-                                        </div>
-                                        <div class="col-md-6 mb-3">
-                                            <label for="email" class="form-label" >Email address<span class="text-danger">*</span></label>
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label  class="form-label">Choose your nearest clinic (3 clinics in Bangalore)</label>
-                                        <select class="form-select" id="location" name="location">
-                                           
-                                            <option  selected value="Indiranagar clinic">Indiranagar clinic</option>
-                                            <option value="Whitefield clinic">Whitefield clinic</option>
-                                            <option value="New BEL Road clinic">New BEL Road clinic</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="message" class="form-label">Write your message below</label>
-                                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-                                    </div>
-                                    <div class="text-center">
-                                        <button type="submit" class="btn btn-primary">Book Appointment</button>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-md-6 pt-5">
-                                <div>
-                                    <div class="card-body">
-                                        <img src="img/book_appointment.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <script>
-            <?php
-            if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                require_once "config.php"; // Include the database connection file
-
-                $first_name = $_POST["first_name"];
-                $last_name = $_POST["last_name"];
-                $mobile = $_POST["mobile"];
-                $email = $_POST["email"];
-                $location = $_POST["location"];
-                $message = $_POST["message"];
-                $entry_time = date("Y-m-d H:i:s"); // Current date and time
-
-                $sql = "INSERT INTO booking_data (first_name, last_name, mobile, email, location, message, entry_time)
-            VALUES ('$first_name', '$last_name', '$mobile', '$email', '$location', '$message', '$entry_time')";
-
-                if ($conn->query($sql) === TRUE) {
-                    echo "Booking data stored successfully.";
-                } else {
-                    echo "Error: " . $sql . "<br>" . $conn->error;
-                }
-
-                $conn->close();
-            }
-            ?>
-        </script>
-
-<!-- Form Section Starts -->
-
-
-
-
-
-
-
-
-
-           
 
 
 

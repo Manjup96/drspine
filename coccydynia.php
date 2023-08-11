@@ -82,27 +82,13 @@ include 'links.php';
             
         }
 
-
-        .card h4 {
-        
-        font-size: 23px;
-        margin-bottom: 10px;
-        margin-top: 20px;
-        background-color: #bdc3c7;
-        text-align:center;
-    }
-
         .card h2 {
             font-size: 35px;
             color: grey;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
             margin-top: 40px;
         }
 
-        .card-title {
-            font-size: 26px;
-            margin-bottom: 10px;
-        }
 
         .card-text {
             font-size: 20px;
@@ -164,7 +150,9 @@ include 'links.php';
     <div class="row no-gutters">
         <div class="col-md-8">
             <div class="card-body">
-                <h4>Treating Coccydynia Pain Condition</h4>
+            <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Treating Coccydynia Pain Condition </span>
+            </h6>
                 <h2>Coccydynia Pain Condition</h2>
                 <p class="card-text">Coccydynia is referred to as the inflammation of the tailbone or the coccyx, the bony area located between the buttocks right over the anus. It entails tenderness and aches at the tip of the tailbone, leading to difficulties in sitting or walking. <br>
                 Coccydynia is associated with a deep injury or trauma that manifests later through a fracture of the tailbone. Despite its unassuming size, the coccyx has several vital functions. It serves as the "tripod" offering weight-bearing support to a person in a seated position. Accounts of Coccydynia in individuals can be traced back to the 16th century; it's an extremely hard issue to diagnose and treat correctly. <br>
@@ -202,7 +190,7 @@ include 'links.php';
         #texts p {
             font-size: 20px;
             line-height: 1.6;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             text-align: justify;
         }
 
@@ -431,7 +419,11 @@ include 'links.php';
                 <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
             </div>
             <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
-                <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
             </div>
         </div>
     </div>

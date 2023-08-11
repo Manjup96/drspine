@@ -282,7 +282,11 @@ include 'links.php';
                 <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
             </div>
             <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
-                <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
             </div>
         </div>
     </div>

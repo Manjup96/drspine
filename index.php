@@ -333,24 +333,24 @@ include 'links.php';
         text-decoration: none;
     }
     /* Responsive adjustments for mobile view */
-    @media (max-width: 767.98px) {
+  /*   @media (max-width: 767.98px) {
         #testimonials {
             display: none;
         }
         .testimonial-card {
-            display: none; /* Hide cards in mobile view */
+            display: none; 
         }
-    }
+    } */
 
     /* Responsive adjustments for iPad view */
-    @media (min-width: 768px) and (max-width: 991.98px) {
+   /*  @media (min-width: 768px) and (max-width: 991.98px) {
         #testimonials {
             display: none;
         }
         .testimonial-card {
-            display: none; /* Hide cards in iPad view */
+            display: none; 
         }
-    }
+    } */
 </style>
 
 <div class="container-fluid" id="testimonials">

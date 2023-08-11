@@ -10,6 +10,7 @@ $page = 'about';
 
 
 <style>
+
     /* Banner style start for all 3 views */
     @media only screen and (max-width: 767px) {
         .carousel-inner .carousel-item img {
@@ -130,7 +131,7 @@ $page = 'about';
         padding: 0 20px;
     }
 
-    #text h1 {
+    #text h2 {
         background-image: linear-gradient(to right, #000000, #34b6de, #000000);
         background-clip: text;
         -webkit-background-clip: text;
@@ -142,6 +143,12 @@ $page = 'about';
         margin-bottom: 10px;
         margin-top: 10px;
     }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+    .custom-image {
+        margin-top: 20px; /* Adjust the margin-top value as needed */
+    }
+}
 </style>
 
 
@@ -159,7 +166,7 @@ $page = 'about';
             <div class="carousel-item active">
                 <img src="img/banner.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
-                    <h2>About Us</h2>
+                    <h2 style="font-size:45px">About Us</h2>
                 </div>
 
             </div>
@@ -168,7 +175,7 @@ $page = 'about';
 
     <div style="text-align: center;" class="container pt-4" id="text">
         <p style="font-size:20px;"><span style="background-color: #bdc3c7; ">&nbsp;&nbsp;Best Chiropractic Clinic In Bangalore&nbsp;&nbsp;</span></p>
-        <h1>About Us</h1>
+        <h2>About Us</h2>
         <p style="font-size:20px;text-align: center;">Dr. Spine Clinic is India’s first Chiropractic Chain of a Clinic</p>
     </div>
 
@@ -182,7 +189,7 @@ $page = 'about';
                                 <div class="row">
                                     <div class="col-md-6 pt-5" style="font-family:Open Sans, sans-serif;">
                                         <p style="font-size:20px;"><span style="background-color: #bdc3c7;">&nbsp;&nbsp;Dr. Spine Clinic&nbsp;&nbsp;</span></p>
-                                        <h1>Top Rated Chiropractic Clinic Heal Your Back Pain Without Surgery</h1>
+                                        <h2 style="font-size:35px; color:gray;">Top Rated Chiropractic Clinic Heal Your Back Pain Without Surgery</h2>
                                         <p style="font-size:20px;text-align: justify;">Dr. Spine Clinic is India’s first Chiropractic chain of a clinic that brings a revolutionary technology for treating back pain, neck, and a wide range of ailments through chiropractic spinal adjustment and alternative methods to treat spine-related issues.</p>
 
                                     </div>
@@ -220,7 +227,7 @@ $page = 'about';
                                         <img src="img/about-ipad2.jpg" alt="" style="margin-top: 25px;" class="img-fluid ipad-image-class">
                                     </div>
                                     <div class="col-md-6 mt-2" style="font-family:Open Sans, sans-serif;">
-                                        <h1>Treated over 25000 happy patients</h1>
+                                        <h2  style="font-size:35px; color:gray;">Treated over 25000 happy patients</h2>
                                         <p style="font-size:20px;text-align: justify;">During the past 11 years, Dr.Spine has become a trusted and preferred clinic for patients suffering from spine-related issues. Conditions that Dr.Spine can treat with non-invasive methods are A back pain, Headache / Migraines Neck Pain, Disc Bulge, Slip Disc Disc Herniation, Sciatica, leg pain, Scoliosis, Spondylitis, Postural Deformities Ear infection, Colic High Blood Pressure, PMS, and related issues. You can reach us at our Indira Nagar Clinic or Whitefield Clinic located in Bangalore, India.</p>
                                     </div>
                                 </div>
@@ -243,7 +250,7 @@ $page = 'about';
                                 <div class="row">
                                     <div class="col-md-6 pt-4" style="font-family:Open Sans, sans-serif;">
                                         <p style="font-size:20px;"><span style="background-color: #bdc3c7; ">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
-                                        <h1>Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h1><br>
+                                        <h2  style="font-size:35px; color:gray;">Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h2><br>
                                         <center>
                                             <button id="Button1"><i class="fas fa-certificate"></i> QIB Certificate</button><br><br>
                                         </center>
@@ -251,23 +258,25 @@ $page = 'about';
 
                                     </div>
 
-                                    <div class="col-md-6 pt-8" style="border-radius:10px;">
-                                        <div>
-                                            <div class="card-body">
-                                                <img src="img/about4.png" alt="Image" class="img-fluid" style="height: 400px; width: 400px;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                    <div class="col-md-6 pt-8" style="border-radius: 10px;">
+                                    <div>
+                                                <center>
+                                                 <div class="card-body">
+                                                     <img src="img/about4.png" alt="Image" class="img-fluid custom-image" style="height: 300px; width: 300px; align-items: center;">
+                                                       </div>
+                                                       </center>
+                                                     </div>
+                                                  </div>
+                                               </div>
+                                           </div>
+                                      </div>
+                                 </div>
+                           </div>
+
                     </div>
-                </div>
 
-            </div>
-
-        </div>
-    </div>
+             </div>
+       </div>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {

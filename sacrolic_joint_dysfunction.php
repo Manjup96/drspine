@@ -5,22 +5,7 @@
 include 'links.php';
 ?>
  <style>
-     ul {
-    list-style-type: block;
-  }
-  ul li {
-    list-style-type: disc;
-   
-  }
-
-  ul,
-       li {
-    margin : 0;
-    padding : 0;
-    list-style:  disc;
-
-       }
-
+    
    /* Banner style start*/
 @media only screen and (max-width: 767px) {
             .carousel-inner .carousel-item img {
@@ -64,6 +49,8 @@ include 'links.php';
              font-size: 20px;   
              text-align:justify;
             }
+
+
             .ipad-image-class {
             display: none;
         }
@@ -96,11 +83,13 @@ include 'links.php';
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
       <div class="row">
         <div class="col-md-6">
-            <p style="font-size:20px;"><span style="background-color: #bdc3c7;">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p>  
+        <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Dr. Spine Clinic  </span>
+            </h6>
         <div id="others">
        <p style="font-size: 20px;text-align:justify" >The sacroiliac joint is the joint between the sacrum and the ilium bones of the pelvis connected by strong ligaments. They carry the entire weight of your upper body when you sit, stand. When affected, a dull sharp pain is felt in your buttocks, thigh, upper back or groin. The pain is triggered by standing and is more during the morning hours but subsides during the day. This chronic condition is more common than you could possibly imagine. Let us see what exactly causes it.</p>
     </div>
-       <h2>Causes of Sacroiliac Joint Dysfunction</h2>
+       <h2 style="font-size: 35px;">Causes of Sacroiliac Joint Dysfunction</h2>
 <div id="others">
        <p>Inflammation of one or both joints is the ultimate cause of joints dysfunction, it is caused by a number of conditions that include During aging, the sacroiliac joints gradually wear due to stress exerted over many years. Wearing out of the cartridges cause pain not only to the sacroiliac joints but also to the spine and other joints throughout the body. This condition is known as Osteoarthritis</p>
     </div>
@@ -117,26 +106,26 @@ include 'links.php';
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
         <div id="others">
 <p>Obesity may not seem to affect much but the excess weight of the individual is actually a major factor to sacroiliac joint dysfunction. Weight exerted on the joints cause wearing up of the ligaments such time within a short span of time the individuals develops the Sacroiliac joint dysfunction characterized by sharp pains during movements on the lower back and spine.</p>
-     <h2>Trauma</h2>  
+     <h2 style="font-size: 35px;">Trauma</h2>  
   <p>Trauma is not something many would consider, for instance stepping on a rough surface and jamming the joint. The ligaments supporting the joint may be injured by trauma and it’s just a matter of time and symptoms will begin to show.</p>
-<h2>Pregnancy</h2>
+<h2 style="font-size: 35px;" >Pregnancy</h2>
 <p>During pregnancy, hormones produced relax the muscles and ligaments of the sacroiliac joint in preparation for the birthing process. This could cause the joint to slightly slip out of place and it becomes very painful. Luckily, all the pain goes away after pregnancy since the muscles grow stronger again</p>
-<h2>Stress</h2>
+<h2 style="font-size: 35px;" >Stress</h2>
 <p>Mechanical stress may not be quite common but it can cause massive pain and changes in your sacroiliac joint over time. Some individuals tend to have severe stiffness. For example, a surgical spinal fusion may increase pressure on the sacroiliac joints making it dysfunction due to the pressure exerted on it.</p>
-<h2 >Symptoms of Sacroiliac Joint Dysfunction</h2>
-<ul style="padding:40px; font-size:18px;" >
-    <li>General weakness in your arms and legs- it causes a sensation of the lower extremity. You may experience dizziness, tingling, numbness and mostly a sharp pain even by walking or standing.</li>
-<li>The lower back is the most affected part. The lifting of even the lightest weight triggers a sharp pain from the SI joint
+<h2  style="font-size: 35px;" >Symptoms of Sacroiliac Joint Dysfunction</h2>
+<ul style="padding: 35px;px; font-size:18px; list-style-type:none;" >
+    <li style="list-style-type: disc;">General weakness in your arms and legs- it causes a sensation of the lower extremity. You may experience dizziness, tingling, numbness and mostly a sharp pain even by walking or standing.</li>
+<li style="list-style-type: disc;">The lower back is the most affected part. The lifting of even the lightest weight triggers a sharp pain from the SI joint
     redness- the joints turn reddish due to the swollen muscles.</li>
-<li>joint swelling is normal since when the ligaments are affected, the joints tend to swell a little.<br>
+<li style="list-style-type: disc;">joint swelling is normal since when the ligaments are affected, the joints tend to swell a little.<br>
     joint become tender and quite weak often you will find it hard to stand or walk.</li>
-<li>Limping due to the sour joints which are quite painful when you walk.</li>
-<li>Locking of the joint.</li>
+<li style="list-style-type: disc;">Limping due to the sour joints which are quite painful when you walk.</li>
+<li style="list-style-type: disc;">Locking of the joint.</li>
 <li>Loss of range of motion of the joint</li>
-<li>Experiencing sleepless nights due to pain surges during the night. It makes it totally hard to do any form of activity.</li>
+<li style="list-style-type: disc;">Experiencing sleepless nights due to pain surges during the night. It makes it totally hard to do any form of activity.</li>
 <li>Sitting on one side or sitting evenly is one of the most common signs for individuals with SI joint pain. The sharp pains cause a disturbed sitting pattern. They affect the aspect of the patients daily normal life.</li>
-</ul>
-<h2 >Treatment for Sacroiliac Joint Dysfunction</h2>
+</ul style="list-style-type: disc;">
+<h2 style="font-size: 35px;">Treatment for Sacroiliac Joint Dysfunction</h2>
 <p>Treating sacroiliac joint pain varies with the patients since some respond to oral physical therapy, oral injections, and oral medications</p>
 <p>Brief resting periods help ease the pain since the joint gets time to recover. One should not rest for too long since that would increase or worsen stiffness of the joint</p>
 <p>Applying of cold and hot substances on the lower back really helps reduce inflammation and reduce pain. It reduces the muscle tension when you use heat for some time then switch to ice repeatedly until the pain is gone.</p>
@@ -298,9 +287,13 @@ include 'links.php';
             <h1>Call Us Today for Consultation</h1>
             <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
         </div>
-        <div class="col-md-4">
-            <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
-        </div>
+        <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
+            </div>
     </div>
 </div>
     

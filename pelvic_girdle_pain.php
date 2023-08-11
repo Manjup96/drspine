@@ -1,30 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <?php
 include 'links.php';
 ?>
-<style>
-     ul {
-    list-style-type: block;
-  }
-  
-  ul li {
-    list-style-type: disc;
-   
-  }
-  ul,
-        li {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-</style>
-
-
   <style>
 
  @media only screen and (max-width: 767px) {
@@ -33,9 +12,8 @@ include 'links.php';
     
                 max-width: 100%;
     
-    
             }
-    
+
             .carousel-caption h2 {
                 font-size: 18px;
                 padding-top: 20%;
@@ -63,9 +41,11 @@ include 'links.php';
     #others{
         font-size:20px;
     }
+
+    
         .ipad-image-class {
             display: none;
-            text-align:justify;
+           
         }
 
         @media only screen and (min-device-width: 768px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -97,7 +77,10 @@ include 'links.php';
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
         <div class="row">
             <div class="col-md-6">
-                <p style="font-size:20px;text-align: justify;"><span style="background-color: #bdc3c7;">&nbsp;&nbsp;Dr. Spine Clinic&nbsp;&nbsp;</span></p>
+            <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;"> Dr. Spine Clinic  </span>
+            </h6>
+
                 <p style="font-size: 20px; text-align:justify">Our bodies are designed in a way that some parts, unfortunately, carry more weights compared to others. This could be due to extra exerted pressure on specific parts. The pelvic girdle, which is a ring-like structure made up of complex bones that connects the trunk and the legs help ensure balance and since it is connected to the spine, it becomes very sensitive to weights exerted. This kind of pain is more common in women than in men. The bony pelvis is made to withstand weight exerted on our body such that we maintain stability. We all have experienced pelvis pains sometime, right? Buckle up and Let me take you through some of the causes, the common symptoms, and even most importantly, how to treat the pains.</p>
             </div>
             <div class="col-md-6">
@@ -107,23 +90,23 @@ include 'links.php';
         </div>
     </div>
     <div class="container mt-5 bg-white rounded border" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
-        <h2>What Causes Pelvic Girdle Pain?</h2><br>
+        <h2 style="font-size: 35px;" >What Causes Pelvic Girdle Pain?</h2><br>
         <p style="font-size: 20px; text-align:justify">Pregnancy is a beautiful feminine experience, a pride for women. The pelvic girdle pain has no exact causes but pregnancy is one of the most common explanations related to the pain. Due to contradictory information on its causes, the most used explanations appear to come from a history of similar conditions in the past. Findings from a trusted source show that during the early days of pregnancy, women experience poor muscle function on the pelvic girdle. This cause is associated with other severe back pains during pregnancy, labor or a few weeks after delivery. Ankylosing spondylitis an inflammatory chronic deficiency that cause stiffening of the spinal joints. Research has proven that the condition involves uneasy or total difficulty in using your pelvic bones during movement. Many people diagnosed with this conditions experience pains in the sacroiliac region or low back. The problem lacks an exact cause but is known to develop from vigorous or pressure, the involvement of the sacroiliac joints.</p><br>
         <p style="font-size: 20px; text-align:justify">Fracture is a traumatic injury on a bony part of the body. Though not frequent, the pelvic girdle can fracture in different locations. A severe muscle strain can actually cause much pain when the muscle is separated from the bone and it affects a piece of the pelvis. Those mostly affects are teens mostly during sporting and elderly people due to aging-related illnesses. With surgical care, a broken pelvis will heal no matter how swollen and bruised it is.</p><br>
     <p style="font-size: 20px;text-align:justify">Cancer- there is two severe pelvis bone related bone cancers. The primary bone cancer which develops in the bone though it is quite rare. Other types spread from other organs to the pelvic girdle causing intense pain.</p><br>
-    <h2>Symptoms of Pelvic Girdle Pain</h2><br>
+    <h2 style="font-size: 35px;" >Symptoms of Pelvic Girdle Pain</h2><br>
     <p style="font-size: 20px;text-align:justify">There are several ways you can tell if y the pains you experience are caused by the pelvic girdle. Some of this include, sharp pain that radiates down your buttocks and legs</p>
     
-    <ul style="padding: 40px;font-size:18px;">
-        <li>Pain in your hips.</li>
-        <li>The symphysis pubis joint is achy.</li>
-        <li>Difficulty in performing particular movements like sitting or any form, of weight-bearing activity.</li>
-        <li>Strenuous work out cause it to flare up.</li>
-        <li>In several cases, one may experience pain in the groin and while urinating.</li>
-        <li>Vaginal bleeding for women and pain during intercourse for men.</li>
+    <ul style="padding: 35px;font-size:18px; list-style-type:none;">
+        <li style="list-style-type: disc;">Pain in your hips.</li>
+        <li style="list-style-type: disc;">The symphysis pubis joint is achy.</li>
+        <li style="list-style-type: disc;">Difficulty in performing particular movements like sitting or any form, of weight-bearing activity.</li>
+        <li style="list-style-type: disc;">Strenuous work out cause it to flare up.</li>
+        <li style="list-style-type: disc;">In several cases, one may experience pain in the groin and while urinating.</li>
+        <li style="list-style-type: disc;">Vaginal bleeding for women and pain during intercourse for men.</li>
     </ul>
     
-    <h2>Pelvic Girdle Pain Treatment</h2><br>
+    <h2 style="font-size: 20px;" >Pelvic Girdle Pain Treatment</h2><br>
     
      <div id="others">
         <p>We actually cannot control pelvic girdle pains sometimes but we definitely have ways to treat them. The agonizing back pains cause total discomfort.</p>
@@ -286,9 +269,13 @@ include 'links.php';
             <h1>Call Us Today for Consultation</h1>
             <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
         </div>
-        <div class="col-md-4">
-            <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
-        </div>
+        <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
+            </div>
     </div>
 </div>
     

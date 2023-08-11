@@ -72,7 +72,7 @@ include 'links.php';
     background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
     z-index: 1; /* Place overlay above the image */
 }
-#text h1 {
+#text h2 {
         background-image: linear-gradient(to right, #000000, #34b6de, #000000);
         background-clip: text;
         -webkit-background-clip: text; /* For compatibility with some browsers */
@@ -99,10 +99,10 @@ include 'links.php';
     <div class="container" id="text">
         <div class="row">
             <div class="col-md-12 mt-5">
-                <p class="text-center font-weight-bold">
-                    <span  style="background-color: gray " >&nbsp;DR SPINE CHIROPRACTIC CLINC BANGALORE&nbsp;</span>
+                <p class="text-center " style="font-size:20px">
+                    <span  style="background-color:#bdc3c7;" >&nbsp;DR SPINE CHIROPRACTIC CLINC BANGALORE&nbsp;</span>
                 </p>
-                <h1 style="font-size: 35px; font-weight:bold" class="text-center">Dr. Michael Wohlgemuth</h1>
+                <h2 style="font-size: 45px; font-weight:bold" class="text-center">Dr. Michael Wohlgemuth</h2>
             </div>
         </div>
     </div>
@@ -130,7 +130,7 @@ include 'links.php';
 
         <div class="row mt-3 mb-3">
             <div class="col-md-12">
-                <h1 style="font-weight: bold;">EDUCATION</h1>
+                <h2 style="font-weight: bold;">EDUCATION</h2>
             </div>
         </div>
         <div class="row">

@@ -78,9 +78,10 @@ include 'links.php';
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-12 col-sm-12">
-        <span  style="font-size: 20px; background-color: gray;">
-       &nbsp; Dr Spine Chiropractic Clinic In Bangalore &nbsp;
-    </span>
+        <h6>
+           <span style="background-color: #bdc3c7; font-size: 20px; padding-right: 5px; padding-left: 5px;">  Dr Spine Chiropractic Clinic In Bangalore</span>
+            </h6>
+     
 
              <h2 class="mt-3 " style="font-size:35px;font-weight:bold">Treating Kyphosis the Dr. Spine Way!                </h2>
                 <p style="font-size: 20px;text-align:justify">Spinal Kyphosis is a condition that affects primarily the mid to upper back areas of the spine. This “stooping” or rounding of the back and shoulders – and the resulting pain and discomfort – can be attributed to a number of causes such as poor posture, poor self-esteem, childhood abuse, and accidents. It can also arise in patients who spend most of their time hunched over a desk or computer all day every day.
@@ -223,9 +224,13 @@ include 'links.php';
             <h1>Call Us Today for Consultation</h1>
             <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
         </div>
-        <div class="col-md-4">
-            <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
-        </div>
+        <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
+            </div>
     </div>
 </div>
 

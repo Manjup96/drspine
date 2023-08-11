@@ -1691,19 +1691,7 @@ include 'links.php';
                             <div class="carousel-source">via Google.com</div>
                         </div>
                     </div>
-                    <!-- Add more carousel items here -->
-                     <!-- Dots -->
-                 <ol class="carousel-indicators">
-                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active"></li>
-                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="1"></li>
-                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="2"></li>
-                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="3"></li>
-                     <li data-bs-target="#reviewCarousel" data-bs-slide-to="4"></li>
-                      <!-- Add more dots as needed for additional slides -->
-                    </ol>
-                    <!-- Dots -->
-
-                   
+                    <!-- Add more carousel items here --> 
 
                 </div>
                 <!-- Previous and Next Controls -->

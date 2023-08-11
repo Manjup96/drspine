@@ -166,7 +166,7 @@ $page = 'about';
             <div class="carousel-item active">
                 <img src="img/banner.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
-                    <h2 style="font-size:45px">About Us</h2>
+                    <h2>About Us</h2>
                 </div>
 
             </div>

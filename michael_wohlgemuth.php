@@ -275,11 +275,12 @@ include 'links.php';
         font-size: 18px;
         font-weight:bold;
     }
+
+    
 </style>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+   
 
 
     <!-- Footer Start -->

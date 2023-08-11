@@ -131,7 +131,7 @@ include 'links.php';
 
             <div>
                 <p>Our Chiropractic team serves Bangalore and the surrounding areas such as Mysore, Tumkur, Haasan, Mandya to name a few. Our Chiropractors at Dr. Spine clinic are dedicated to chiropractic solutions to target your unique needs, whether you are suffering from lower back pain, upper back pain, cervical neck pain, headaches, or even just plain old muscular tightness and tension. Dr Spine is trusted and perceived as best chiropractic clinic in Bangalore.</p>
-                <p>You may need pain relief after suffering an accident, experiencing an injury, or if you have a specific condition such as chronic back pain or a spinal condition; even if you just want to improve your overall health, our chiropractors can help you achieve your wellness goals! Please visit the <a href="#" style="color: #55b6c7;">testimonials page</a> to see what our patients are saying about our chiropractors in Bangalore clinic and getting regular chiropractic treatments.</p>
+                <p>You may need pain relief after suffering an accident, experiencing an injury, or if you have a specific condition such as chronic back pain or a spinal condition; even if you just want to improve your overall health, our chiropractors can help you achieve your wellness goals! Please visit the <a href="testimonials.php" style="color: #55b6c7; text-decoration: none;">testimonials page</a> to see what our patients are saying about our chiropractors in Bangalore clinic and getting regular chiropractic treatments.</p>
             </div>
         </div>
     </div>

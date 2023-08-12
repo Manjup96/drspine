@@ -311,9 +311,109 @@ include 'links.php';
 
 
 <!-- Form Section Starts -->
+<style>
 
+        #form .container-fluid {
+            padding: 50px;
+            
+        }
+        #form hr {
+             border: 1px solid #ccc; /* Change 2px to the desired thickness */
+             
+         }
 
+        #form .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 505px;
+        }
 
+        #form .card-body {
+            padding: 30px;
+            width: 900px;
+        }
+
+        #form .form-label {
+            
+            color: grey;
+        }
+
+        #form .form-control {
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+            background-color: #f8f9fa;
+        }
+       
+
+        #form .form-select {
+            width: 100%;
+            border-radius: 5px;
+            padding: 8px;
+        }
+        #form .btn {
+            background-color: #55b6c7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 160px;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    </style>
+
+<div class="container-fluid mt-5 mb-5" id="form">
+    <div class="row justify-content-center">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-6 pt-3">
+                    <form action="" method="POST">
+                        <h2 class="text-left mb-2" style="color: black; font-size: 35px; text-align: justify;">Contact Us for More Details</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6 mb-3 mt-3">
+                                <label for="fullname" class="form-label">Full Name<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="fullname" placeholder="Full name" required>
+                            </div>
+                            <div class="col-md-6 mb-3 mt-3">
+                                <label for="subject" class="form-label">Subject<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3 mt-3">
+                                <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="col-md-6 mb-3 mt-3 ">
+                                <label for="mobile" class="form-label">Mobile<span class="text-danger">*</span></label>
+                                <input type="tel" class="form-control" id="mobile" placeholder="Mobile" required>
+                            </div>
+                        </div>
+                        <!-- <div class="mb-3">
+                            <label for="chooseOption" class="form-label">Choose your nearest clinic (3 clinics in Bangalore)</label>
+                            <select class="form-select" id="chooseOption">
+                                <option selected>none</option>
+                                <option value="option1">Indiranagar clinic</option>
+                                <option value="option2">Whitefield clinic</option>
+                                <option value="option3">New BEL Road clinic</option>
+                            </select>
+                        </div> -->
+                        <div class="mb-3">
+                            <label for="textarea" class="form-label">Write your message below</label>
+                            <textarea class="form-control" id="textarea" rows="5" placeholder="Briefly describe your problem"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn">SUBMIT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Form Section Ends -->
 
 

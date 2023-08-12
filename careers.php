@@ -17,62 +17,66 @@ include 'links.php';
 <!-- Banner Starts -->
 
 <style>
-/* inner banner style */
-    .carousel-caption {
-        display: grid;
-        place-items: center;
-        height: 100%;
-        /* Make sure the container takes the full height */
-        text-align: center;
-
+/* Banner style start for all 3 views */
+@media only screen and (max-width: 767px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        max-width: 100%;
     }
 
     .carousel-caption h2 {
-        max-width: 80%;
-
-        margin: 0;
-
-        padding: 20px;
-
-        color: white;
-
-        margin-top: 50px;
-
-        font-size: 35px;
+        font-size: 20px;
+        padding-top: 20%;
 
     }
+}
 
-    /* inner banner ends */
+.carousel-caption {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
 
-    @media only screen and (max-width: 767px) {
-        .carousel-inner .carousel-item img {
-            height: 100%;
+}
 
-            max-width: 100%;
+.carousel-caption h2 {
+    max-width: 80%;
 
-            
+    margin: 0;
 
+    padding-top: 35px;
 
-        }
-
-        .carousel-caption h2 {
-            font-size: 20px;
-            ;
-
-        }
-    }
-    </style>
+    color: white;
 
 
-  <div class="carousel-inner">
+}
+
+
+/* Banner style start end for all 3 views*/
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+z-index: 1; /* Place overlay above the image */
+}
+</style>
+
+
+<div class="container-fluid p-0">
+    <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/career.jpg" class="d-block w-100" alt="..." style="filter: brightness(0.6); ">
+        <div class="overlay"></div>
+            <img src="img/career-banner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-flex align-items-center justify-content-center">
                 <h2>Careers</h2>
             </div>
 
         </div>
     </div>
+</div>
 <!-- Banner Ends -->
 
 
@@ -257,7 +261,7 @@ include 'links.php';
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
                             <p>Qualifications: Position requires college graduate or at least college level. Preferably have sales experience specializing in the wellness/healthcare industry. Greet customers and offer assistance. Ensure to sell out services and act as a front-line customer service to walk-in customers. Must know how to educate and inform customers of innovations and technologies by promoting its features,….</p>
-                            <a href="#" class="read-more">Read More</a>
+                            <a href="clinic_representative.php" class="read-more">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -274,7 +278,7 @@ include 'links.php';
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
                             <p>We are looking for an acupuncturist to be responsible for performing acupuncture on patients. The responsibilities of an acupuncturist include preparing herbal treatments, collecting the medical history of patients, and treating patients using needles and other tools.</p>
-                            <a href="#" class="read-more">Read More</a>
+                            <a href="acupuncturist.php" class="read-more">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -309,7 +313,7 @@ include 'links.php';
                         <div class="card-body">
                             <p>Looking for an opportunity to treat critical conditions with passion and delivering quality chiropractic care?
                                The right adjustment is all it takes with passion and empathy.</p>
-                            <a href="#" class="read-more">Read More</a>
+                            <a href="career_chiropractor.php" class="read-more">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -385,7 +389,7 @@ include 'links.php';
             }
             #form .btn {
                 padding: 10px;
-               width: 100%;
+                width: 100%;
                 
             }
         }
@@ -397,7 +401,7 @@ include 'links.php';
             <div class="card-body">
                 <div class="col-md-6 pt-3">
                     <form action="" method="POST">
-                        <h2 class="text-left mb-2" style="color: black; font-size: 35px; text-align: justify;">Contact Us for More Details</h2>
+                        <h2 class="text-left mb-2" style="color: grey; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
                         <hr>
                         <div class="row">
                             <div class="col-md-6 col-sm-12 mb-3 mt-3">
@@ -419,15 +423,7 @@ include 'links.php';
                                 <input type="tel" class="form-control" id="mobile" placeholder="Mobile" required>
                             </div>
                         </div>
-                        <!-- <div class="mb-3">
-                            <label for="chooseOption" class="form-label">Choose your nearest clinic (3 clinics in Bangalore)</label>
-                            <select class="form-select" id="chooseOption">
-                                <option selected>none</option>
-                                <option value="option1">Indiranagar clinic</option>
-                                <option value="option2">Whitefield clinic</option>
-                                <option value="option3">New BEL Road clinic</option>
-                            </select>
-                        </div> -->
+                
                         <div class="mb-3">
                             <label for="textarea" class="form-label">Write your message below</label>
                             <textarea class="form-control" id="textarea" rows="5" placeholder="Briefly describe your problem"></textarea>

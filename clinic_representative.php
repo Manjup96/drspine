@@ -92,7 +92,7 @@ z-index: 1; /* Place overlay above the image */
 
         #form .form-label {
             
-            color: grey;
+            color: #333;
         }
 
         #form .form-control {
@@ -179,12 +179,12 @@ z-index: 1; /* Place overlay above the image */
     <div class="row">
         <center>
       <div class="col-md-12">
-        <h2 style="font-size:45px; color:#666666;">CHIROPRACTIC HELPS</h2>
+        <h2 style="font-size:45px; color:#333;">CHIROPRACTIC HELPS</h2>
         <img src="img/career1.png" alt=""><br><br>
-        <h2 style="font-size:45px;"> WE ARE HIRING!!!</h2>
-        <h4 style="font-size:35px; color:#666666;">Full Time or Part Time | Apply Today!</h4>
+        <h2 style="font-size:45px; color:#333;"> WE ARE HIRING!!!</h2>
+        <h4 style="font-size:35px; color:#333;">Full Time or Part Time | Apply Today!</h4>
     </center>
-       
+    <hr>
       </div>
     </div>
 </div>
@@ -192,9 +192,9 @@ z-index: 1; /* Place overlay above the image */
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6">
-        <h2 style="text-align:justify; color:#666666;">Clinic Representative</h2>
-        <p style="font-size:20px; text-align:justify;">Qualifications: Position requires college graduate or at least college level. Preferably have sales experience specializing in the wellness/healthcare industry. Greet customers and offer assistance. Ensure to sell out services and act as a front-line customer service to walk-in customers. Must know how to educate and inform customers of innovations and technologies by promoting its features.</p>
-    <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-30px;" >
+        <h2 style="text-align:justify; color:#333;">Clinic Representative</h2>
+        <p style="font-size:20px; text-align:justify; color:#333;">Qualifications: Position requires college graduate or at least college level. Preferably have sales experience specializing in the wellness/healthcare industry. Greet customers and offer assistance. Ensure to sell out services and act as a front-line customer service to walk-in customers. Must know how to educate and inform customers of innovations and technologies by promoting its features.</p>
+    <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-30px; color:#333;" >
         <li style="list-style-type: disc;">Position requires college graduate or at least college level.</li>
         <li style="list-style-type: disc;">Preferably have sales experience specializing in the wellness/healthcare industry.</li>
         <li style="list-style-type: disc;">Empathy towards patents – This is zero tolerance.</li>
@@ -220,7 +220,7 @@ z-index: 1; /* Place overlay above the image */
             <div class="card-body">
                 <div class="col-md-6 pt-3">
                     <form action="" method="POST">
-                        <h2 class="text-left mb-2" style="color: grey; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
+                        <h2 class="text-left mb-2" style="color: color:#333;; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
                         <hr>
                         <div class="row">
                             <div class="col-md-6 col-sm-12 mb-3 mt-3">
@@ -248,7 +248,7 @@ z-index: 1; /* Place overlay above the image */
                             <textarea class="form-control" id="textarea" rows="5" placeholder="Briefly describe your problem"></textarea>
                         </div>
                         <div class="mt-3">
-                            <label class="w-100" style="color: grey">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
+                            <label class="w-100" style="color: #333;">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
                         </div >
                       
                         <div class="text-center">

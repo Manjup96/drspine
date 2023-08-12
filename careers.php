@@ -97,7 +97,7 @@ z-index: 1; /* Place overlay above the image */
 }
 
 #content h2 {
-    color: #666666;
+    color: #333;
     font-size: 45px;
 }
 
@@ -109,7 +109,7 @@ z-index: 1; /* Place overlay above the image */
 }
 
 #content h3 {
-    color: #666666;
+    color: #333;
     font-size: 35px;
     margin-top: 40px;
 }
@@ -295,7 +295,7 @@ z-index: 1; /* Place overlay above the image */
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body">
                             <p>As an osteopath, you’ll use your expert knowledge of the musculoskeletal system to treat various health issues. You will take a holistic approach to the patient’s health, assessing their symptoms along with their medical history and lifestyle to find the right treatment plan for them.</p>
-                            <a href="#" class="read-more">Read More</a>
+                            <a href="osteopaths.php" class="read-more">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -351,7 +351,7 @@ z-index: 1; /* Place overlay above the image */
 
         #form .form-label {
             
-            color: grey;
+            color: #333;
         }
 
         #form .form-control {
@@ -401,7 +401,7 @@ z-index: 1; /* Place overlay above the image */
             <div class="card-body">
                 <div class="col-md-6 pt-3">
                     <form action="" method="POST">
-                        <h2 class="text-left mb-2" style="color: grey; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
+                        <h2 class="text-left mb-2" style="color: #333; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
                         <hr>
                         <div class="row">
                             <div class="col-md-6 col-sm-12 mb-3 mt-3">
@@ -438,106 +438,6 @@ z-index: 1; /* Place overlay above the image */
     </div>
 </div>
 <!-- Form Section Ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Banner Starts-->
-
-<style>
-        /* Custom CSS for banner section */
-        #banner {
-            background-image: radial-gradient(at center center, #DFFAFF 50%, #55B6C7 100%);
-            /* Background gradient */
-            padding: 40px 0;
-            /* Adjusted padding */
-            text-align: center;
-        }
-
-        #banner h1 {
-            font-size: 36px;
-            /* Slightly reduced font size */
-            margin-bottom: 15px;
-            color: #495057;
-            margin-left: 20px;
-        }
-
-        #banner p {
-            font-size: 18px;
-            /* Slightly reduced font size */
-            color: #495057;
-            margin-bottom: 20px;
-            /* Slightly reduced margin */
-            margin-left: 5px;
-        }
-
-        #banner button {
-            background-color: #55b6c7;
-            color: white;
-            border: none;
-            border-radius: 20px;
-            /* Slightly reduced border radius */
-            padding: 20px 20px;
-            /* Adjusted padding */
-            font-size: 20px;
-            /* Slightly reduced font size */
-            font-weight: bold;
-            cursor: pointer;
-            margin-right: 20px;
-            /* Reduced margin */
-        }
-
-        @media (max-width: 768px) {
-            #banner {
-                padding: 20px 0;
-                /* Adjusted padding for smaller screens */
-            }
-
-            #banner button {
-                padding: 10px 15px;
-                /* Further reduced padding for smaller screens */
-                margin-left: 0;
-                /* Remove margin for centering */
-            }
-        }
-    </style>
-
-    <div class="container-fluid mb-5" id="banner">
-        <div class="row">
-            <div class="col-md-8 col-sm-12">
-                <h1>Call Us Today for Consultation</h1>
-                <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
-            </div>
-            <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
-            <a href="tel:+917550705070" style="text-decoration: none;">
-               <button style="cursor: pointer;">
-               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
-               </button>
-             </a>
-            </div>
-        </div>
-    </div>
-
-<!-- Banner Ends-->
-
-
-
-
-
-
-
-
 
 
 

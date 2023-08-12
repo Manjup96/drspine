@@ -84,7 +84,7 @@ z-index: 1; /* Place overlay above the image */
 
         #form .form-label {
             
-            color: grey;
+            color: #333;
         }
 
         #form .form-control {
@@ -171,19 +171,19 @@ z-index: 1; /* Place overlay above the image */
     <div class="row">
         <center>
       <div class="col-md-12">
-        <h2 style="font-size:45px; color:#666666;">CHIROPRACTIC HELPS</h2>
+        <h2 style="font-size:45px; color:#333;">CHIROPRACTIC HELPS</h2>
         <img src="img/career1.png" alt=""><br><br>
         <h2 style="font-size:45px;  "> WE ARE HIRING!!!</h2>
-        <h4 style="font-size:35px; color:#666666;">Full Time or Part Time | Apply Today!</h4>
+        <h4 style="font-size:35px; color:#333;">Full Time or Part Time | Apply Today!</h4>
     </center>
-       
+    <hr>
       </div>
     </div>
 </div>
 <div class="container pt-5">
     <div class="row">
         <div class="col-md-12">
-        <h2 style="font-size:35px; color:#666666;">CHIROPRACTORS</h2>
+        <h2 style="font-size:35px; color:#333;">CHIROPRACTORS</h2>
         <p style="font-size:20px; text-align:justify;">Looking for an opportunity to treat critical conditions with passion and delivering quality chiropractic care?<br>The right adjustment is all it takes with passion and empathy.</p>
        <p style="font-size:20px; text-align:justify;">At Dr Spine Chiropractic, we’ve got your back. As a part of our team , you will be surprised to witness that our well researched, tested back end operations, procedures and model gives you all the support you need to focus on doing what you do best, we treat: looking after your patients. We support you with marketing, and deal with all of your business back end operations and support system that enables our Drs to focus on treatments, patients that by default enables a string financial stability and security to think long term.</p>
     <p style="font-size:20px; text-align:justify;">Heck out what our chiropractors have to say on working in India, with Dr Spine and witness the abundance culture, love, food and love bestowed by patients.</p>
@@ -197,7 +197,7 @@ z-index: 1; /* Place overlay above the image */
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6">
-        <h2 style="font-size:35px;color:#666666;">Join the team!<br>Opportunity @ Dr Spine</h2>
+        <h2 style="font-size:35px;color:#333;">Join the team!<br>Opportunity @ Dr Spine</h2>
         <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-20px;">
             <li style="list-style-type: disc;">Full time or part time opportunities</li>
             <li style="list-style-type: disc;">Tempting Salary</li>
@@ -205,7 +205,7 @@ z-index: 1; /* Place overlay above the image */
             <li style="list-style-type: disc;">Yearly vacations</li>
             <li style="list-style-type: disc;">Opportunities in as a faculty</li>
         </ul>
-        <h6 style="font-size:20px; color:gray; margin-top:-25px; ">Expectations:</h6>
+        <h6 style="font-size:20px; color:#333; margin-top:-25px; ">Expectations:</h6>
         <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-15px; ">
             <li style="list-style-type: disc;">Consult with patients and diagnose health and medical history and arrive at a detailed prognosis and optics as and when necessary.</li>
             <li style="list-style-type: disc;">Evaluating patients’ neuro – musculoskeletal systems / disorders in the spine, areas using chiropractic diagnosis to determine neuro – musculoskeletal and spine related conditions.</li>
@@ -217,7 +217,7 @@ z-index: 1; /* Place overlay above the image */
             <li style="list-style-type: disc;">Wanting to make a lot of money and blessings.</li>
            
         </ul>
-        <h6 style="font-size:20px; color:gray; margin-top:-30px;">Qualifications needed:</h6>
+        <h6 style="font-size:20px; color:#333; margin-top:-30px;">Qualifications needed:</h6>
         <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-10px;">
          <li style="list-style-type: disc;">4-year bachelor’s degree from an accredited college.</li>
          <li style="list-style-type: disc;">Doctor of Chiropractic degree from an accredited chiropractic college.</li>
@@ -232,7 +232,7 @@ z-index: 1; /* Place overlay above the image */
             <div class="card-body">
                 <div class="col-md-6 pt-3">
                     <form action="" method="POST">
-                        <h2 class="text-left mb-2" style="color: grey; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
+                        <h2 class="text-left mb-2" style="color: #333;; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
                         <hr>
                         <div class="row">
                             <div class="col-md-6 col-sm-12 mb-3 mt-3">
@@ -260,7 +260,7 @@ z-index: 1; /* Place overlay above the image */
                             <textarea class="form-control" id="textarea" rows="5" placeholder="Briefly describe your problem"></textarea>
                         </div>
                         <div class="mt-3">
-                            <label class="w-100" style="color: grey">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
+                            <label class="w-100" style="color:#333;">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
                         </div >
                       
                         <div class="text-center">

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Form Example</title>
+  
   <!-- Include Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <?php
@@ -80,10 +80,10 @@ z-index: 1; /* Place overlay above the image */
     <div class="row">
         <center>
       <div class="col-md-12">
-        <h2 style="font-size:45px; color:#666666;">CHIROPRACTIC HELPS</h2>
+        <h2 style="font-size:45px; color:#333;">CHIROPRACTIC HELPS</h2>
         <img src="img/career1.png" alt="">
         <h2 style="font-size:45px; margin-top:25px;"> WE ARE HIRING!!!</h2>
-        <h4 style="font-size:35px; color:#666666">Full Time or Part Time | Apply Today!</h4>
+        <h4 style="font-size:35px; color:#333;">Full Time or Part Time | Apply Today!</h4>
     </center>
        <hr>
       </div>
@@ -91,10 +91,10 @@ z-index: 1; /* Place overlay above the image */
 </div>
 
 <div class="container">
-    <h2 style="font-size:45px; color:#666666;">Osteopaths</h2>
+    <h2 style="font-size:45px; color:#333;">Osteopaths</h2>
     <p style="font-size:20px; text-align:justify;">As an osteopath, you’ll use your expert knowledge of the musculoskeletal system to treat various health issues. You will take a holistic approach to the patient’s health, assessing their symptoms along with their medical history and lifestyle to find the right treatment plan for them.</p>
     <p style="font-size:20px; text-align:justify;">You’ll use manual therapy, such as massage or physical manipulation, as well as giving health advice and sometimes exercises, to treat various conditions including:</p>
-    <ul style="padding:30px; font-size:18px;list-style-type:none; margin-top:-30px;">
+    <ul style="padding:30px; font-size:18px;list-style-type:none; margin-top:-30px; color:#333;">
     <li style="list-style-type: disc;">back, joint or muscle pain <br>injuries</li>
     <li style="list-style-type: disc;">digestive disorders</li>
     <li style="list-style-type: disc;">arthritis</li>
@@ -107,8 +107,8 @@ z-index: 1; /* Place overlay above the image */
   <div class="row">
     <div class="col-md-6">
     <p style="font-size:20px; text-align:justify; margin-top:-30px;">Osteopath is a protected title and you must be registered with the General Osteopathic Council (GOsC) to be able to practice in the UK.</p>
-     <h5 style="color:gray;">Responsibilities</h5>
-     <h5 style="color:gray;">As an osteopath, you’ll need to:</h5>
+     <h5 style="color:#333;">Responsibilities</h5>
+     <h5 style="color:#333;">As an osteopath, you’ll need to:</h5>
      <p style="font-size:20px; text-align:justify;">Take detailed case histories from new patients, including both general health (lifestyle and diet) and specific symptoms assess the patient’s general posture and check for restrictions or tensions in joints or muscles by asking them to perform a series of active movements undertake physical examinations by using a highly refined sense of touch (palpation) to identify any restricted, weak or strained areas of the body make a working diagnosis and plan treatment in partnership with the patient provide appropriate treatments using soft tissue techniques, gentle release techniques and other appropriate methods, such as cranial osteopathy make lifestyle and dietary recommendations to patients in areas such as posture, eating, exercise and relaxation refer patients to their GP or other specialists, if required maintain accurate and up-to-date patient records.</p>
     </div>
     <div class="col-md-6">
@@ -118,7 +118,7 @@ z-index: 1; /* Place overlay above the image */
             <div class="card-body">
                 <div class="col-md-6 pt-3">
                     <form action="" method="POST">
-                        <h2 class="text-left mb-2" style="color: grey; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
+                        <h2 class="text-left mb-2" style="color: #333;; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
                         <hr>
                         <div class="row">
                             <div class="col-md-6 col-sm-12 mb-3 mt-3">
@@ -146,7 +146,7 @@ z-index: 1; /* Place overlay above the image */
                             <textarea class="form-control" id="textarea" rows="5" placeholder="Briefly describe your problem"></textarea>
                         </div>
                         <div class="mt-3">
-                            <label class="w-100" style="color: grey">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
+                            <label class="w-100" style="color: #333;">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
                         </div >
                       
                         <div class="text-center">
@@ -195,7 +195,7 @@ z-index: 1; /* Place overlay above the image */
 
         #form .form-label {
             
-            color: grey;
+            color: #333;
         }
 
         #form .form-control {

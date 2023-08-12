@@ -28,6 +28,7 @@ include 'links.php';
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 550px;
+    margin-top: -50px;
     
    
 }
@@ -40,7 +41,7 @@ include 'links.php';
 
 #form .form-label {
     
-    color: grey;
+    color: #333;
 }
 
 #form .form-control {
@@ -69,6 +70,7 @@ include 'links.php';
     margin-top: 10px; 
     margin-bottom: 10px;
 }
+
 /* Media query for mobile view */
 @media (max-width: 768px) {
     #form { 
@@ -173,26 +175,26 @@ z-index: 1; /* Place overlay above the image */
 
     <div class="container pt-4">
         <div class="row">
-            <div class="col-md-12">
-                <h2 style="font-size: 45px;font-weight:bold;text-align:center">CHIROPRACTIC HELPS</h2><br>
+            <div class="col-md-12 mb-3">
+                <h2 style="font-size: 45px;font-weight:bold;text-align:center; color: #333;">CHIROPRACTIC HELPS</h2><br>
                 <center><img src="img/career1.png" alt=""  ></center>
-                <h2 style="font-size: 45px;font-weight:bold;text-align:center">WE ARE HIRING!!!
+                <h2 style="font-size: 45px;font-weight:bold;text-align:center; margin-top: 10px;">WE ARE HIRING!!!
                 </h2>
-                <h2 style="font-size: 35px;font-weight:bold;text-align:center">Full Time or Part Time | Apply Today!
+                <h2 style="font-size: 35px;font-weight:bold;text-align:center; color: #333;">Full Time or Part Time | Apply Today!
                 </h2>
+                <hr>
             </div>
         </div>
     </div>
-
 
    
 
     <div class="container mt-3">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-size:35px;font-weight:bold">Acupuncturist</h2>
-                <p style="font-size: 20px; font-weight:bold;color:gray">Qualifications:</p>
-                <p style="font-size: 20px;text-align:justify">An acupuncturist who can treat a variety of physical and psychological problems. Acupuncturists consult with patients about symptoms, perform diagnoses, and treat ailments using acupuncture needles. Acupuncturist Job Description Template</p>
+                <h2 style="font-size:35px;font-weight:bold; color: #333;">Acupuncturist</h2>
+                <p style="font-size: 20px; font-weight:bold; color:#333">Qualifications:</p>
+                <p style="font-size: 20px;text-align:justify; color:#333;">An acupuncturist who can treat a variety of physical and psychological problems. Acupuncturists consult with patients about symptoms, perform diagnoses, and treat ailments using acupuncture needles. Acupuncturist Job Description Template</p>
                 <p style="font-size: 20px;text-align:justify">We are looking for an acupuncturist to be responsible for performing acupuncture on patients. The responsibilities of an acupuncturist include preparing herbal treatments, collecting the medical history of patients, and treating patients using needles and other tools.</p>
                 <p style="font-size: 20px;text-align:justify">To be successful as an acupuncturist, you should demonstrate compassion, possess knowledge of laws and regulations, and a strong interest in alternative medicine. Ultimately, a top-notch acupuncturist should be accredited, equipped with proven acupuncturist experience, and strong analytical skills.</p>
             </div>
@@ -202,8 +204,8 @@ z-index: 1; /* Place overlay above the image */
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p  style="font-size: 20px; font-weight:bold;color:gray">Acupuncturist Responsibilities:</p>
-                <ul style="padding: 10px;font-size:18px; list-style-type:none;">
+                <p  style="font-size: 20px; font-weight:bold;color:#333;">Acupuncturist Responsibilities:</p>
+                <ul style="padding: 10px;font-size:18px; list-style-type:none; color:#333;">
                     <li style="list-style-type: disc;margin-left:10px">Treating patients with needles, cups, ear balls, seeds, pellets, and supplements.</li>
                     <li  style="list-style-type: disc;margin-left:10px">Preparing herbal treatments to treat patients.</li>
                     <li  style="list-style-type: disc;margin-left:10px">Assessing patients to make diagnoses.</li>
@@ -214,8 +216,8 @@ z-index: 1; /* Place overlay above the image */
                     <li  style="list-style-type: disc;margin-left:10px">Ensuring a safe and healthy environment.</li>
                     <li  style="list-style-type: disc;margin-left:10px">Abiding by laws and regulations.</li>
                 </ul>
-                <p  style="font-size: 20px; font-weight:bold;color:gray">Acupuncturist Requirements:</p>
-                <ul style="padding: 10px;font-size:18px; list-style-type:none;">
+                <p  style="font-size: 20px; font-weight:bold;color:#333">Acupuncturist Requirements:</p>
+                <ul style="padding: 10px;font-size:18px; list-style-type:none; color:#333;">
                      <li  style="list-style-type: disc;margin-left:10px">Accreditation as an acupuncturist.</li>
                      <li  style="list-style-type: disc;margin-left:10px">License to practice acupuncture.</li>
                      <li  style="list-style-type: disc;margin-left:10px">Good analytical skills.</li>
@@ -232,7 +234,7 @@ z-index: 1; /* Place overlay above the image */
             <div class="card-body">
                 <div class="col-md-6 pt-3">
                     <form action="" method="POST">
-                        <h2 class="text-left mb-2" style="color: grey; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
+                        <h2 class="text-left mb-2" style="color:#333; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
                         <hr>
                         <div class="row">
                             <div class="col-md-6 col-sm-12 mb-3 mt-3">
@@ -260,7 +262,7 @@ z-index: 1; /* Place overlay above the image */
                             <textarea class="form-control" id="textarea" rows="5" placeholder="Briefly describe your problem"></textarea>
                         </div>
                         <div class="mt-3">
-                            <label class="w-100" style="color: grey">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
+                            <label class="w-100" style="color: #333">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
                         </div >
                       
                         <div class="text-center">

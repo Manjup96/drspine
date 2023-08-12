@@ -46,7 +46,7 @@ include 'links.php';
 
     @media only screen and (max-width: 767px) {
         .carousel-inner .carousel-item img {
-            height: 200px;
+            height: 100%;
 
             max-width: 100%;
 
@@ -56,8 +56,8 @@ include 'links.php';
         }
 
         .carousel-caption h2 {
-            font-size: 16px;
-            padding-top: 20%;
+            font-size: 20px;
+            ;
 
         }
     }
@@ -206,6 +206,18 @@ include 'links.php';
         }
         #dropdown .read-more:hover {
             color: #6EC1E4;
+        }
+        /* Media Query for Mobile */
+        @media (max-width: 767px) { 
+            #dropdown .card {
+                width: 122%;
+                margin-left: -30px;
+                
+            }
+            #dropdown .card-body {
+                text-align: justify;
+            }
+            
         }
     </style>
     
@@ -362,6 +374,21 @@ include 'links.php';
             font-size: 20px;
             font-weight: 600;
         }
+        /* Media query for mobile view */
+        @media (max-width: 768px) {
+            #form {
+                padding: 10px;
+                max-width: 90%;
+            }
+            #form .card-body {
+                max-width: 100%;
+            }
+            #form .btn {
+                padding: 10px;
+               width: 100%;
+                
+            }
+        }
     </style>
 
 <div class="container-fluid mt-5 mb-5" id="form">
@@ -373,21 +400,21 @@ include 'links.php';
                         <h2 class="text-left mb-2" style="color: black; font-size: 35px; text-align: justify;">Contact Us for More Details</h2>
                         <hr>
                         <div class="row">
-                            <div class="col-md-6 mb-3 mt-3">
+                            <div class="col-md-6 col-sm-12 mb-3 mt-3">
                                 <label for="fullname" class="form-label">Full Name<span class="text-danger">*</span></label>
                                 <input type="text" class="form-control" id="fullname" placeholder="Full name" required>
                             </div>
-                            <div class="col-md-6 mb-3 mt-3">
+                            <div class="col-md-6 col-sm-12 mb-3 mt-3">
                                 <label for="subject" class="form-label">Subject<span class="text-danger">*</span></label>
                                 <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 mb-3 mt-3">
+                            <div class="col-md-6 col-sm-12 mb-3 mt-3">
                                 <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
                                 <input type="email" class="form-control" id="email" placeholder="Email" required>
                             </div>
-                            <div class="col-md-6 mb-3 mt-3 ">
+                            <div class="col-md-6 col-sm-12 mb-3 mt-3 ">
                                 <label for="mobile" class="form-label">Mobile<span class="text-danger">*</span></label>
                                 <input type="tel" class="form-control" id="mobile" placeholder="Mobile" required>
                             </div>

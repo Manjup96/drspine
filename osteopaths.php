@@ -82,7 +82,7 @@ z-index: 1; /* Place overlay above the image */
       <div class="col-md-12">
         <h2 style="font-size:45px; color:#666666;">CHIROPRACTIC HELPS</h2>
         <img src="img/career1.png" alt="">
-        <h2 style="font-size:45px; margin-top:5px;"> WE ARE HIRING!!!</h2>
+        <h2 style="font-size:45px; margin-top:25px;"> WE ARE HIRING!!!</h2>
         <h4 style="font-size:35px; color:#666666">Full Time or Part Time | Apply Today!</h4>
     </center>
        <hr>

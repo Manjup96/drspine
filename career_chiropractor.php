@@ -106,7 +106,7 @@ z-index: 1; /* Place overlay above the image */
             color: white;
             border: none;
             border-radius: 5px;
-            padding: 10px 210px;
+            padding: 10px 213px;
             cursor: pointer;
             font-size: 20px;
             font-weight: 600;
@@ -260,7 +260,7 @@ z-index: 1; /* Place overlay above the image */
                             <textarea class="form-control" id="textarea" rows="5" placeholder="Briefly describe your problem"></textarea>
                         </div>
                         <div class="mt-3">
-                            <label class="w-100">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
+                            <label class="w-100" style="color: grey">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
                         </div >
                       
                         <div class="text-center">

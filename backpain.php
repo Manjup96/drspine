@@ -106,7 +106,7 @@ include 'links.php';
                 <div class="card-body">
                     <div class="row mb-5">
                         <div class="col-md-6">
-                            <p class="mx-auto text-center mt-5" style="font-size:20px"><span style="background-color: #bdc3c7 ">Non-Invasive Treatment For Back Pain Sufferers</span></p>
+                            <h6 class="mx-auto text-center mt-5" style="font-size:20px"><span style="background-color: #bdc3c7 ">Non-Invasive Treatment For Back Pain Sufferers</span></h6>
                             <h2 style="font-size:35px">At Dr. Spine, we offer a non-surgical method for back pain treatment in Bangalore.</h2>
                             <p style="font-size:20px; text-align:justify;">Dr. Spine with the primary focus of pain management in your spine provides the most effective treatment for Neck and lower back areas with right Chiropractic care. People with older ages also develop these issues that are characterized by precise gentle care and recommended solutions.</p>
 

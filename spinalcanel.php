@@ -72,7 +72,7 @@ include 'links.php';
         background-clip: text;
         -webkit-background-clip: text; 
         text-align: center;
-        font-size: 60px;
+        font-size: 45px;
         color: transparent; 
         margin-bottom: 50px;
         }
@@ -95,7 +95,7 @@ include 'links.php';
 <div class="container" id="texts">
     <div class="row">
         <div class="col-md-12">
-<p class="mx-auto text-center mt-5"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></p>
+<h6 class="mx-auto text-center mt-5" style="font-size:20px"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></h6>
 <h2 class="mx-auto text-center">Treating Spinal Stenosis the Dr. Spine Way!</h2>
 <p class="mt-3" style="text-align: justify;">Spinal Canal stenosis is a general term that best describes the “pinched nerve” feeling some patients have when their back starts paining or aching. When spinal vertebral joints become misaligned due to accidents, improper exercises, or poor working or sleeping conditions, this can cause acute pressure on spinal nerve roots that then cause considerable pain.</p>
 <p class="mt-3" style="text-align: justify;">At Dr. Spine, our doctors have treated hundreds of patients suffering from spinal stenosis using a combination of chiropractic care and specific treatment modalities. Our spine specialists are well trained to accurately assess your condition, then use a variety of chiropractic and other non-invasive methods to bring about lasting relief.</p> 

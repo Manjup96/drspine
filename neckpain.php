@@ -37,11 +37,8 @@ include 'links.php';
     
         .carousel-caption h2 {
             max-width: 80%;
-    
             margin: 0;
-    
             padding-top: 35px;
-    
             color: white;
     
         }
@@ -59,6 +56,8 @@ include 'links.php';
             </div>
         </div>
     </div>
+
+    
 <style>
 .card {
             position: relative;
@@ -122,7 +121,7 @@ include 'links.php';
          <div class="card-body">
          <div class="row mb-5">
           <div class="col-md-6">
-                <p class="mx-auto text-center mt-5"><span style="background-color: #bdc3c7 ">Non-Invasive Treatment For Neck Pain Sufferers</span></p>
+                <h6 class="mx-auto text-center mt-5" style="font-size:20px"><span style="background-color: #bdc3c7">Non-Invasive Treatment For Neck Pain Sufferers</span></h6>
                   <p style="font-size:20px">Dr. Spine with the primary focus of pain management in your spine provides the most effective treatment for Neck and lower back areas with right Chiropractic care. People with older ages also develop these issues that are characterized by precise gentle care and recommended solutions.</p>
             
          </div>

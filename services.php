@@ -65,6 +65,17 @@ include 'links.php';
             color: white;
     
         }
+
+        #text h2 {
+            background-image: linear-gradient(to right, #000000, #34b6de, #000000);
+        background-clip: text;
+        -webkit-background-clip: text; 
+        text-align: center;
+        font-size: 45px;
+        color: transparent; 
+        margin-bottom: 30px;
+        
+        }
     </style>
 
     <div class="container-fluid p-0">
@@ -80,10 +91,10 @@ include 'links.php';
         </div>
     </div>    
 
-<div class="container">
+<div class="container" id="text">
 
-    <h6 class="mx-auto text-center mt-5"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></h6>
-    <h1 class="mx-auto text-center mt-3"><span style="color:#55b6c7;">Services and Techniques</span></h1>
+    <h6 class="mx-auto text-center mt-5" style="font-size:20px"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></h6>
+    <h2 class="mx-auto text-center mt-3" style="font-size:45px">Services and Techniques</h2>
     <h5 class="mx-auto text-center mt-3">Our comprehensive knowledge and skills are implemented for your wellbeing. 
         <span style="color:#55b6c7;">Eminent doctors at Drspine</span> provide the best <br>solution to overcome pain effectually.</h5>
 

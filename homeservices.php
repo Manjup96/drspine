@@ -165,13 +165,28 @@ include 'links.php';
   }
 }
    
+#text h2 {
+            background-image: linear-gradient(to right, #000000, #34b6de, #000000);
+        background-clip: text;
+        -webkit-background-clip: text; 
+        text-align: center;
+        font-size: 45px;
+        color: transparent; 
+        margin-bottom: 10px;
+        
+        }
 </style>
 
 
-
-<p class="mt-3  text-center" style="font-size:16px;"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></p>
-
-<h2 class="mt-3  text-center" id="text" style="font-size:35px; color:#55b6c7;">Physical Therapy at Home</h2>
+<div class="container" id="text" >
+        <div class="row">
+            <div class="col-md-12 pt-5">
+<h6 class="mt-3  text-center" style="font-size:20px;"><span style="background-color: #bdc3c7 ">Dr Spine Chiropractic Clinic In Bangalore</span></h6>
+   
+<h2 class="mt-3  text-center" id="text">Physical Therapy at Home</h2>
+</div>
+    </div>
+    </div>
 <div class="container" id="para4">
         <div class="row">
             <div class="col-md-6">
@@ -215,27 +230,27 @@ include 'links.php';
 <p style="font-size:20px; text-align: justify;">Many conditions, diseases, illnesses and injuries improve with physical and rehabilitative care therapy. While results cannot be guaranteed, our Dr Spine Home Care therapists have had great results working with the following conditions:</p>
 
 <ol style="font-size: 20px;">
-    <li>Post-Surgical Joint Therapy</li>
-    <li>Parkinson’s Tremors<li>
-    <li>Lymphedema</li>
-    <li>Multiple Falls and Fractures</li>
-    <li>Frozen Shoulder</li>
-    <li>Osteoarthritis of Knee (OA)</li>
+<li style="list-style-type: disc; font-size:18px">Post-Surgical Joint Therapy</li>
+<li style="list-style-type: disc; font-size:18px">Parkinson’s Tremors<li>
+<li style="list-style-type: disc; font-size:18px">Lymphedema</li>
+<li style="list-style-type: disc; font-size:18px">Multiple Falls and Fractures</li>
+<li style="list-style-type: disc; font-size:18px">Frozen Shoulder</li>
+<li style="list-style-type: disc; font-size:18px">Osteoarthritis of Knee (OA)</li>
 </ol>
 
 <b style="font-size: 20px;">Sports Injuries such as</b>
 <ol style="font-size: 20px;">
-    <li>Ankle or Knee Sprains</li>
-    <li>Muscle Spasms</li>
-    <li>Calcaneal Spurs</li>
-    <li>Ligament Injuries</li>
-    <li>Tennis Elbow Pain</li>
-    <li>Golfers Elbow Pain</li>
-    <li>Rotator Cuff Injury</li>
-    <li>Carpel Tunnel Syndrome</li>
-    <li>Post-Operative Pain and Stiffness</li>
-    <li>IVDP – Intervertebral Disc Prolapse Pain</li>
-    <li>Lumbar Spondylosis</li>
+<li style="list-style-type: disc; font-size:18px">Ankle or Knee Sprains</li>
+<li style="list-style-type: disc; font-size:18px">Muscle Spasms</li>
+<li style="list-style-type: disc; font-size:18px">Calcaneal Spurs</li>
+<li style="list-style-type: disc; font-size:18px">Ligament Injuries</li>
+<li style="list-style-type: disc; font-size:18px">Tennis Elbow Pain</li>
+<li style="list-style-type: disc; font-size:18px">Golfers Elbow Pain</li>
+<li style="list-style-type: disc; font-size:18px">Rotator Cuff Injury</li>
+<li style="list-style-type: disc; font-size:18px">Carpel Tunnel Syndrome</li>
+<li style="list-style-type: disc; font-size:18px">Post-Operative Pain and Stiffness</li>
+<li style="list-style-type: disc; font-size:18px">IVDP – Intervertebral Disc Prolapse Pain</li>
+<li style="list-style-type: disc; font-size:18px">Lumbar Spondylosis</li>
 </ol>
 
 <h2 class="mt-5" style="font-size:35px;">How Does In-Home Physical Therapy Work?</h2>

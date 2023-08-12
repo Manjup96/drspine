@@ -194,7 +194,7 @@ z-index: 1; /* Place overlay above the image */
     <div class="col-md-6">
         <h2 style="text-align:justify; color:#333;">Clinic Representative</h2>
         <p style="font-size:20px; text-align:justify; color:#333;">Qualifications: Position requires college graduate or at least college level. Preferably have sales experience specializing in the wellness/healthcare industry. Greet customers and offer assistance. Ensure to sell out services and act as a front-line customer service to walk-in customers. Must know how to educate and inform customers of innovations and technologies by promoting its features.</p>
-    <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-30px; color:#333;" >
+    <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-30px; color:#333; text-align: justify;" >
         <li style="list-style-type: disc;">Position requires college graduate or at least college level.</li>
         <li style="list-style-type: disc;">Preferably have sales experience specializing in the wellness/healthcare industry.</li>
         <li style="list-style-type: disc;">Empathy towards patents – This is zero tolerance.</li>

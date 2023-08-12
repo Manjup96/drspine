@@ -198,7 +198,7 @@ z-index: 1; /* Place overlay above the image */
   <div class="row">
     <div class="col-md-6">
         <h2 style="font-size:35px;color:#333;">Join the team!<br>Opportunity @ Dr Spine</h2>
-        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-20px;">
+        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-20px; text-align:justify;">
             <li style="list-style-type: disc;">Full time or part time opportunities</li>
             <li style="list-style-type: disc;">Tempting Salary</li>
             <li style="list-style-type: disc;">Medical Insurance</li>
@@ -206,7 +206,7 @@ z-index: 1; /* Place overlay above the image */
             <li style="list-style-type: disc;">Opportunities in as a faculty</li>
         </ul>
         <h6 style="font-size:20px; color:#333; margin-top:-25px; ">Expectations:</h6>
-        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-15px; ">
+        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-15px;text-align:justify; ">
             <li style="list-style-type: disc;">Consult with patients and diagnose health and medical history and arrive at a detailed prognosis and optics as and when necessary.</li>
             <li style="list-style-type: disc;">Evaluating patients’ neuro – musculoskeletal systems / disorders in the spine, areas using chiropractic diagnosis to determine neuro – musculoskeletal and spine related conditions.</li>
             <li style="list-style-type: disc;">Ability to perform manual adjustments on the spine, with various other articulations in the body, in order to correct the musculoskeletal system, where necessary.</li>
@@ -218,7 +218,7 @@ z-index: 1; /* Place overlay above the image */
            
         </ul>
         <h6 style="font-size:20px; color:#333; margin-top:-30px;">Qualifications needed:</h6>
-        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-10px;">
+        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-10px; text-align:justify;">
          <li style="list-style-type: disc;">4-year bachelor’s degree from an accredited college.</li>
          <li style="list-style-type: disc;">Doctor of Chiropractic degree from an accredited chiropractic college.</li>
          <li style="list-style-type: disc;">Passing scores for Parts I, II, III, and IV.</li> 

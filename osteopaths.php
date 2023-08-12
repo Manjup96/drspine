@@ -94,7 +94,7 @@ z-index: 1; /* Place overlay above the image */
     <h2 style="font-size:45px; color:#333;">Osteopaths</h2>
     <p style="font-size:20px; text-align:justify;">As an osteopath, you’ll use your expert knowledge of the musculoskeletal system to treat various health issues. You will take a holistic approach to the patient’s health, assessing their symptoms along with their medical history and lifestyle to find the right treatment plan for them.</p>
     <p style="font-size:20px; text-align:justify;">You’ll use manual therapy, such as massage or physical manipulation, as well as giving health advice and sometimes exercises, to treat various conditions including:</p>
-    <ul style="padding:30px; font-size:18px;list-style-type:none; margin-top:-30px; color:#333;">
+    <ul style="padding:30px; font-size:18px;list-style-type:none; margin-top:-30px; color:#333;text-align:justify;">
     <li style="list-style-type: disc;">back, joint or muscle pain <br>injuries</li>
     <li style="list-style-type: disc;">digestive disorders</li>
     <li style="list-style-type: disc;">arthritis</li>

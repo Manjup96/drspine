@@ -205,7 +205,7 @@ z-index: 1; /* Place overlay above the image */
         <div class="row">
             <div class="col-md-6">
                 <p  style="font-size: 20px; font-weight:bold;color:#333;">Acupuncturist Responsibilities:</p>
-                <ul style="padding: 10px;font-size:18px; list-style-type:none; color:#333;">
+                <ul style="padding: 10px;font-size:18px; list-style-type:none; color:#333; text-align:justify;">
                     <li style="list-style-type: disc;margin-left:10px">Treating patients with needles, cups, ear balls, seeds, pellets, and supplements.</li>
                     <li  style="list-style-type: disc;margin-left:10px">Preparing herbal treatments to treat patients.</li>
                     <li  style="list-style-type: disc;margin-left:10px">Assessing patients to make diagnoses.</li>
@@ -217,7 +217,7 @@ z-index: 1; /* Place overlay above the image */
                     <li  style="list-style-type: disc;margin-left:10px">Abiding by laws and regulations.</li>
                 </ul>
                 <p  style="font-size: 20px; font-weight:bold;color:#333">Acupuncturist Requirements:</p>
-                <ul style="padding: 10px;font-size:18px; list-style-type:none; color:#333;">
+                <ul style="padding: 10px;font-size:18px; list-style-type:none; color:#333; text-align:justify;">
                      <li  style="list-style-type: disc;margin-left:10px">Accreditation as an acupuncturist.</li>
                      <li  style="list-style-type: disc;margin-left:10px">License to practice acupuncture.</li>
                      <li  style="list-style-type: disc;margin-left:10px">Good analytical skills.</li>

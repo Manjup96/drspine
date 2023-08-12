@@ -53,11 +53,23 @@ include 'links.php';
 
 /* inner banner ends */
 
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+z-index: 1; /* Place overlay above the image */
+}
+
+
  </style>
 
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/carrer-banner.png" class="d-block w-100" alt="...">
+        <div class="overlay"></div>
+            <img src="img/career-banner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-flex align-items-center justify-content-center">
                 <h2>   Acupuncturist </h2>
             </div>
@@ -65,11 +77,11 @@ include 'links.php';
         </div>
     </div>
 
-    <div class="container">
+    <div class="container pt-4">
         <div class="row">
             <div class="col-md-12">
                 <h2 style="font-size: 45px;font-weight:bold;text-align:center">CHIROPRACTIC HELPS</h2>
-                <center><img src="img/career1.png" alt=""  ></center>
+                <center><img src="img/career1.png" alt=""  ></center><br>
                 <h2 style="font-size: 45px;font-weight:bold;text-align:center">WE ARE HIRING!!!
                 </h2>
                 <h2 style="font-size: 35px;font-weight:bold;text-align:center">Full Time or Part Time | Apply Today!

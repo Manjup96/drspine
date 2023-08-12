@@ -10,6 +10,100 @@ include 'links.php';
 <?php
     include 'menu.php';
     ?>
+
+    
+<!-- Form Styles -->
+<style>
+
+#form .container-fluid {
+    padding: 50px;
+    
+}
+#form hr {
+     border: 1px solid #ccc; /* Change 2px to the desired thickness */
+     
+ }
+
+#form .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    
+   
+}
+
+#form .card-body {
+    width: 1100px;
+    margin-left: -20px;
+    
+}
+
+#form .form-label {
+    
+    color: grey;
+}
+
+#form .form-control {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+
+#form .form-select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+}
+#form .btn {
+    background-color: #55b6c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 213px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    #form { 
+        padding: 10px;
+        max-width: 100%;
+    }
+    #form .card-body {
+        max-width: 110%;
+    }
+    #form .btn {
+        padding: 10px;
+        width: 100%;
+        
+    }
+}
+/* Responsive adjustments for iPad view */
+@media (min-width: 768px) and (max-width: 991.98px) {
+#form {
+        padding: 10px;
+        max-width: 100%;
+    }
+    #form .card-body {
+        max-width: 710px;
+        margin-left: -29px;
+    }
+    #form .btn {
+        padding: 10px;
+        width: 100%;
+        
+    }
+}
+</style>
+<!-- Form Styles -->
+
+
     <style>
         
 @media only screen and (max-width: 767px) {
@@ -132,7 +226,7 @@ z-index: 1; /* Place overlay above the image */
                     `
             </div>
             <div class="col-md-6">
-            <div class="container-fluid mt-5 mb-5" id="form">
+<div class="container-fluid mt-5 mb-5" id="form">
     <div class="row justify-content-center">
         <div class="card">
             <div class="card-body">
@@ -178,10 +272,13 @@ z-index: 1; /* Place overlay above the image */
             </div>
         </div>
     </div>
-            </div>
-        </div>
-    </div>
+</div>
+</div>
+</div >
 
+
+
+</div>
      <!-- Footer Start -->
 <?php include("footer.php"); ?>
     <!-- Footer End -->

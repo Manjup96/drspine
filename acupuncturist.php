@@ -10,6 +10,100 @@ include 'links.php';
 <?php
     include 'menu.php';
     ?>
+
+    
+<!-- Form Styles -->
+<style>
+
+#form .container-fluid {
+    padding: 50px;
+    
+}
+#form hr {
+     border: 1px solid #ccc; /* Change 2px to the desired thickness */
+     
+ }
+
+#form .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    
+   
+}
+
+#form .card-body {
+    width: 1100px;
+    margin-left: -20px;
+    
+}
+
+#form .form-label {
+    
+    color: grey;
+}
+
+#form .form-control {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+
+#form .form-select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+}
+#form .btn {
+    background-color: #55b6c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 213px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    #form { 
+        padding: 10px;
+        max-width: 100%;
+    }
+    #form .card-body {
+        max-width: 110%;
+    }
+    #form .btn {
+        padding: 10px;
+        width: 100%;
+        
+    }
+}
+/* Responsive adjustments for iPad view */
+@media (min-width: 768px) and (max-width: 991.98px) {
+#form {
+        padding: 10px;
+        max-width: 100%;
+    }
+    #form .card-body {
+        max-width: 710px;
+        margin-left: -29px;
+    }
+    #form .btn {
+        padding: 10px;
+        width: 100%;
+        
+    }
+}
+</style>
+<!-- Form Styles -->
+
+
     <style>
         
 @media only screen and (max-width: 767px) {
@@ -132,10 +226,33 @@ z-index: 1; /* Place overlay above the image */
                     `
             </div>
             <div class="col-md-6">
-                <div class="container mb-3 mt-3" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
-                    <div class="row mb-3">
-                        <div class="text-center mb-3 mt-3">
-                        <h2 style="font-size:30px;font-weight:30px,">Contact us for more details</h2>
+<div class="container-fluid mt-5 mb-5" id="form">
+    <div class="row justify-content-center">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-6 pt-3">
+                    <form action="" method="POST">
+                        <h2 class="text-left mb-2" style="color: grey; font-size: 35px; text-align: justify;">Contact Us For More Details</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 mb-3 mt-3">
+                                <label for="fullname" class="form-label">Full Name<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="fullname" placeholder="Full name" required>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mb-3 mt-3">
+                                <label for="subject" class="form-label">Subject<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 mb-3 ">
+                                <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mb-3 ">
+                                <label for="mobile" class="form-label">Mobile<span class="text-danger">*</span></label>
+                                <input type="tel" class="form-control" id="mobile" placeholder="Mobile" required>
+                            </div>
                         </div>
                       <div class="col-md-6">
                         <label for="full-name" class="form-label">Full Name</label>
@@ -165,12 +282,30 @@ z-index: 1; /* Place overlay above the image */
                 </div >
                 <button type="submit" class="btn btn-primary form-control mt-3 mb-3">Submit</button>
                 
-                  </form>
-                </div>  
+                        <div class="mb-3">
+                            <label for="textarea" class="form-label">Write your message below</label>
+                            <textarea class="form-control" id="textarea" rows="5" placeholder="Briefly describe your problem"></textarea>
+                        </div>
+                        <div class="mt-3">
+                            <label class="w-100" style="color: grey">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
+                        </div >
+                      
+                        <div class="text-center">
+                            <button type="submit" class="btn">SUBMIT</button>
+                        </div>
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>
+</div>
+</div>
+</div >
 
+
+
+</div>
      <!-- Footer Start -->
 <?php include("footer.php"); ?>
     <!-- Footer End -->

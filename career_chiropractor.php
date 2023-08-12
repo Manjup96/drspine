@@ -80,10 +80,10 @@ z-index: 1; /* Place overlay above the image */
     <div class="row">
         <center>
       <div class="col-md-12">
-        <h2 style="font-size:55px;">CHIROPRACTIC HELPS</h2>
+        <h2 style="font-size:45px; color:gray;">CHIROPRACTIC HELPS</h2>
         <img src="img/career1.png" alt=""><br><br>
-        <h2 style="font-size:45px;"> WE ARE HIRING!!!</h2>
-        <h4 style="font-size:35px;">Full Time or Part Time | Apply Today!</h4>
+        <h2 style="font-size:45px; color:gray;"> WE ARE HIRING!!!</h2>
+        <h4 style="font-size:35px; color:gray;">Full Time or Part Time | Apply Today!</h4>
     </center>
        
       </div>
@@ -92,10 +92,10 @@ z-index: 1; /* Place overlay above the image */
 <div class="container pt-5">
     <div class="row">
         <div class="col-md-12">
-        <h2>CHIROPRACTORS</h2>
-        <p style="font-size:20px;">Looking for an opportunity to treat critical conditions with passion and delivering quality chiropractic care?<br>The right adjustment is all it takes with passion and empathy.</p>
-       <p style="font-size:20px;">At Dr Spine Chiropractic, we’ve got your back. As a part of our team , you will be surprised to witness that our well researched, tested back end operations, procedures and model gives you all the support you need to focus on doing what you do best, we treat: looking after your patients. We support you with marketing, and deal with all of your business back end operations and support system that enables our Drs to focus on treatments, patients that by default enables a string financial stability and security to think long term.</p>
-    <p style="font-size:20px;">Heck out what our chiropractors have to say on working in India, with Dr Spine and witness the abundance culture, love, food and love bestowed by patients.</p>
+        <h2 style="font-size:35px; color:gray;">CHIROPRACTORS</h2>
+        <p style="font-size:20px; text-align:justify;">Looking for an opportunity to treat critical conditions with passion and delivering quality chiropractic care?<br>The right adjustment is all it takes with passion and empathy.</p>
+       <p style="font-size:20px; text-align:justify;">At Dr Spine Chiropractic, we’ve got your back. As a part of our team , you will be surprised to witness that our well researched, tested back end operations, procedures and model gives you all the support you need to focus on doing what you do best, we treat: looking after your patients. We support you with marketing, and deal with all of your business back end operations and support system that enables our Drs to focus on treatments, patients that by default enables a string financial stability and security to think long term.</p>
+    <p style="font-size:20px; text-align:justify;">Heck out what our chiropractors have to say on working in India, with Dr Spine and witness the abundance culture, love, food and love bestowed by patients.</p>
     
     </div>
     </div>
@@ -106,16 +106,16 @@ z-index: 1; /* Place overlay above the image */
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6">
-        <h2 style="font-size:35px;">Join the team!<br>Opportunity @ Dr Spine</h2>
-        <ul style="padding: 28px;font-size:18px; list-style-type:none;">
+        <h2 style="font-size:35px;color:gray;">Join the team!<br>Opportunity @ Dr Spine</h2>
+        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-20px;">
             <li style="list-style-type: disc;">Full time or part time opportunities</li>
             <li style="list-style-type: disc;">Tempting Salary</li>
             <li style="list-style-type: disc;">Medical Insurance</li>
             <li style="list-style-type: disc;">Yearly vacations</li>
             <li style="list-style-type: disc;">Opportunities in as a faculty</li>
         </ul>
-        <h6 style="font-size:20px; color:gray;">Expectations:</h6>
-        <ul style="padding: 28px;font-size:18px; list-style-type:none;">
+        <h6 style="font-size:20px; color:gray; margin-top:-25px; ">Expectations:</h6>
+        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-15px; ">
             <li style="list-style-type: disc;">Consult with patients and diagnose health and medical history and arrive at a detailed prognosis and optics as and when necessary.</li>
             <li style="list-style-type: disc;">Evaluating patients’ neuro – musculoskeletal systems / disorders in the spine, areas using chiropractic diagnosis to determine neuro – musculoskeletal and spine related conditions.</li>
             <li style="list-style-type: disc;">Ability to perform manual adjustments on the spine, with various other articulations in the body, in order to correct the musculoskeletal system, where necessary.</li>
@@ -126,8 +126,8 @@ z-index: 1; /* Place overlay above the image */
             <li style="list-style-type: disc;">Wanting to make a lot of money and blessings.</li>
            
         </ul>
-        <h6 style="font-size:20px; color:gray;">Qualifications needed:</h6>
-        <ul style="padding: 28px;font-size:18px; list-style-type:none;">
+        <h6 style="font-size:20px; color:gray; margin-top:-30px;">Qualifications needed:</h6>
+        <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-10px;">
          <li style="list-style-type: disc;">4-year bachelor’s degree from an accredited college.</li>
          <li style="list-style-type: disc;">Doctor of Chiropractic degree from an accredited chiropractic college.</li>
          <li style="list-style-type: disc;">Passing scores for Parts I, II, III, and IV.</li> 
@@ -137,7 +137,7 @@ z-index: 1; /* Place overlay above the image */
  <div class="col-md-6">
     <div class="container mb-3 mt-3" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
     <div class="row mb-3">
-    <h3 style="font-size:30px;text-align:center;" class="mt-3 mb-3">Contact us for more details</h3>
+    <h3 style="font-size:30px;text-align:center;  color:gray;" class="mt-3 mb-3">Contact us for more details</h3>
       <div class="col-md-6">
         
         <label for="full-name" class="form-label">Full Name</label>

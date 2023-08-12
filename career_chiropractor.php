@@ -171,10 +171,10 @@ z-index: 1; /* Place overlay above the image */
     <div class="row">
         <center>
       <div class="col-md-12">
-        <h2 style="font-size:45px; color:gray;">CHIROPRACTIC HELPS</h2>
+        <h2 style="font-size:45px; color:#666666;">CHIROPRACTIC HELPS</h2>
         <img src="img/career1.png" alt=""><br><br>
-        <h2 style="font-size:45px; color:gray;"> WE ARE HIRING!!!</h2>
-        <h4 style="font-size:35px; color:gray;">Full Time or Part Time | Apply Today!</h4>
+        <h2 style="font-size:45px;  "> WE ARE HIRING!!!</h2>
+        <h4 style="font-size:35px; color:#666666;">Full Time or Part Time | Apply Today!</h4>
     </center>
        
       </div>
@@ -183,7 +183,7 @@ z-index: 1; /* Place overlay above the image */
 <div class="container pt-5">
     <div class="row">
         <div class="col-md-12">
-        <h2 style="font-size:35px; color:gray;">CHIROPRACTORS</h2>
+        <h2 style="font-size:35px; color:#666666;">CHIROPRACTORS</h2>
         <p style="font-size:20px; text-align:justify;">Looking for an opportunity to treat critical conditions with passion and delivering quality chiropractic care?<br>The right adjustment is all it takes with passion and empathy.</p>
        <p style="font-size:20px; text-align:justify;">At Dr Spine Chiropractic, we’ve got your back. As a part of our team , you will be surprised to witness that our well researched, tested back end operations, procedures and model gives you all the support you need to focus on doing what you do best, we treat: looking after your patients. We support you with marketing, and deal with all of your business back end operations and support system that enables our Drs to focus on treatments, patients that by default enables a string financial stability and security to think long term.</p>
     <p style="font-size:20px; text-align:justify;">Heck out what our chiropractors have to say on working in India, with Dr Spine and witness the abundance culture, love, food and love bestowed by patients.</p>
@@ -197,7 +197,7 @@ z-index: 1; /* Place overlay above the image */
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6">
-        <h2 style="font-size:35px;color:gray;">Join the team!<br>Opportunity @ Dr Spine</h2>
+        <h2 style="font-size:35px;color:#666666;">Join the team!<br>Opportunity @ Dr Spine</h2>
         <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-20px;">
             <li style="list-style-type: disc;">Full time or part time opportunities</li>
             <li style="list-style-type: disc;">Tempting Salary</li>

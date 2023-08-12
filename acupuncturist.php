@@ -254,33 +254,6 @@ z-index: 1; /* Place overlay above the image */
                                 <input type="tel" class="form-control" id="mobile" placeholder="Mobile" required>
                             </div>
                         </div>
-                      <div class="col-md-6">
-                        <label for="full-name" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" id="full-name" name="full-name"  placeholder="Full Name" required>
-                      </div>
-                      <div class="col-md-6">
-                        <label for="subject" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject"  placeholder="Subject" required>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-6">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" name="email"  placeholder="Email" required>
-                      </div>
-                      <div class="col-md-6">
-                        <label for="mobile" class="form-label">Mobile</label>
-                        <input type="tel" class="form-control" id="mobile" name="mobile"  placeholder="Mobile" required>
-                      </div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="message" class="form-label">Write your message below</label>
-                      <textarea class="form-control" id="message" name="message" rows="4"  placeholder="Briefly describe your problem" required></textarea>
-                    </div>
-                    <div class="mt-3">
-                    <label class="w-100">Resume: <span class="wpcf7-form-control-wrap" data-name="Resume"><input size="40" class="wpcf7-form-control wpcf7-file" id="resume" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" type="file" name="Resume"></span> </label>
-                </div >
-                <button type="submit" class="btn btn-primary form-control mt-3 mb-3">Submit</button>
                 
                         <div class="mb-3">
                             <label for="textarea" class="form-label">Write your message below</label>
@@ -302,6 +275,10 @@ z-index: 1; /* Place overlay above the image */
 </div>
 </div>
 </div >
+
+
+
+</div>
 
 
 

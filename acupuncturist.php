@@ -80,11 +80,11 @@ z-index: 1; /* Place overlay above the image */
     <div class="container pt-4">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-size: 45px;font-weight:bold;text-align:center">CHIROPRACTIC HELPS</h2>
+                <h2 style="font-size: 45px;font-weight:bold;text-align:center; color:#666666">CHIROPRACTIC HELPS</h2>
                 <center><img src="img/career1.png" alt=""  ></center><br>
-                <h2 style="font-size: 45px;font-weight:bold;text-align:center">WE ARE HIRING!!!
+                <h2 style="font-size: 45px;font-weight:bold;text-align:center; color:gray">WE ARE HIRING!!!
                 </h2>
-                <h2 style="font-size: 35px;font-weight:bold;text-align:center">Full Time or Part Time | Apply Today!
+                <h2 style="font-size: 35px;font-weight:bold;text-align:center; color:#666666">Full Time or Part Time | Apply Today!
                 </h2>
             </div>
         </div>
@@ -96,7 +96,7 @@ z-index: 1; /* Place overlay above the image */
     <div class="container mt-3">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-size:35px;font-weight:bold">Acupuncturist</h2>
+                <h2 style="font-size:35px;font-weight:bold;color:#666666">Acupuncturist</h2>
                 <p style="font-size: 20px; font-weight:bold;color:gray">Qualifications:</p>
                 <p style="font-size: 20px;text-align:justify">An acupuncturist who can treat a variety of physical and psychological problems. Acupuncturists consult with patients about symptoms, perform diagnoses, and treat ailments using acupuncture needles. Acupuncturist Job Description Template</p>
                 <p style="font-size: 20px;text-align:justify">We are looking for an acupuncturist to be responsible for performing acupuncture on patients. The responsibilities of an acupuncturist include preparing herbal treatments, collecting the medical history of patients, and treating patients using needles and other tools.</p>
@@ -109,25 +109,25 @@ z-index: 1; /* Place overlay above the image */
         <div class="row">
             <div class="col-md-6">
                 <p  style="font-size: 20px; font-weight:bold;color:gray">Acupuncturist Responsibilities:</p>
-                <ul style="padding: 10px;font-size:18px; list-style-type:none;">
-                    <li style="list-style-type: disc;margin-left:10px">Treating patients with needles, cups, ear balls, seeds, pellets, and supplements.</li>
-                    <li  style="list-style-type: disc;margin-left:10px">Preparing herbal treatments to treat patients.</li>
-                    <li  style="list-style-type: disc;margin-left:10px">Assessing patients to make diagnoses.</li>
-                    <li  style="list-style-type: disc;margin-left:10px">Collating medical histories.</li>
-                    <li  style="list-style-type: disc;margin-left:10px">Developing treatment plans.</li>
-                    <li  style="list-style-type: disc;margin-left:10px">Analyzing physical findings and medical records to make a diagnosis.</li>
-                    <li  style="list-style-type: disc;margin-left:10px">Monitoring progress.</li>
-                    <li  style="list-style-type: disc;margin-left:10px">Ensuring a safe and healthy environment.</li>
-                    <li  style="list-style-type: disc;margin-left:10px">Abiding by laws and regulations.</li>
+                <ul style="padding: 28px;font-size:18px; list-style-type:none;margin-top:-30px;margin-bottom:-20px">
+                    <li style="list-style-type: disc;">Treating patients with needles, cups, ear balls, seeds, pellets, and supplements.</li>
+                    <li  style="list-style-type: disc;">Preparing herbal treatments to treat patients.</li>
+                    <li  style="list-style-type: disc;">Assessing patients to make diagnoses.</li>
+                    <li  style="list-style-type: disc;">Collating medical histories.</li>
+                    <li  style="list-style-type: disc;">Developing treatment plans.</li>
+                    <li  style="list-style-type: disc;">Analyzing physical findings and medical records to make a diagnosis.</li>
+                    <li  style="list-style-type: disc;">Monitoring progress.</li>
+                    <li  style="list-style-type: disc;">Ensuring a safe and healthy environment.</li>
+                    <li  style="list-style-type: disc;">Abiding by laws and regulations.</li>
                 </ul>
                 <p  style="font-size: 20px; font-weight:bold;color:gray">Acupuncturist Requirements:</p>
-                <ul style="padding: 10px;font-size:18px; list-style-type:none;">
-                     <li  style="list-style-type: disc;margin-left:10px">Accreditation as an acupuncturist.</li>
-                     <li  style="list-style-type: disc;margin-left:10px">License to practice acupuncture.</li>
-                     <li  style="list-style-type: disc;margin-left:10px">Good analytical skills.</li>
-                     <li  style="list-style-type: disc;margin-left:10px">Compassion for patients.</li>
-                     <li  style="list-style-type: disc;margin-left:10px">Administrative skills.</li>
-                     <li  style="list-style-type: disc;margin-left:10px">Good communication skills.</li>
+                <ul style="padding: 28px;font-size:18px; list-style-type:none;margin-top:-30px">
+                     <li  style="list-style-type: disc;">Accreditation as an acupuncturist.</li>
+                     <li  style="list-style-type: disc;">License to practice acupuncture.</li>
+                     <li  style="list-style-type: disc;">Good analytical skills.</li>
+                     <li  style="list-style-type: disc;">Compassion for patients.</li>
+                     <li  style="list-style-type: disc;">Administrative skills.</li>
+                     <li  style="list-style-type: disc;">Good communication skills.</li>
                 </ul>
                     `
             </div>
@@ -135,7 +135,7 @@ z-index: 1; /* Place overlay above the image */
                 <div class="container mb-3 mt-3" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
                     <div class="row mb-3">
                         <div class="text-center mb-3 mt-3">
-                        <h2 style="font-size:30px;font-weight:30px,">Contact us for more details</h2>
+                        <h2 style="font-size:30px;font-weight:30px;color:#666666">Contact us for more details</h2>
                         </div>
                       <div class="col-md-6">
                         <label for="full-name" class="form-label">Full Name</label>

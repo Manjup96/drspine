@@ -10,6 +10,100 @@ include 'links.php';
 <?php
     include 'menu.php';
     ?>
+
+    
+<!-- Form Styles -->
+<style>
+
+#form .container-fluid {
+    padding: 50px;
+    
+}
+#form hr {
+     border: 1px solid #ccc; /* Change 2px to the desired thickness */
+     
+ }
+
+#form .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    
+   
+}
+
+#form .card-body {
+    width: 1100px;
+    margin-left: -20px;
+    
+}
+
+#form .form-label {
+    
+    color: grey;
+}
+
+#form .form-control {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+
+#form .form-select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+}
+#form .btn {
+    background-color: #55b6c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 213px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    #form { 
+        padding: 10px;
+        max-width: 100%;
+    }
+    #form .card-body {
+        max-width: 110%;
+    }
+    #form .btn {
+        padding: 10px;
+        width: 100%;
+        
+    }
+}
+/* Responsive adjustments for iPad view */
+@media (min-width: 768px) and (max-width: 991.98px) {
+#form {
+        padding: 10px;
+        max-width: 100%;
+    }
+    #form .card-body {
+        max-width: 710px;
+        margin-left: -29px;
+    }
+    #form .btn {
+        padding: 10px;
+        width: 100%;
+        
+    }
+}
+</style>
+<!-- Form Styles -->
+
+
     <style>
         
 @media only screen and (max-width: 767px) {
@@ -80,11 +174,11 @@ z-index: 1; /* Place overlay above the image */
     <div class="container pt-4">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-size: 45px;font-weight:bold;text-align:center; color:#666666">CHIROPRACTIC HELPS</h2>
-                <center><img src="img/career1.png" alt=""  ></center><br>
-                <h2 style="font-size: 45px;font-weight:bold;text-align:center; color:gray">WE ARE HIRING!!!
+                <h2 style="font-size: 45px;font-weight:bold;text-align:center">CHIROPRACTIC HELPS</h2><br>
+                <center><img src="img/career1.png" alt=""  ></center>
+                <h2 style="font-size: 45px;font-weight:bold;text-align:center">WE ARE HIRING!!!
                 </h2>
-                <h2 style="font-size: 35px;font-weight:bold;text-align:center; color:#666666">Full Time or Part Time | Apply Today!
+                <h2 style="font-size: 35px;font-weight:bold;text-align:center">Full Time or Part Time | Apply Today!
                 </h2>
             </div>
         </div>
@@ -96,7 +190,7 @@ z-index: 1; /* Place overlay above the image */
     <div class="container mt-3">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-size:35px;font-weight:bold;color:#666666">Acupuncturist</h2>
+                <h2 style="font-size:35px;font-weight:bold">Acupuncturist</h2>
                 <p style="font-size: 20px; font-weight:bold;color:gray">Qualifications:</p>
                 <p style="font-size: 20px;text-align:justify">An acupuncturist who can treat a variety of physical and psychological problems. Acupuncturists consult with patients about symptoms, perform diagnoses, and treat ailments using acupuncture needles. Acupuncturist Job Description Template</p>
                 <p style="font-size: 20px;text-align:justify">We are looking for an acupuncturist to be responsible for performing acupuncture on patients. The responsibilities of an acupuncturist include preparing herbal treatments, collecting the medical history of patients, and treating patients using needles and other tools.</p>
@@ -109,30 +203,30 @@ z-index: 1; /* Place overlay above the image */
         <div class="row">
             <div class="col-md-6">
                 <p  style="font-size: 20px; font-weight:bold;color:gray">Acupuncturist Responsibilities:</p>
-                <ul style="padding: 28px;font-size:18px; list-style-type:none;margin-top:-30px;margin-bottom:-20px">
-                    <li style="list-style-type: disc;">Treating patients with needles, cups, ear balls, seeds, pellets, and supplements.</li>
-                    <li  style="list-style-type: disc;">Preparing herbal treatments to treat patients.</li>
-                    <li  style="list-style-type: disc;">Assessing patients to make diagnoses.</li>
-                    <li  style="list-style-type: disc;">Collating medical histories.</li>
-                    <li  style="list-style-type: disc;">Developing treatment plans.</li>
-                    <li  style="list-style-type: disc;">Analyzing physical findings and medical records to make a diagnosis.</li>
-                    <li  style="list-style-type: disc;">Monitoring progress.</li>
-                    <li  style="list-style-type: disc;">Ensuring a safe and healthy environment.</li>
-                    <li  style="list-style-type: disc;">Abiding by laws and regulations.</li>
+                <ul style="padding: 10px;font-size:18px; list-style-type:none;">
+                    <li style="list-style-type: disc;margin-left:10px">Treating patients with needles, cups, ear balls, seeds, pellets, and supplements.</li>
+                    <li  style="list-style-type: disc;margin-left:10px">Preparing herbal treatments to treat patients.</li>
+                    <li  style="list-style-type: disc;margin-left:10px">Assessing patients to make diagnoses.</li>
+                    <li  style="list-style-type: disc;margin-left:10px">Collating medical histories.</li>
+                    <li  style="list-style-type: disc;margin-left:10px">Developing treatment plans.</li>
+                    <li  style="list-style-type: disc;margin-left:10px">Analyzing physical findings and medical records to make a diagnosis.</li>
+                    <li  style="list-style-type: disc;margin-left:10px">Monitoring progress.</li>
+                    <li  style="list-style-type: disc;margin-left:10px">Ensuring a safe and healthy environment.</li>
+                    <li  style="list-style-type: disc;margin-left:10px">Abiding by laws and regulations.</li>
                 </ul>
                 <p  style="font-size: 20px; font-weight:bold;color:gray">Acupuncturist Requirements:</p>
-                <ul style="padding: 28px;font-size:18px; list-style-type:none;margin-top:-30px">
-                     <li  style="list-style-type: disc;">Accreditation as an acupuncturist.</li>
-                     <li  style="list-style-type: disc;">License to practice acupuncture.</li>
-                     <li  style="list-style-type: disc;">Good analytical skills.</li>
-                     <li  style="list-style-type: disc;">Compassion for patients.</li>
-                     <li  style="list-style-type: disc;">Administrative skills.</li>
-                     <li  style="list-style-type: disc;">Good communication skills.</li>
+                <ul style="padding: 10px;font-size:18px; list-style-type:none;">
+                     <li  style="list-style-type: disc;margin-left:10px">Accreditation as an acupuncturist.</li>
+                     <li  style="list-style-type: disc;margin-left:10px">License to practice acupuncture.</li>
+                     <li  style="list-style-type: disc;margin-left:10px">Good analytical skills.</li>
+                     <li  style="list-style-type: disc;margin-left:10px">Compassion for patients.</li>
+                     <li  style="list-style-type: disc;margin-left:10px">Administrative skills.</li>
+                     <li  style="list-style-type: disc;margin-left:10px">Good communication skills.</li>
                 </ul>
                     `
             </div>
             <div class="col-md-6">
-            <div class="container-fluid mt-5 mb-5" id="form">
+<div class="container-fluid mt-5 mb-5" id="form">
     <div class="row justify-content-center">
         <div class="card">
             <div class="card-body">
@@ -178,10 +272,17 @@ z-index: 1; /* Place overlay above the image */
             </div>
         </div>
     </div>
-            </div>
-        </div>
-    </div>
+</div>
+</div>
+</div >
 
+
+
+</div>
+
+
+
+</div>
      <!-- Footer Start -->
 <?php include("footer.php"); ?>
     <!-- Footer End -->

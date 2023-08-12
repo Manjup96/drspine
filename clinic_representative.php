@@ -87,10 +87,10 @@ z-index: 1; /* Place overlay above the image */
     <div class="row">
         <center>
       <div class="col-md-12">
-        <h2 style="font-size:55px;">CHIROPRACTIC HELPS</h2>
-        <img src="img/career1.png" alt=""><br>
-        <h2 style="font-size:45px;"> WE ARE HIRING!!!</h2>
-        <h4 style="font-size:35px;">Full Time or Part Time | Apply Today!</h4>
+        <h2 style="font-size:45px; color:gray;">CHIROPRACTIC HELPS</h2>
+        <img src="img/career1.png" alt=""><br><br>
+        <h2 style="font-size:45px; color:gray;"> WE ARE HIRING!!!</h2>
+        <h4 style="font-size:35px; color:gray;">Full Time or Part Time | Apply Today!</h4>
     </center>
        
       </div>
@@ -100,9 +100,9 @@ z-index: 1; /* Place overlay above the image */
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6">
-        <h2 style="text-align:justify">Clinic Representative</h2>
-        <p style="font-size:20px;">Qualifications: Position requires college graduate or at least college level. Preferably have sales experience specializing in the wellness/healthcare industry. Greet customers and offer assistance. Ensure to sell out services and act as a front-line customer service to walk-in customers. Must know how to educate and inform customers of innovations and technologies by promoting its features.</p>
-    <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top: -30px;" >
+        <h2 style="text-align:justify; color:gray;">Clinic Representative</h2>
+        <p style="font-size:20px; text-align:justify;">Qualifications: Position requires college graduate or at least college level. Preferably have sales experience specializing in the wellness/healthcare industry. Greet customers and offer assistance. Ensure to sell out services and act as a front-line customer service to walk-in customers. Must know how to educate and inform customers of innovations and technologies by promoting its features.</p>
+    <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-30px;" >
         <li style="list-style-type: disc;">Position requires college graduate or at least college level.</li>
         <li style="list-style-type: disc;">Preferably have sales experience specializing in the wellness/healthcare industry.</li>
         <li style="list-style-type: disc;">Empathy towards patents – This is zero tolerance.</li>
@@ -124,7 +124,7 @@ z-index: 1; /* Place overlay above the image */
  <div class="col-md-6">
     <div class="container mb-3 mt-3" style="box-shadow: 0px 0px 5px 2px lightgray; padding: 15px; overflow-wrap: break-word;">
     <div class="row mb-3">
-    <h3 style="font-size:30px;text-align:center;" class="mt-3 mb-3">Contact us for more details</h3>
+    <h3 style="font-size:30px;text-align:center; color:gray;" class="mt-3 mb-3">Contact us for more details</h3>
       <div class="col-md-6">
         <label for="full-name" class="form-label">Full Name</label>
         <input type="text" class="form-control" id="full-name" name="full-name"  placeholder="Full Name" required>

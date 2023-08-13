@@ -1,3 +1,7 @@
+<?php
+    include 'navbar.php';
+    ?>
+
 <style>
     /* Styles for desktop view */
     @media (min-width: 1025px) {

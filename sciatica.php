@@ -89,7 +89,7 @@ include 'links.php';
         background-clip: text;
         -webkit-background-clip: text; /* For compatibility with some browsers */
         text-align: center;
-        font-size: 60px;
+        font-size: 45px;
         color: transparent; /* Set the text color to transparent to make the background visible */
         margin-bottom: 10px;
         margin-top: 10px;
@@ -102,10 +102,12 @@ include 'links.php';
 
   
     
-        
-        <center> <h6 class="badge font-weight-bold secondary-font bg-gray-2  " style=" background-color: gray; ">
-    <span class="text-heading-default" 
-    style="color:black">Dr Spine Chiropractic Clinic In Bangalore</span></h6></center>
+  <center>
+    <h6 class="badge font-weight-bold secondary-font bg-gray-2" style="background-color: lightgray; font-size: 16px !important;">
+        <span class="text-heading-default" style="color: black;">Dr Spine Chiropractic Clinic In Bangalore</span>
+    </h6>
+</center>
+
     <center><h2 class= "sciatica_heading" >How Do Chiropractors Treat Sciatica?</h2></center>
   
 
@@ -286,7 +288,11 @@ body {
                 <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
             </div>
             <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
-                <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
             </div>
         </div>
     </div>

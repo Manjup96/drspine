@@ -42,6 +42,18 @@ include 'links.php';
 
         }
     }
+
+    /* Hide the image by default */
+    #hide_image {
+        display: none;
+    }
+
+    /* Display the image on iPad view */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        #hide_image {
+            display: block;
+        }
+    }
 </style>
 
 <body>
@@ -97,8 +109,10 @@ include 'links.php';
                                     <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
                                         <div>
                                             <div class="card-body">
-                                                <!-- <img src="img/disc_buldge.jpg" alt="Image" class="img-fluid" style="height: 400px; width: 400px;"> -->
+
                                                 <img src="img/Disc-Bulge.png" alt="Image" class="img-fluid pt-5" style="height: 450px; width: 400px;">
+                                                <img src="img/disc_buldge.jpg" alt="Image" class="img-fluid pt-5 pl-5" style="height: 450px; width: 400px;" id="hide_image">
+
                                             </div>
                                         </div>
                                     </div>

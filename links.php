@@ -3,11 +3,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> DR SPINE </title>
 
-    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="shortcut icon" href="img/favicon.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"  href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-tAFitl1SsfJhf04LTtPmn2+n2iu5PWKQ5E5Rp8vyftFzq+KxSM94a/MblC8NN17urhwgGBXC9+gDImd4ldpY0A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </link>

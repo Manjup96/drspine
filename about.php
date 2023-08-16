@@ -98,7 +98,7 @@ $page = 'about';
     /* QIB Button style */
 
     /* card button style */
-    button {
+    .card button {
         border: none;
         outline: 0;
         display: inline-block;
@@ -298,7 +298,7 @@ $page = 'about';
                     <h2 class="fs-3">DocMike</h2>
                     <p>Manila’s Wellness Guru and Chiropractor in Makati, Philippines.</p>
 
-                    <a href="docmike.php" class="a_card"><button>View More</button></a>
+                    <a href="docmike.php" class="a_card"><button class="card button">View More</button></a>
 
                 </div>
             </div>
@@ -308,7 +308,7 @@ $page = 'about';
                     <h2 class="fs-3">Dr.John Clark</h2>
                     <p>A highly specialized chiropractor with 28 years experience</p>
 
-                    <a href="john_clark.php" class="a_card"><button>View More</button></a>
+                    <a href="john_clark.php" class="a_card"><button class="card button">View More</button></a>
                 </div>
             </div>
         </div>
@@ -322,14 +322,14 @@ $page = 'about';
                 <div class="card m-3">
                     <img src="img/doctor_3.png" alt="John" style="width:100%">
                     <h2>Dr.Troy <br> Scheible</h2>
-                    <a href="troy_scheible.php" class="a_card"><button>View More</button></a>
+                    <a href="troy_scheible.php" class="a_card"><button class="card button">View More</button></a>
                 </div>
             </div>
             <div class="col-md-4  " style="text-align:center;">
                 <div class="card m-3">
                     <img src="img/doctor_2.png" alt="John" style="width:100%">
                     <h2>Dr. Michael <br>Wohlgemuth</h2>
-                    <a href="michael_wohlgemuth.php" class="a_card"><button>View More</button></a>
+                    <a href="michael_wohlgemuth.php" class="a_card"><button class="card button">View More</button></a>
                 </div>
             </div>
             <div class="col-md-4" style="text-align:center;">
@@ -337,7 +337,7 @@ $page = 'about';
                 <div class="card m-3">
                     <img src="img/doctor_4.png" alt="John" style="width:100%">
                     <h2>Dr. Chetan <br> Upadhyaya</h2>
-                    <a href="chetan_upadhyaya.php" class="a_card"><button>View More</button></a>
+                    <a href="chetan_upadhyaya.php" class="a_card"><button class="card button">View More</button></a>
                 </div>
 
             </div>

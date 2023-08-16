@@ -91,7 +91,7 @@
           <div class="col-lg-4 col-md-9 text-center text-md-center">
               <h3 class="text-white mb-4">Follow Us</h3>
               <div class="d-flex justify-content-center justify-content-md-center social-icons">
-                  <a class="btn" href="" target="_blank">
+                  <a class="btn" href="https://api.whatsapp.com/send?phone=917550705070" target="_blank">
                       <img class="twitter-icon" src="img/whatsapp.png" alt="Twitter Icon" style="width: 45px; height: 45px;">
                   </a>
                   <a class="btn" href="https://www.facebook.com/drspineclinic/" target="_blank">

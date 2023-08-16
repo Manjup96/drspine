@@ -91,10 +91,7 @@
         <div class="nav-section">
           <div class="social-media-icons" style="margin-left: 40px;">
             <a href="https://www.facebook.com/drspineclinic/"><i class="fab fa-facebook" style="font-size: 18px;"></i></a>
-            <a href="https://www.youtube.com" style="margin-left: 3px;"><i class="fab fa-youtube" style="font-size: 18px;"></i></a>
-            <a href="https://www.instagram.com" style="margin-left: 3px;"><i class="fab fa-instagram" style="font-size: 18px;"></i></a>
-            <a href="https://www.whatsapp.com" style="margin-left: 3px;"><i class="fab fa-whatsapp" style="font-size: 18px;"></i></a>
-
+           
             <a href="https://www.youtube.com/channel/UCbUVemOwXbSiTEmWrBVhSlQ" style="margin-left: 3px;"><i class="fab fa-youtube" style="font-size: 18px;"></i></a>
             <a href="https://www.instagram.com/drspineclinic/" style="margin-left: 3px;"><i class="fab fa-instagram" style="font-size: 18px;"></i></a>
             <a href="https://api.whatsapp.com/send?phone=917550705070" style="margin-left: 3px;"><i class="fab fa-whatsapp" style="font-size: 18px;"></i></a>

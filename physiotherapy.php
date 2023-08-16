@@ -50,7 +50,7 @@ include 'links.php';
         background-clip: text;
         -webkit-background-clip: text; /* For compatibility with some browsers */
         text-align: center;
-        font-size: 60px;
+        font-size: 45px;
         color: transparent; /* Set the text color to transparent to make the background visible */
         /* margin-bottom: 50px;
         margin-top: 50px; */
@@ -70,10 +70,10 @@ include 'links.php';
     
     <br>
 
-    <center> <h6 class="badge font-weight-bold secondary-font bg-gray-2  " style=" background-color: gray; ">
+    <center> <h6 class="badge font-weight-bold secondary-font bg-gray-2  " style=" background-color: lightgray; ">
     <span class="text-heading-default" 
     style="color:black">Dr Spine Chiropractic Clinic In Bangalore</span></h6></center>
-<center><h2 class= "sciatica_heading" >Physiotherapy Treatment Bangalore</h2></center>
+<center><h2 class= "sciatica_heading">Physiotherapy Treatment Bangalore</h2></center>
 
 
 <style>
@@ -165,15 +165,13 @@ include 'links.php';
 
 <div class="card">
     <div class="container">
-    <h6 style="color: gray">Dr. Spine Clinic</h6>
-                
-             
-    
-<center>
+    <h6 class="badge font-weight-bold secondary-font bg-gray" style="background-color: lightgray; font-size: 20px;">
+    <span class="text-heading-default" style="color: black;">Dr Spine Clinic</span>
+</h6>
 
         <div class="row">
             <div class="col-md-12 col-lg-6">
-            <h2 style="font-size: 28px; color: #55b6c7">Physiotherapy Treatment Process at Dr. Spine</h2>
+            <h2 style="font-size: 35px; color: #55b6c7">Physiotherapy Treatment Process at Dr. Spine</h2>
                    <p style="font-size: 20px; text-align: justify; padding: 10px;">Physiotherapy is provided in case of issues that range from musculoskeletal, Injuries from sports, pediatrics, cardio-respiratory, women’s health, Aged population, and main rehabilitation after accidents and surgeries that require specific movements of the body parts respectively. If you are searching for the best physiotherapists in Bangalore, you should check us out.</p>
             </div>
             <div class="col-md-12 col-lg-6 ">
@@ -534,7 +532,11 @@ body {
                 <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
             </div>
             <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
-                <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
             </div>
         </div>
     </div>

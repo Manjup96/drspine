@@ -1,6 +1,6 @@
 <?php
-    include 'navbar.php';
-    ?>
+include 'navbar.php';
+?>
 
 <style>
     /* Styles for desktop view */
@@ -15,7 +15,7 @@
     /* Styles for ipad view */
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
         .navbar-toggler {
-            margin-left: 280px;
+            margin-left: 500px;
             font-size: 20px;
         }
 
@@ -127,15 +127,16 @@
             width: 700px;
         }
     }
-    
-    /* ul {
-    list-style-type: none;
-  }
-  ul li {
-    list-style-type: disc;
-   
-  } */
+
+
+    /* @media (max-width: 768px) {
+        .navbar-toggler {
+            padding-left: 50% !important;
+        }
+    } */
 </style>
+
+
 
 <!--<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-light">-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" style="box-shadow: 10px 10px 10px 10px #007bff;">
@@ -145,12 +146,13 @@
 
     <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
         <a class="navbar-brand" href="#">
-            <img src="img/logo.png" alt="logo" width="70%" style="max-width: 600px; background-color: transparent;">
+            <img src="img/logo_new1.png" alt="logo" style="background-color: transparent;">
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
 
         </a>
 
@@ -172,7 +174,7 @@
 
                 <li class="nav-item" style="margin-left: 15px;">
                     <div class="nav-item dropdown">
-                    <a href="services.php" class="nav-link dropdown-toggle text-center <?php if ($page == 'services') echo 'active' ?>" style="<?php echo ($page == 'services') ? 'background-color:#34B6DE;color:white' : ''; ?>" data-bs-toggle="dropdown">Services</a>
+                        <a href="services.php" class="nav-link dropdown-toggle text-center <?php if ($page == 'services') echo 'active' ?>" style="<?php echo ($page == 'services') ? 'background-color:#34B6DE;color:white' : ''; ?>" data-bs-toggle="dropdown">Services</a>
 
                         <div class="dropdown-menu m-0 custom-dropdown">
                             <div class="container">

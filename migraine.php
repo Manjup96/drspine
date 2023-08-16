@@ -89,37 +89,6 @@ include 'links.php';
         height: 100%;
     }
 
-
-
-#texts {
-            max-width: 1170px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-#texts h2 {
-        background-image: linear-gradient(to right, #000000, #34b6de, #000000);
-        background-clip: text;
-        -webkit-background-clip: text; 
-        text-align: center;
-        font-size: 60px;
-        color: transparent; 
-        margin-bottom: 50px;
-        }
-
-        #texts p {
-            font-size: 20px;
-            line-height: 1.6;
-            color: #666;
-            margin-bottom: 20px;
-            
-        }
-
-        #texts .row {
-            margin-left: 0;
-            margin-right: 0;
-        }
-
         .card {
             position: relative;
             width: 100%;
@@ -135,7 +104,7 @@ include 'links.php';
         background-clip: text;
         -webkit-background-clip: text; /* For compatibility with some browsers */
         text-align: center;
-        font-size: 50px;
+        font-size: 45px;
         color: transparent; /* Set the text color to transparent to make the background visible */
         /* margin-bottom: 0px;
         margin-top: 10px; */
@@ -314,7 +283,11 @@ body {
                 <p>3 Convenient Clinic Locations in Bangalore | Indiranagar | Whitefield | New BEL Road</p>
             </div>
             <div class="col-md-4 col-sm-12 text-center" style="padding-top:20px;">
-                <button><i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070</button>
+            <a href="tel:+917550705070" style="text-decoration: none;">
+               <button style="cursor: pointer;">
+               <i class="fas fa-phone-alt me-2"></i>CALL +91 7550705070
+               </button>
+             </a>
             </div>
         </div>
     </div>

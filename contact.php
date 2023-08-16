@@ -306,10 +306,6 @@ include 'links.php';
     <div class="container-fluid bg-white px-0">
         <div class="row g-0 justify-content-center ">
             <div class="col-lg-12 py-6 text-center ">
-
-
-
-
                 <form method="POST" action="" class="php-email-form pt-5 mx-auto" id="responsive_view" style="margin-top:30px;">
 
                     <h2 class="text-center  mb-4 pt-5" style="font-size:30px;font-weight:bold;">Contact For Any Queries</h2>

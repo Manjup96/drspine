@@ -83,7 +83,7 @@
     </div>
     <div class="col-md-2">
       <div class="nav-section-container" style="margin-right: -22px; ">
-        <div class="nav-section"><a href="international.php" style="font-size: 14px; margin-left: 12px; font-weight:bold;">INTERNATIONAL PATIENTS</a></div>
+        <div class="nav-section"><a href="international-patients.php" style="font-size: 14px; margin-left: 12px; font-weight:bold;">INTERNATIONAL PATIENTS</a></div>
       </div>
     </div>
     <div class="col-md-4">

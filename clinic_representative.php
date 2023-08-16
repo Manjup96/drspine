@@ -144,7 +144,7 @@ z-index: 1; /* Place overlay above the image */
             }
             #form .card-body {
                 max-width: 710px;
-                margin-left: -29px;
+                margin-left: -34px;
             }
             #form .btn {
                 padding: 10px;

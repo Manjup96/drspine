@@ -77,7 +77,7 @@ z-index: 1; /* Place overlay above the image */
         }
 
         #form .card-body {
-            width: 1100px;
+            width: 1020px;
             margin-left: -20px;
             
         }
@@ -106,7 +106,7 @@ z-index: 1; /* Place overlay above the image */
             color: white;
             border: none;
             border-radius: 5px;
-            padding: 10px 213px;
+            padding: 10px 197px;
             cursor: pointer;
             font-size: 20px;
             font-weight: 600;
@@ -136,7 +136,7 @@ z-index: 1; /* Place overlay above the image */
             }
             #form .card-body {
                 max-width: 710px;
-                margin-left: -29px;
+                margin-left: -34px;
             }
             #form .btn {
                 padding: 10px;
@@ -215,7 +215,7 @@ z-index: 1; /* Place overlay above the image */
             <li style="list-style-type: disc;">Maintain accurate treatment histories of patients.</li>
             <li style="list-style-type: disc;">Establishing a positive doctor-patient relationships with empathy.</li>
             <li style="list-style-type: disc;">Wanting to make a lot of money and blessings.</li>
-           
+          <br> 
         </ul>
         <h6 style="font-size:20px; color:#333; margin-top:-30px;">Qualifications needed:</h6>
         <ul style="padding: 28px;font-size:18px; list-style-type:none; margin-top:-10px; text-align:justify;">

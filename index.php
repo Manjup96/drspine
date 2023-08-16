@@ -365,23 +365,23 @@ include 'links.php';
                     <div class="testimonial-content">
                         <h4 class="testimonial-heading">OUR CHIROPRACTORS</h4>
                         <p class="testimonial-paragraph">Highly trained, specialist American chiropractors who mastered the art of spinal adjustments.</p>
-                        <a href= "about.php" class="read-more-btn">Read More> </a>
+                        <a href= "about.php" class="read-more-btn">Read More >> </a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <img class="testimonial-image" src="img/testimonial_2.png" alt="Person 2">
                     <div class="testimonial-content">
                         <h4 class="testimonial-heading">95% SUCCESS RATE</h4>
-                        <p class="testimonial-paragraph">At our Bangalore spine clinic, we have treated 1000s of patients with a very high success rate.</p>
-                        <a href= "services.php" class="read-more-btn" >Read More> </a>
+                        <p class="testimonial-paragraph">At our Bangalore spine clinic, we have treated 1000s of patients with a very high success rate.</p><br>
+                        <a href= "services.php" class="read-more-btn" >Read More >> </a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <img class="testimonial-image" src="img/testimonial_3.png" alt="Person 3">
                     <div class="testimonial-content">
                         <h4 class="testimonial-heading">CONDITIONS TREATED</h4>
-                        <p class="testimonial-paragraph">We treat a wide range of spine-related issues. Back pain, neck pain, disc degeneration, etc.</p>
-                        <a href= "pain_relief_chiropractor.php" class="read-more-btn">Read More> </a>
+                        <p class="testimonial-paragraph">We treat a wide range of spine-related issues. Back pain, neck pain, disc degeneration, etc.</p><br>
+                        <a href= "pain_relief_chiropractor.php" class="read-more-btn">Read More >> </a>
                     </div>
                 </div>
                 <div class="testimonial-card">
@@ -389,7 +389,7 @@ include 'links.php';
                     <div class="testimonial-content">
                         <h4 class="testimonial-heading">WHAT'S CHIROPRACTIC?</h4>
                         <p class="testimonial-paragraph">Chiropractic is natural health care that involves treating patients without the use of medicines.</p>
-                        <a href= "what_is_chiropractic.php" class="read-more-btn">Read More> </a>
+                        <a href= "what_is_chiropractic.php" class="read-more-btn">Read More >> </a>
                     </div>
                 </div>
             </div>
@@ -454,6 +454,9 @@ include 'links.php';
         #para2 img:last-child {
             display: none;
         }
+        #para2 h6 {
+            margin-top: 10px;
+        }
     }
 
     /* Responsive adjustments for iPad view */
@@ -472,6 +475,9 @@ include 'links.php';
             margin-top: 40px;
             width: 100%;
             height: 50%;
+        }
+        #para2 h6 {
+            margin-top: 50px;
         }
     }
     /* Hide the image in desktop and mobile views */
@@ -764,6 +770,9 @@ include 'links.php';
         #para5 img:last-child {
             display: none;
         }
+        #para5 h6 {
+            margin-top: 10px;
+        }
     }
 
     /* Responsive adjustments for iPad view */
@@ -779,6 +788,9 @@ include 'links.php';
         }
         #para5 img{
             
+        }
+        #para5 h6 {
+            margin-top: 10px;
         }
         /* #para5 h4 {
             font-size: 20px;
@@ -1264,6 +1276,11 @@ include 'links.php';
             margin-top: 0; /* Revert to original margin for larger screens */
         }
     }
+    @media (max-width: 767.98px) { 
+            #para7 h6 {
+            margin-top:10px;
+        }
+        }
 </style>
 
 <div class="container-fluid" id="para7">
@@ -1520,7 +1537,7 @@ include 'links.php';
             opacity: 0;
         }
         /* dots */
-        #reviews .carousel-indicators {
+    #reviews .carousel-indicators {
     position: absolute;
     bottom: -30px;
     left: 50%;

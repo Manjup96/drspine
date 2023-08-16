@@ -34,7 +34,7 @@ include 'links.php';
 }
 
 #form .card-body {
-    width: 1100px;
+    width: 1020px;
     margin-left: -20px;
     
 }
@@ -63,7 +63,7 @@ include 'links.php';
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 213px;
+    padding: 10px 197px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
@@ -94,7 +94,7 @@ include 'links.php';
     }
     #form .card-body {
         max-width: 710px;
-        margin-left: -29px;
+        margin-left: -34px;
     }
     #form .btn {
         padding: 10px;

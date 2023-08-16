@@ -188,7 +188,7 @@ z-index: 1; /* Place overlay above the image */
         }
 
         #form .card-body {
-            width: 1100px;
+            width: 1020px;
             margin-left: -20px;
             
         }
@@ -217,7 +217,7 @@ z-index: 1; /* Place overlay above the image */
             color: white;
             border: none;
             border-radius: 5px;
-            padding: 10px 213px;
+            padding: 10px 197px;
             cursor: pointer;
             font-size: 20px;
             font-weight: 600;
@@ -251,7 +251,7 @@ z-index: 1; /* Place overlay above the image */
             }
             #form .card-body {
                 max-width: 710px;
-                margin-left: -29px;
+                margin-left: -34px;
             }
             #form .btn {
                 padding: 10px;

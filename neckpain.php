@@ -152,7 +152,7 @@ include 'links.php';
         <div class="col-md-6 col-lg-6 col-xs-12">
             <div class="video-container pt-5">
                  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;" class="border rounded border-dark">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https:www.youtube.com/embed/x3yDLHdVY6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/x3yDLHdVY6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
  </div>
         </div>

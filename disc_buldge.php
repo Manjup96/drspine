@@ -54,6 +54,20 @@ include 'links.php';
             display: block;
         }
     }
+
+
+    .disc_buldge {
+        background-image: linear-gradient(to right, #000000, #34b6de, #000000);
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* For compatibility with some browsers */
+        text-align: center;
+        font-size: 45px;
+        color: transparent;
+        /* Set the text color to transparent to make the background visible */
+        /* margin-bottom: 50px;
+        margin-top: 50px; */
+    }
 </style>
 
 <body>
@@ -81,7 +95,7 @@ include 'links.php';
 
 
 
-
+    <!-- 
     <div class="container">
         <div class="row">
             <div class="col-md-12 pt-5">
@@ -90,7 +104,19 @@ include 'links.php';
                     the Dr. Spine Way!</p>
             </div>
         </div>
-    </div>
+    </div> -->
+
+
+    <center>
+        <h6 class="badge font-weight-bold secondary-font bg-gray-2 mt-5 " style=" background-color: lightgray; ">
+            <span class="text-heading-default" style="color:black">Dr Spine Chiropractic Clinic In Bangalore</span>
+        </h6>
+    </center>
+    <center>
+        <h2 class="disc_buldge">Treating a Bulging Disc
+            the Dr. Spine Way!</h2>
+    </center>
+
 
     <div class="container">
         <div class="row">
@@ -101,10 +127,14 @@ include 'links.php';
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-6 pt-5" style="font-family:Open Sans, sans-serif;">
-                                        <p><span style="background-color: #bdc3c7 ">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p>
-                                        <p style="font-size:50px;">Disc Bulge or Slipped Disc</p>
-                                        <p style="font-size:20px;text-align: justify;">The so-called “slipped disc” is a very common complaint, and is often mis-diagnosed by some health professionals not specifically trained to diagnose and treat bio-mechanical stress on the spine and the affects this has on spinal nerve roots.</p>
-                                        <p style="font-size:20px;text-align: justify;">At Dr. Spine, our doctors have treated thousands of patients suffering from bulging discs in the spine (or “slipped disc”) using a combination of gentle chiropractic adjustments and specific treatment modalities. Our spine specialists are well trained to accurately assess your condition, then use a variety of chiropractic and other non-invasive methods to bring about lasting relief.</p>
+                                        <!-- <p><span style="background-color: #bdc3c7 ">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p> -->
+
+                                        <h6 class="badge font-weight-bold secondary-font bg-gray" style="background-color: lightgray; font-size: 20px;">
+                                            <span class="text-heading-default" style="color: black;">Dr Spine Clinic</span>
+                                        </h6>
+                                        <p  style="font-size: 35px; color: #55b6c7">Disc Bulge or Slipped Disc</p>
+                                        <p style="font-size: 20px; text-align: justify; padding: 10px;">The so-called “slipped disc” is a very common complaint, and is often mis-diagnosed by some health professionals not specifically trained to diagnose and treat bio-mechanical stress on the spine and the affects this has on spinal nerve roots.</p>
+                                        <p style="font-size: 20px; text-align: justify; padding: 10px;">At Dr. Spine, our doctors have treated thousands of patients suffering from bulging discs in the spine (or “slipped disc”) using a combination of gentle chiropractic adjustments and specific treatment modalities. Our spine specialists are well trained to accurately assess your condition, then use a variety of chiropractic and other non-invasive methods to bring about lasting relief.</p>
                                     </div>
                                     <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
                                         <div>
@@ -126,6 +156,26 @@ include 'links.php';
 
         </div>
     </div>
+
+
+    <!-- <div class="card">
+        <div class="container">
+            <h6 class="badge font-weight-bold secondary-font bg-gray" style="background-color: lightgray; font-size: 20px;">
+                <span class="text-heading-default" style="color: black;">Dr Spine Clinic</span>
+            </h6>
+
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <h2 style="font-size: 35px; color: #55b6c7">Physiotherapy Treatment Process at Dr. Spine</h2>
+                    <p style="font-size: 20px; text-align: justify; padding: 10px;">Physiotherapy is provided in case of issues that range from musculoskeletal, Injuries from sports, pediatrics, cardio-respiratory, women’s health, Aged population, and main rehabilitation after accidents and surgeries that require specific movements of the body parts respectively. If you are searching for the best physiotherapists in Bangalore, you should check us out.</p>
+                </div>
+                <div class="col-md-12 col-lg-6 ">
+                    <img src="img/Chiropractor-1.jpg" alt="" class="img-fluid desktop-image-class">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
 
     <div class="container mt-5 mb-5 ">
         <div class="row justify-content-center">

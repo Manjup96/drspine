@@ -23,39 +23,34 @@
                   /* Align items at the start in desktop view */
               }
           }
-        }
+      }
 
-        #banner button {
-            background-color: #55b6c7;
-            color: white;
-            border: none;
-            border-radius: 20px;
-            /* Slightly reduced border radius */
-            padding: 20px 20px;
-            /* Adjusted padding */
-            font-size: 20px;
-            /* Slightly reduced font size */
-            font-weight: bold;
-            cursor: pointer;
-            margin-right: 20px;
-            /* Reduced margin */
-        }
+      #banner button {
+          background-color: #55b6c7;
+          color: white;
+          border: none;
+          border-radius: 20px;
+          /* Slightly reduced border radius */
+          padding: 20px 20px;
+          /* Adjusted padding */
+          font-size: 20px;
+          /* Slightly reduced font size */
+          font-weight: bold;
+          cursor: pointer;
+          margin-right: 20px;
+          /* Reduced margin */
+      }
   </style>
 
 
-
-  <div class="container-fluid  text-secondary p-5" id="banner" style="margin-top: 3px; background-image: radial-gradient(at center center, #DFFAFF 50%, #55B6C7 100%);">
+  <div class="container-fluid text-secondary p-5" id="banner" style="margin-top: 3px; background-image: radial-gradient(at center center, #DFFAFF 50%, #55B6C7 100%);">
       <div class="row g-5">
           <div class="col-12 text-center">
-              <!-- <h2 class="mb-4" style="color: black; font-size: 35px; font-weight:bold;">
-        Looking for a job? -->
-        <button> <a href="book_appointment.php" style="color: #495057; font-size: 42px; font-weight:bold; text-decoration: none; display: inline-block; /* Added this line */">
-                  Book an Appointment
-              </a></button>
-              </h2>
+              <a href="book_appointment.php" class="btn " style="font-size: 42px; font-weight: bold; text-decoration: none;">Book an Appointment</a>
           </div>
       </div>
   </div>
+
 
 
   <div class="container-fluid bg-dark text-secondary p-5">
@@ -110,9 +105,9 @@
                   </a>
               </div>
               <div class="p-3">
-              <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-7550705070" style="color:white">(+91)-7550705070</a><br>
-              <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-9353316370" style="color:white">(+91)-9353316370</a><br>
-              <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-9901087597" style="color:white">(+91)-9901087597</a><br>
+                  <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-7550705070" style="color:white">(+91)-7550705070</a><br>
+                  <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-9353316370" style="color:white">(+91)-9353316370</a><br>
+                  <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-9901087597" style="color:white">(+91)-9901087597</a><br>
               </div>
           </div>
 

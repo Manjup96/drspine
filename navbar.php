@@ -83,14 +83,14 @@
     </div>
     <div class="col-md-2">
       <div class="nav-section-container" style="margin-right: -22px; ">
-        <div class="nav-section"><a href="international.php" style="font-size: 14px; margin-left: 12px; font-weight:bold;">INTERNATIONAL PATIENTS</a></div>
+        <div class="nav-section"><a href="international-patients.php" style="font-size: 14px; margin-left: 12px; font-weight:bold;">INTERNATIONAL PATIENTS</a></div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="nav-section-container" style="margin-right: -22px; ">
         <div class="nav-section">
           <div class="social-media-icons" style="margin-left: 40px;">
-            <a href="https://www.facebook.com"><i class="fab fa-facebook" style="font-size: 18px;"></i></a>
+            <a href="https://www.facebook.com/drspineclinic/"><i class="fab fa-facebook" style="font-size: 18px;"></i></a>
             <a href="https://www.youtube.com" style="margin-left: 3px;"><i class="fab fa-youtube" style="font-size: 18px;"></i></a>
             <a href="https://www.instagram.com" style="margin-left: 3px;"><i class="fab fa-instagram" style="font-size: 18px;"></i></a>
             <a href="https://www.whatsapp.com" style="margin-left: 3px;"><i class="fab fa-whatsapp" style="font-size: 18px;"></i></a>

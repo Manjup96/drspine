@@ -114,10 +114,6 @@ include 'links.php';
   justify-content: space-around; /* Adjust this as per your preferred spacing */
 }
 
-.elementor-icon-list-items {
-  /* Add any additional styling you want for the lists */
-}
-
 
     </style>
 
@@ -134,8 +130,8 @@ include 'links.php';
         }
     </style>
 
-<!-- 
-<div class="container mt-3 mb-3">
+
+<!-- <div class="container mt-3 mb-3">
     <div class="row">
         <div class="card" style="padding:none">
             <div class="card-body">
@@ -161,7 +157,7 @@ include 'links.php';
             </div>
         </div>
     </div>
-</div> -->
+</div>  -->
 
 <div class="card">
     <div class="container">

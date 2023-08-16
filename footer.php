@@ -105,9 +105,9 @@
                   </a>
               </div>
               <div class="p-3">
-                  <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-7550705070" style="color:white">(+91)-7550705070</a><br>
-                  <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-9353316370" style="color:white">(+91)-9353316370</a><br>
-                  <i class="fas fa-phone-alt me-2"></i> <a href="tel:(+91)-9901087597" style="color:white">(+91)-9901087597</a><br>
+              <span style="color: green"> <i class="fas fa-phone-alt me-2"></i></span> <a href="tel:(+91)-7550705070" style="color:white">(+91)-7550705070</a><br>
+              <span style="color: green"> <i class="fas fa-phone-alt me-2"></i></span> <a href="tel:(+91)-9353316370" style="color:white">(+91)-9353316370</a><br>
+              <span style="color: green"> <i class="fas fa-phone-alt me-2"></i></span> <a href="tel:(+91)-9901087597" style="color:white">(+91)-9901087597</a><br>
               </div>
           </div>
 

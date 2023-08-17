@@ -177,7 +177,7 @@ include 'links.php';
         #texts {
             max-width: 1170px;
             margin: 0 auto;
-            margin-top: 60px;
+            margin-top: 20px;
             
         }
 

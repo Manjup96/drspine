@@ -68,6 +68,8 @@ include 'links.php';
 
         </div>
     </div>
+    
+    
 
 
     <div class="container">
@@ -79,17 +81,29 @@ include 'links.php';
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-12 pt-5" style="font-family:Open Sans, sans-serif;">
-                                        <p style="text-align:center;"><span style="background-color: #bdc3c7 ">&nbsp;&nbsp;Dr Spine Chiropractic Clinic In Bangalore &nbsp;&nbsp;</span></p>
-                                        <h2 style="text-align:left;color:#34B6DE;font-size:35px;" class="pt-4">Fibromyalgia Treatment in Bangalore</h2>
 
-                                        <p style="font-size:20px;text-align: justify;" class="pt-3">The term Fibromyalgia in simple language means Fibro- fiber, my- muscles, algia- pain. It is a condition characterized by widespread musculoskeletal pain or body pain followed by cognitive issues and fatigue. The symptoms of fibromyalgia are similar to those of <a href="https://www.mayoclinic.org/diseases-conditions/osteoarthritis/diagnosis-treatment/drc-20351930s" target="_blank">Osteoarthritis</a>, yet they differ slightly. Fibromyalgia causes pain that can be felt throughout the body rather than in a single spot.</p>
-                                        <p style="font-size:20px;text-align: justify;" class="pt-3">It is commonly found in females as compared to males and is most common among the age group of 20-50 years. As a result, it is critical to recognize and identify whether or not you have Fibromyalgia by learning as much as possible about the condition and then receiving proper therapy.</p>
-                                        <h2 style="text-align:left;color:#34B6DE;font-size:35px;" class="pt-5">Symptoms of Fibromyalgia</h2>
-                                        <p style="font-size:20px;text-align:justify" class="pt-3"> It is necessary to conduct some self-analysis in order to diagnose any condition. One of the most important components of the process is properly recognizing the symptoms. Therefore, mentioned below are some of the most prevalent Fibromyalgia symptoms:</p>
+   
+                                        <!-- <p><span style="background-color: #bdc3c7 ">&nbsp;&nbsp;Dr. Spine Clinic &nbsp;&nbsp;</span></p> -->
+
+                                        <h6 class="badge font-weight-bold secondary-font bg-gray" style="background-color: lightgray; font-size: 20px;">
+                                            <span class="text-heading-default" style="color: black;">Dr Spine Chiropractic Clinic In Bangalore</span>
+                                        </h6>
+                                        <p  style="font-size: 35px; color: #55b6c7">Fibromyalgia Treatment in Bangalore</p>
+                                        <p style="font-size: 20px; text-align: justify; padding: 10px;">The so-called “slipped disc” is a very common complaint, and is often mis-diagnosed by some health professionals not specifically trained to diagnose and treat bio-mechanical stress on the spine and the affects this has on spinal nerve roots.</p>
+                                        <p style="font-size: 20px; text-align: justify; padding: 10px;">At Dr. Spine, our doctors have treated thousands of patients suffering from bulging discs in the spine (or “slipped disc”) using a combination of gentle chiropractic adjustments and specific treatment modalities. Our spine specialists are well trained to accurately assess your condition, then use a variety of chiropractic and other non-invasive methods to bring about lasting relief.</p>
+                              
+                                        
+                                        <p style="font-size:20px;text-align: justify;padding: 10px">The term Fibromyalgia in simple language means Fibro- fiber, my- muscles, algia- pain. It is a condition characterized by widespread musculoskeletal pain or body pain followed by cognitive issues and fatigue. The symptoms of fibromyalgia are similar to those of <a href="https://www.mayoclinic.org/diseases-conditions/osteoarthritis/diagnosis-treatment/drc-20351930s" target="_blank">Osteoarthritis</a>, yet they differ slightly. Fibromyalgia causes pain that can be felt throughout the body rather than in a single spot.</p>
+                                        <p style="font-size:20px;text-align: justify;padding: 10px">It is commonly found in females as compared to males and is most common among the age group of 20-50 years. As a result, it is critical to recognize and identify whether or not you have Fibromyalgia by learning as much as possible about the condition and then receiving proper therapy.</p>
+                                        
+
+                                        <p  style="font-size: 35px; color: #55b6c7">Symptoms of Fibromyalgia</p>
+
+                                        <p style="font-size:20px;text-align:justify;padding: 10px"> It is necessary to conduct some self-analysis in order to diagnose any condition. One of the most important components of the process is properly recognizing the symptoms. Therefore, mentioned below are some of the most prevalent Fibromyalgia symptoms:</p>
                                         <ul style="padding:30px; font-size:18px;list-style-type:none;">
-                                            <li style="list-style-type: disc;" class="pt-3">Widespread body pain: The body pain in the case of Fibromyalgia is often said to last for at least 2-3 months. Also, this pain must occur above and below your waist area, accompanied by pain in both sides of your body.</li>
-                                            <li style="list-style-type: disc;" class="pt-3">Fatigue: People suffering from Fibromyalgia often feel tired even after having slept for a longer duration; in some cases, their sleep is often disrupted by pain.</li>
-                                            <li style="list-style-type: disc;" class="pt-3">Cognitive difficulty: ‘Fibro frog’ is one of the symptoms of this disorder that impairs a person’s ability to concentrate on intellectual tasks or pay attention while undertaking activities.</li>
+                                            <li style="list-style-type: disc;">Widespread body pain: The body pain in the case of Fibromyalgia is often said to last for at least 2-3 months. Also, this pain must occur above and below your waist area, accompanied by pain in both sides of your body.</li>
+                                            <li style="list-style-type: disc;">Fatigue: People suffering from Fibromyalgia often feel tired even after having slept for a longer duration; in some cases, their sleep is often disrupted by pain.</li>
+                                            <li style="list-style-type: disc;">Cognitive difficulty: ‘Fibro frog’ is one of the symptoms of this disorder that impairs a person’s ability to concentrate on intellectual tasks or pay attention while undertaking activities.</li>
                                         </ul>
                                         <p style="font-size:20px;text-align:justify" class="pt-3">Other than these symptoms, some other conditions that result in Fibromyalgia are:-</p>
                                         <div style="font-size:17px;text-align:justify;padding-left:20px;" class="pt-3">
@@ -130,8 +144,8 @@ include 'links.php';
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-12 pt-5" style="font-family:Open Sans, sans-serif;">
-
-                                        <h2 style="text-align:left;color:#34B6DE;font-size:35px;" class="pt-4">Causes of Fibromyalgia</h2>
+                                        
+                                        <p  style="font-size: 35px; color: #55b6c7">Causes of Fibromyalgia</p>
 
                                         <p style="font-size:20px;text-align: justify;" class="pt-3">The exact cause of Fibromyalgia is still unclear. But a few pieces of research suggest that it amplifies a pain sensation in your central nervous system and spinal cord process resulting in painful and sometimes non-painful signals to your nerves. The abnormal changes in the level of chemicals in the brain result in painful sensations.</p>
                                         <p style="font-size:20px;text-align: justify;" class="pt-3">Some of the possible factors that may result in Fibromyalgia are:-</p>
@@ -146,10 +160,12 @@ include 'links.php';
                                             <li style="list-style-type: disc;" class="pt-3">Inadequate or improper sleep: Taking insufficient sleep or changing sleeping patterns may also result in Fibromyalgia.</li>
                                             <li style="list-style-type: disc;" class="pt-3">No exercise: Exercising on a daily basis keeps you physically and mentally fit. Fibromyalgia can be caused by not exercising or seldom exercising.</li>
                                         </ul>
-                                        <h2 style="text-align:left;color:#34B6DE;font-size:35px;" class="pt-4">Diagnosis of Fibromyalgia</h2>
+                                       
+                                           <p  style="font-size: 35px; color: #55b6c7" class="pt-4">Diagnosis of Fibromyalgia</p>
                                         <p style="font-size:20px;text-align:justify" class="pt-3">There is no particular test that can diagnose Fibromyalgia. Its clinical diagnosis is based on your physical examination and symptoms. Its assessment is heavily influenced by your symptoms, as well as your medical and family histories.</p>
                                         <p style="font-size:20px;text-align:justify" class="pt-3">Fibromyalgia patients are extremely sensitive to pain. As a result, the examiner will check all of your body’s sensitive areas that are extremely delicate. Blood tests and X-rays are usually recommended to assess hormone levels.</p>
-                                        <h2 style="text-align:left;color:#34B6DE;font-size:35px;" class="pt-4">Treatment of Fibromyalgia</h2>
+                                       
+                                        <p  style="font-size: 35px; color: #55b6c7" class="pt-4">Treatment of Fibromyalgia</p>
                                         <p style="font-size:20px;text-align:justify" class="pt-3"> There is no specific cure for Fibromyalgia, but introducing a few changes into your lifestyle can be of great help in the reduction of its symptoms.
                                         <div style="font-size:17px;text-align:justify" class="pt-3">
                                             </p>
@@ -165,7 +181,8 @@ include 'links.php';
                                             </ul>
                                             <p style="font-size:20px;text-align:justify" class="pt-3">The fatigue, pain, and improper sleep relating to Fibromyalgia can interfere with your ability to carry out even the simplest daily tasks at home to complex work activities. The irritation of not being able to accomplish your work can result in other health conditions as well.</p>
                                             <p style="font-size:20px;text-align:justify" class="pt-3">As a result, making certain lifestyle modifications or seeking chiropractic care can often help people cope with Fibromyalgia.</p>
-                                            <h2 style="text-align:left;color:#34B6DE;font-size:35px;" class="pt-4">Dr.Spine Bangalore Can Effectively Treat Fibromyalgia!</h2>
+                                          
+                                            <p  style="font-size: 35px; color: #55b6c7" class="pt-4">Dr.Spine Bangalore Can Effectively Treat Fibromyalgia!</p>
                                             <p style="font-size:20px;text-align:justify" class="pt-2">Call Dr. Spine to book an appointment on + 91 75 5070 5070 if you suffer from arthritic pain. Our highly trained staff has extensive expertise in assisting patients with arthritis and other health issues. These treatments aim to alleviate symptoms and improve quality of life.</p>
                                         </div>
 

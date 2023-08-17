@@ -103,7 +103,8 @@ include 'links.php';
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 pt-5" style="font-family:Open Sans, sans-serif;">
 
-                                        <h2 style="font-size:35px;text-align: justify;color:gray;">Piriformis Syndrome – Causes , Symptoms & Treatment</h2>
+                                      
+                                        <p  style="font-size: 35px; color: #55b6c7" class="pt-4">Piriformis Syndrome – Causes , Symptoms & Treatment</p>
                                         <p style="font-size:20px;text-align: justify;" class="pt-3">piriformis muscle is a flat band-like muscle in the buttocks near the hip joint. This muscle is responsible for stabilizing the hip joint, enable us to walk and most importantly, maintain body balance. Piriformis syndrome is, therefore, a very rare neuromuscular disorder that occurs when the sciatic nerve is irritated by the piriformis muscle. The most common risks that cause piriformis syndrome are overuse of the muscle mostly from sports or exercise among other conditions. It is basically due to compression or contraction of the muscle on some areas of the sciatic nerve.</p>
                                     </div>
                                     <div class=" col-lg-6 col-md-6  border border-dark" style="border-radius:10px;">
@@ -138,7 +139,7 @@ include 'links.php';
                     <div class="card" style="border-radius: 15px;">
                         <div class="card-body">
 
-                            <h2 style="font-size:35px;color:gray" class="pt-3 pl-5">Causes of Piriformis Syndrome</h2>
+                            <p  style="font-size: 35px; color: #55b6c7" class="pt-4">Causes of Piriformis Syndrome</p>
                             <div style="font-size:20px;text-align: justify;padding:20px;" class="pt-3">
                                 <p>High chances of piriformis syndrome are in case of an injury, a fall or blow to the hip area and in a car accident. When the hip region is hit, it would cause an injury to the sciatic nerve and the piriformis muscle.</p>
                                 <p>Trauma caused by frequent running, exaggerated exercises, and even over-stretching. The muscle wear and with time affects the static nerve making it impossible to even walk.</p>
@@ -149,7 +150,8 @@ include 'links.php';
                                 <p>Bending and getting up consecutively in a short sp[an of time. This wears out the piriformis muscle. The muscles in your buttocks help you work while bending. Imgn doing the same bending for two hours consecutively, the muscle becomes very tired.</p>
                             </div>
 
-                            <h2 style="font-size:35px;color:gray" class="pt-3 pl-5">Symptoms of Piriformis Syndrome</h2>
+                        
+                            <p  style="font-size: 35px; color: #55b6c7" class="pt-4">Symptoms of Piriformis Syndrome</p>
                             <div style="font-size:18px;text-align:justify;padding-left:20px;" class="pt-2"> 
                             <ul style="padding:30px; font-size:18px; list-style-type:none;">
                                 <li style="list-style-type: disc;">Severe pains in the buttocks even in the slightest strenuous activity e.g running or climbing a staircase. The pain is especially felt on one side any type of activity that requires the use of your thigh and buttock muscles becomes hard to do.</li>
@@ -180,7 +182,8 @@ include 'links.php';
                     <div class="card" style="border-radius: 15px;">
                         <div class="card-body">
 
-                            <h2 style="font-size:35px;color:gray" class="pt-3 pl-5">Treatment for Piriformis Syndrome</h2>
+                            
+                            <p  style="font-size: 35px; color: #55b6c7" class="pt-4">Treatment for Piriformis Syndrome</p>
                             <div style="font-size:18px;text-align:justify;padding-left:20px;" class="pt-2"> 
                             <ul style="padding:30px; font-size:18px;list-style-type:none;">
                                 <li style="list-style-type: disc;">Stretching and simple gentle exercises help ease the pain of the syndrome. More challenging exercises can be done after the condition improves.</li>

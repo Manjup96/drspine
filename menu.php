@@ -16,7 +16,7 @@ include 'navbar.php';
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
         .navbar-toggler {
             margin-left: 500px;
-            font-size: 20px;
+            /* font-size: 20px; */
         }
 
     }
@@ -43,9 +43,6 @@ include 'navbar.php';
         }
     }
 
-    /* ul li {
-        list-style-type: none;
-    } */
 
 
     /* Your existing styles */
@@ -128,17 +125,21 @@ include 'navbar.php';
         }
     }
 
+    /* Styles for iPad view */
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-    /* @media (max-width: 768px) {
-        .navbar-toggler {
-            padding-left: 50% !important;
+        /* Add your styles for iPad view here */
+        .appoint {
+            text-align: center;
+            /* Center align the button */
+            margin-right: 100px;
+
         }
-    } */
+    }
 </style>
 
 
 
-<!--<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-light">-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" style="box-shadow: 10px 10px 10px 10px #007bff;">
 
 
@@ -146,7 +147,7 @@ include 'navbar.php';
 
     <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
         <a class="navbar-brand" href="#">
-            <img src="img/logo_new1.png" alt="logo" style="background-color: transparent;">
+            <img src="img/logo1.png" alt="logo" style="background-color: transparent;height:90px;width:200px;">
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -155,12 +156,6 @@ include 'navbar.php';
 
 
         </a>
-
-
-
-
-
-
         <div class="collapse navbar-collapse " id="navbarNav" style=" transition: all 0s ease;" style="padding-right:100px;">
             <ul class="navbar-nav" style="font-size:20px; margin-right: 70px;">
 
@@ -226,15 +221,14 @@ include 'navbar.php';
                 <li class="nav-item" style="margin-left: 15px;">
                     <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" style="<?php echo ($page == 'contact') ? 'background-color:#34B6DE;color:white' : ''; ?>" href="contact.php">Contact Us</a>
                 </li>
-                <!-- <li class="nav-item" style="margin-right: 10px;" id="padding">
-                    <a href="book_appointment.php" class="text-center btn btn-primary px-md-4 rounded-pill pt-2" style="height: 48px; width: 150px; font-size: 18px; display: block; margin:  0px;">
-                        Book an Appointment
-                    </a>
-                </li>  -->
-                <div class="col-sm-2 col-lg-1  appoint" style="font-size:23px;">
-                    <a class="btn btn-success" href="book_appointment.php">Book an Appointment</a>
-                </div>
 
+                <!-- <div class="col-sm-2 col-md-8  col-lg-1  appoint" style="font-size:23px;">
+                    <a class="btn btn-success" href="book_appointment.php">Book an Appointment</a>
+                </div> -->
+
+                <li class="nav-item" style="margin-left: 15px; text-align: center;">
+                    <a class="btn btn-success" href="book_appointment.php" style="display: block; margin: 10px auto;">Book an Appointment</a>
+                </li>
             </ul>
         </div>
     </div>

@@ -46,7 +46,7 @@
   <div class="container-fluid text-secondary p-5" id="banner" style="margin-top: 3px; background-image: radial-gradient(at center center, #DFFAFF 50%, #55B6C7 100%);">
       <div class="row g-5">
           <div class="col-12 text-center">
-              <a href="book_appointment.php" class="btn " style="font-size: 42px; font-weight: bold; text-decoration: none;">Book an Appointment</a>
+              <a href="book_appointment.php" class="btn " style="font-size: 42px; font-weight: bold; text-decoration: none;background-color:#55b6c7!important;">Book an Appointment</a>
           </div>
       </div>
   </div>

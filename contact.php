@@ -131,7 +131,7 @@ include 'links.php';
 
     }
 
-
+       
     /* popup styles */
 
     * {
@@ -162,12 +162,12 @@ include 'links.php';
 
     #main-container.active-blur {
         filter: blur(5px);
-        /* You can adjust the blur amount as needed */
+       
         pointer-events: none;
         user-select: none;
     }
 
-    button {
+     button {
         position: relative;
         padding: 5px 20px;
         display: inline-block;
@@ -179,14 +179,14 @@ include 'links.php';
         background-color: #007bff;
         border: none;
         border-radius: 4px;
-        width: 20%;
-    }
+        /* width: 20%; */
+    }  
 
 
     button :hover {
         transition: 1s;
         background: #007bff;
-    }
+    } 
 
     #popup {
         position: fixed;
@@ -490,13 +490,13 @@ include 'links.php';
                                     <div class="address-card ">
                                         <ul>
                                             <li style="font-size: 20px; color: black;" class="pt-4">
-                                                <i class="fas fa-map-marker-alt"></i> 
-                                                <span style="margin-left: 24px;"> 
-                                               DR SPINE  </br> <span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;">Indiranagar Clinic - Bangalore 
-                                                 
-                                                    
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <span style="margin-left: 24px;">
+                                                    DR SPINE </br> <span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;">Indiranagar Clinic - Bangalore
+
+
                                             </li>
-                                         
+
                                             <br>
                                             <li style="font-size: 20px;padding-top:10px;">
 
@@ -528,20 +528,20 @@ include 'links.php';
                                 <div class="col-lg-8 col-md-12 pt-2">
                                     <div class="map-card">
                                         <!-- <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3502.9424023490756!2d77.18340307434593!3d28.6015046756817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA9%2C%201st%20floor%2C%20Malcha%20Marg%2C%20Chanakyapuri%2C%20New%20Delhi-%20110021!5e0!3m2!1sen!2sin!4v1686239309371!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe> -->
-                                        <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4657.290380649026!2d77.74510526446508!3d12.963924969940608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0d3e4de7b8b5%3A0x61881ab04659679f!2sDr%20Spine%20Chiropractic%20Clinic&#39;s%20-%20Whitefield%20-%20Bangalore!5e0!3m2!1sen!2sin!4v1691564409042!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe> 
-                                           
+                                        <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4657.290380649026!2d77.74510526446508!3d12.963924969940608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0d3e4de7b8b5%3A0x61881ab04659679f!2sDr%20Spine%20Chiropractic%20Clinic&#39;s%20-%20Whitefield%20-%20Bangalore!5e0!3m2!1sen!2sin!4v1691564409042!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe>
+
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-12 pt-2 ">
                                     <div class="address-card ">
                                         <ul>
                                             <li style="font-size: 20px; color: black;" class="pt-4">
-                                                <i class="fas fa-map-marker-alt"></i> <span style="margin-left: 24px;"> 
-                                               DR SPINE  </br><span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;">Whitefield - Bangalore
-                                                 
-                                                    
+                                                <i class="fas fa-map-marker-alt"></i> <span style="margin-left: 24px;">
+                                                    DR SPINE </br><span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;">Whitefield - Bangalore
+
+
                                             </li>
-                                         
+
                                             <br>
                                             <li style="font-size: 20px;padding-top:10px;">
 
@@ -575,19 +575,19 @@ include 'links.php';
                                     <div class="map-card">
                                         <!-- <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3502.9424023490756!2d77.18340307434593!3d28.6015046756817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA9%2C%201st%20floor%2C%20Malcha%20Marg%2C%20Chanakyapuri%2C%20New%20Delhi-%20110021!5e0!3m2!1sen!2sin!4v1686239309371!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe> -->
                                         <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.124428068562!2d77.57339017484601!3d13.027747413645272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170f8c4572f5%3A0x13a1fddc8063cdce!2sDr%20Spine%20Chiropractic%20Clinic%20-%20New%20BEL%20Road%20Centre%20-%20Bangalore!5e0!3m2!1sen!2sin!4v1691564747355!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0" style="border-radius: 5px;"></iframe>
-                                            
+
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-12 pt-2 ">
                                     <div class="address-card ">
                                         <ul>
                                             <li style="font-size: 20px; color: black;" class="pt-4">
-                                                <i class="fas fa-map-marker-alt"></i> <span style="margin-left: 24px;"> 
-                                               DR SPINE  </br><span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;"> New BEL Road Centre - Bangalore
-                                                 
-                                                    
+                                                <i class="fas fa-map-marker-alt"></i> <span style="margin-left: 24px;">
+                                                    DR SPINE </br><span style="margin-left: 24px;"> Chiropractic Clinic </br> <span style="margin-left: 24px;"> New BEL Road Centre - Bangalore
+
+
                                             </li>
-                                         
+
                                             <br>
                                             <li style="font-size: 20px;padding-top:10px;">
 

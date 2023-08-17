@@ -136,7 +136,7 @@ include 'links.php';
                                         <p style="font-size: 20px; text-align: justify; padding: 10px;">The so-called “slipped disc” is a very common complaint, and is often mis-diagnosed by some health professionals not specifically trained to diagnose and treat bio-mechanical stress on the spine and the affects this has on spinal nerve roots.</p>
                                         <p style="font-size: 20px; text-align: justify; padding: 10px;">At Dr. Spine, our doctors have treated thousands of patients suffering from bulging discs in the spine (or “slipped disc”) using a combination of gentle chiropractic adjustments and specific treatment modalities. Our spine specialists are well trained to accurately assess your condition, then use a variety of chiropractic and other non-invasive methods to bring about lasting relief.</p>
                                     </div>
-                                    <div class="col-md-6 pt-5 border border-dark" style="border-radius:10px;">
+                                    <div class="col-md-6 pt-5" style="border-radius:10px;">
                                         <div>
                                             <div class="card-body">
 

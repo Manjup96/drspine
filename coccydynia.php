@@ -84,7 +84,7 @@ include 'links.php';
 
         .card h2 {
             font-size: 35px;
-            color: grey;
+            color: #333;
             margin-bottom: 20px;
             margin-top: 40px;
         }
@@ -177,14 +177,14 @@ include 'links.php';
         #texts {
             max-width: 1170px;
             margin: 0 auto;
-            margin-top: 100px;
+            margin-top: 20px;
             
         }
 
         #texts h2 {
             font-size: 35px;
-            color: grey;
-            margin-bottom: 20px;
+            color:  #333;
+            margin-top: 20px;
         }
 
         #texts p {

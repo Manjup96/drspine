@@ -91,11 +91,9 @@
         <div class="nav-section">
           <div class="social-media-icons" style="margin-left: 40px;">
             <a href="https://www.facebook.com/drspineclinic/"><i class="fab fa-facebook" style="font-size: 18px;"></i></a>
-           
             <a href="https://www.youtube.com/channel/UCbUVemOwXbSiTEmWrBVhSlQ" style="margin-left: 3px;"><i class="fab fa-youtube" style="font-size: 18px;"></i></a>
             <a href="https://www.instagram.com/drspineclinic/" style="margin-left: 3px;"><i class="fab fa-instagram" style="font-size: 18px;"></i></a>
             <a href="https://api.whatsapp.com/send?phone=917550705070" style="margin-left: 3px;"><i class="fab fa-whatsapp" style="font-size: 18px;"></i></a>
-
             <div class="phone-number" style="margin-left: 140px; font-weight:bold; font-size: 15px;"><a href="tel:+123456789"><i class="fas fa-phone" style="transform: scaleX(-1); font-size: 15px; margin-right: -1px;"></i> +91 75507 05070</a></div>
           </div>
         </div>

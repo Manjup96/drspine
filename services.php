@@ -76,6 +76,21 @@ include 'links.php';
         margin-bottom: 30px;
         
         }
+
+        /* Mobile devices */
+@media (max-width: 767px) {
+ .custom-container{
+    padding-left: 57px;
+ }
+}
+
+/* iPads */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .custom-container{
+    padding-left: 43px;
+}
+}
+
     </style>
 
     <div class="container-fluid p-0">

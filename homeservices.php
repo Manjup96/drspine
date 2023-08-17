@@ -128,6 +128,7 @@ include 'links.php';
         cursor: pointer;
         display: inline-block;
         width: 300px;
+        text-decoration:none;
     }
 
     .custom-btn {
@@ -208,10 +209,10 @@ include 'links.php';
         <div class="row">
             
             <div class="col-md-6 mt-2" style="display:flex; justify-content: space-evenly;">
-      <button class="custom-btn1"><a href="book_appointment.php">Book Appointment</a></button>
+      <button class="custom-btn1"><a href="book_appointment.php" style="color: white; text-decoration: none; display: inline-block;">Book Appointment</a></button>
     </div>
     <div class="col-md-6 mt-2" style="display:flex; justify-content: space-evenly;" >
-      <button class="custom-btn"><a href="services.php" >Our Services</a></button>
+      <button class="custom-btn"><a href="services.php" style="color: black; text-decoration: none; display: inline-block;">Our Services</a></button>
     </div>
    
         </div>

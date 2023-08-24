@@ -248,7 +248,7 @@ $page = 'about';
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-6 pt-4" style="font-family:Open Sans, sans-serif;">
-                                        <p style="font-size:20px;"><span style="background-color: #bdc3c7; ">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;&nbsp;</span></p>
+                                        <p style="font-size:20px;"><span style="background-color: #bdc3c7; ">&nbsp;&nbsp;Dr. Spine - Chiropractic India &nbsp;</span></p>
                                         <h2  style="font-size:35px; color:gray;">Has been Assessed to meet the Quality In Business standard set by the International Trade Council</h2><br>
                                         <center>
                                             <button id="Button1"><i class="fas fa-certificate"></i> QIB Certificate</button><br><br>
